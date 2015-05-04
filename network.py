@@ -1,4 +1,5 @@
-import os, sys
+import os, sys, json
+import networkx as nx
 
 '''
 .xls data from mirTarBase. 'http://mirtarbase.mbc.nctu.edu.tw/index.php'
@@ -29,17 +30,28 @@ def remove_duplicates(viruses):
 # print('miRNA duplicates removed: ' + str(len(output_mirna)))
 
 '''
-map_dict - Contains miRNA names as keys and their target genes as values.
+map_dict : Contains miRNA names as keys and their target genes as values.
 '''
+
 def mapper():
 	map_dict = {}
 	for i, j in enumerate(mirna):
 		map_dict.setdefault(j, []).append(genes[i])
 		# if i == 25:
 		# 	break
-	print(map_dict)
-	print(len(map_dict))
+	jsonify(map_dict)
 
+
+# Export dictionary to JSON for showing count in a presentable form.
+def jsonify(dict, location=None):
+	a = json.dumps(dict, sort_keys=True, indent=4, separators=(',', ': '))
+	if location == None:
+		with open('map.json', 'a+') as outfile:
+			outfile.write(a)
+	else:
+		with open(str(location), 'a+') as outfile:
+			outfile.write(a)
+	print(a)
 
 if __name__ == '__main__':
 	mapper()
