@@ -10,18 +10,9 @@ genes = open('./dat/hsa/target gene.txt', 'r').read().splitlines()
 mirna = open('./dat/hsa/miRNA.txt', 'r').read().splitlines()
 # print(genes)
 
-def mapper():
-	map_dict = {}
-	for i, j in enumerate(mirna):
-		map_dict.setdefault(j, []).append(genes[i])
-		# if i == 25:
-		# 	break
-	print(map_dict)
-	print(len(map_dict))
-
-
 print('Genes original: ' + str(len(genes)))
 print('miRNA original: ' + str(len(mirna)))
+
 
 def remove_duplicates(viruses):
 	output = []
@@ -36,6 +27,18 @@ def remove_duplicates(viruses):
 # output_mirna = remove_duplicates(mirna)
 # print('Gene duplicates removed: ' + str(len(output_gene)))
 # print('miRNA duplicates removed: ' + str(len(output_mirna)))
+
+'''
+map_dict - Contains miRNA names as keys and their target genes as values.
+'''
+def mapper():
+	map_dict = {}
+	for i, j in enumerate(mirna):
+		map_dict.setdefault(j, []).append(genes[i])
+		# if i == 25:
+		# 	break
+	print(map_dict)
+	print(len(map_dict))
 
 
 if __name__ == '__main__':
