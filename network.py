@@ -36,7 +36,10 @@ def mapper(item, name, other_item):
 	jsonify(dictionary, str(name) + '.json')
 	return dictionary
 
-# Export dictionary to JSON for showing count in a presentable form.
+'''
+Export dictionary to JSON for showing count in a presentable form.
+'''
+
 def jsonify(dict, location=None):
 	a = json.dumps(dict, sort_keys=True, indent=4, separators=(',', ': '))
 	filename = str(location.split('.')[0])
