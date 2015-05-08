@@ -46,13 +46,20 @@ if __name__ == '__main__':
 	mirna_list = remove_duplicates(mirna)
 
 	g = nx.Graph()
+	pos = dict()
+	
 	# Target genes - x, get red color
-	# miRNA - y, get blue color
 	g.add_nodes_from(gene_list[:20], bipartite=0)
-	nx.draw_random(g, node_color='red')
+	pos.update((n, (0, i)) for i, n in enumerate(gene_list[:20]))
+	nx.draw(g, node_color='red', pos = pos)
+
+	# miRNA - y, get blue color
 	g.add_nodes_from(mirna_list[:20], bipartite=1)
-	nx.draw_random(g, node_color='blue')
+	pos.update((n, (1, i)) for i, n in enumerate(mirna_list[:20]))
+	nx.draw(g, node_color='blue', pos = pos)
+
 	print(g.order())	# gives the number of nodes in the graph
+	
 	for x,y in itertools.izip_longest(genes, mirna):
 		g.add_edge(x, y)
 		if g.size() == 20:
@@ -62,7 +69,7 @@ if __name__ == '__main__':
 	# _ylim = plt.gca().get_ylim()
 	# print(_xlim)
 	# print(_ylim)
-	nx.draw_random(g)
+	nx.draw(g)
 	plt.show()
 
 # G = nx.star_graph(targets)
