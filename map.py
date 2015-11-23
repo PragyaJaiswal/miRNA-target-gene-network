@@ -58,11 +58,22 @@ def get_host_gene(mirna, data, mirna_host_gene_map):
 	mirna_url = search_request.url
 	mirna_data = BeautifulSoup(search_request.text.encode())
 	mirna_host_gene_map[mirna] = []
-	if 'Hostgene:' in str(mirna_data):
+
+	head = mirna_data.find_all('td')
+	data_around_hostgene = []
+	for i in range(0,len(head)):
+		if 'Hostgene:' in head[i].text:
+			data_around_hostgene.append(head[i].text)
+			data_around_hostgene.append(head[i+1].text)
+			data_around_hostgene.append(head[i+2].text)
+			data_around_hostgene.append(head[i+3].text)
+			data_around_hostgene.append(head[i+4].text)
+			print str(data_around_hostgene)
+	if 'Hostgene:' in str(data_around_hostgene):
 		count = 0
 		for gene in data.keys():
 			count+=1
-			if str(gene) in str(mirna_data):
+			if str(gene) in str(data_around_hostgene):
 				print gene
 				mirna_host_gene_map[mirna].append(gene)
 		print count
