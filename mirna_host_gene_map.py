@@ -43,17 +43,14 @@ mirna_host_gene_map = {
         "PLEKHJ1"
     ],
     "hsa-miR-1228": [
-        "LRP1",
-        "RP1"
+        "LRP1"
     ],
     "hsa-miR-1229": [
-        "MGA",
         "MGAT4B"
     ],
     "hsa-miR-1236": [],
     "hsa-miR-1237": [
-        "RPS6KA4",
-        "RPS6"
+        "RPS6KA4"
     ],
     "hsa-miR-124": [],
     "hsa-miR-1245a": [],
@@ -75,18 +72,14 @@ mirna_host_gene_map = {
     ],
     "hsa-miR-1260a": [],
     "hsa-miR-1260b": [],
-    "hsa-miR-1262": [
-        "GPR17"
-    ],
+    "hsa-miR-1262": [],
     "hsa-miR-1268a": [],
     "hsa-miR-127": [],
     "hsa-miR-1270": [],
     "hsa-miR-1271": [],
     "hsa-miR-1274a": [],
     "hsa-miR-1274b": [],
-    "hsa-miR-1276": [
-        "KLHL2"
-    ],
+    "hsa-miR-1276": [],
     "hsa-miR-128": [],
     "hsa-miR-1280": [],
     "hsa-miR-1284": [
@@ -114,7 +107,6 @@ mirna_host_gene_map = {
     ],
     "hsa-miR-1303": [],
     "hsa-miR-1304": [
-        "TAF1",
         "TAF1D"
     ],
     "hsa-miR-1307": [],
@@ -196,17 +188,14 @@ mirna_host_gene_map = {
     "hsa-miR-1913": [],
     "hsa-miR-1914": [],
     "hsa-miR-1915": [],
-    "hsa-miR-192": [
-        "TG"
-    ],
+    "hsa-miR-192": [],
     "hsa-miR-193a": [],
     "hsa-miR-193b": [],
     "hsa-miR-194": [],
     "hsa-miR-195": [],
     "hsa-miR-196a": [],
     "hsa-miR-196b": [
-        "HOXA10",
-        "HOXA1"
+        "HOXA10"
     ],
     "hsa-miR-197": [
         "GNAI3"
@@ -254,8 +243,7 @@ mirna_host_gene_map = {
     "hsa-miR-222": [],
     "hsa-miR-223": [],
     "hsa-miR-224": [
-        "GABRE",
-        "ABR"
+        "GABRE"
     ],
     "hsa-miR-2277": [],
     "hsa-miR-23a": [],
@@ -268,12 +256,9 @@ mirna_host_gene_map = {
     ],
     "hsa-miR-26a": [],
     "hsa-miR-26a-2": [
-        "SP2",
-        "DSP",
         "CTDSP2"
     ],
     "hsa-miR-26b": [
-        "DSP",
         "CTDSP1"
     ],
     "hsa-miR-27a": [],
@@ -329,8 +314,7 @@ mirna_host_gene_map = {
     "hsa-miR-320e": [],
     "hsa-miR-324": [],
     "hsa-miR-326": [
-        "ARRB1",
-        "RB1"
+        "ARRB1"
     ],
     "hsa-miR-328": [],
     "hsa-miR-330": [],
@@ -347,11 +331,9 @@ mirna_host_gene_map = {
         "SREBF2"
     ],
     "hsa-miR-33b": [
-        "EBF1",
         "SREBF1"
     ],
     "hsa-miR-340": [
-        "RNF13",
         "RNF130"
     ],
     "hsa-miR-342": [
@@ -447,9 +429,7 @@ mirna_host_gene_map = {
     "hsa-miR-501": [],
     "hsa-miR-502": [],
     "hsa-miR-503": [],
-    "hsa-miR-504": [
-        "FGF1"
-    ],
+    "hsa-miR-504": [],
     "hsa-miR-505": [],
     "hsa-miR-506": [],
     "hsa-miR-509": [],
@@ -491,9 +471,7 @@ mirna_host_gene_map = {
     "hsa-miR-548v": [],
     "hsa-miR-550a": [],
     "hsa-miR-551b": [],
-    "hsa-miR-559": [
-        "CS"
-    ],
+    "hsa-miR-559": [],
     "hsa-miR-562": [],
     "hsa-miR-569": [
         "TNIK"
@@ -514,10 +492,7 @@ mirna_host_gene_map = {
     ],
     "hsa-miR-590": [],
     "hsa-miR-595": [
-        "TPRN",
-        "PTPRN",
-        "PTPRN2",
-        "TPR"
+        "PTPRN2"
     ],
     "hsa-miR-596": [],
     "hsa-miR-597": [
@@ -534,8 +509,7 @@ mirna_host_gene_map = {
     "hsa-miR-610": [],
     "hsa-miR-612": [],
     "hsa-miR-613": [
-        "APOLD1",
-        "POLD1"
+        "APOLD1"
     ],
     "hsa-miR-615": [],
     "hsa-miR-616": [
@@ -548,21 +522,17 @@ mirna_host_gene_map = {
         "LIN7A"
     ],
     "hsa-miR-620": [
-        "MED13L",
-        "MED1",
-        "MED13"
+        "MED13L"
     ],
     "hsa-miR-622": [],
     "hsa-miR-624": [
-        "STRN",
         "STRN3"
     ],
     "hsa-miR-625": [
         "FUT8"
     ],
     "hsa-miR-626": [
-        "MGA",
-        "MAX"
+        "MGA"
     ],
     "hsa-miR-628": [],
     "hsa-miR-629": [
@@ -576,9 +546,7 @@ mirna_host_gene_map = {
     ],
     "hsa-miR-632": [],
     "hsa-miR-633": [],
-    "hsa-miR-636": [
-        "FRS2"
-    ],
+    "hsa-miR-636": [],
     "hsa-miR-638": [
         "DNM2"
     ],
@@ -613,14 +581,11 @@ mirna_host_gene_map = {
     ],
     "hsa-miR-708": [],
     "hsa-miR-744": [
-        "MAP2",
         "MAP2K4"
     ],
     "hsa-miR-760": [],
     "hsa-miR-762": [],
-    "hsa-miR-765": [
-        "ARHGEF1"
-    ],
+    "hsa-miR-765": [],
     "hsa-miR-766": [
         "SEPT6"
     ],
@@ -655,13 +620,10 @@ mirna_host_gene_map = {
     "hsa-miR-940": [],
     "hsa-miR-941": [],
     "hsa-miR-942": [
-        "TF",
         "TTF2"
     ],
     "hsa-miR-943": [],
-    "hsa-miR-95": [
-        "LIM2"
-    ],
+    "hsa-miR-95": [],
     "hsa-miR-96": [],
     "hsa-miR-98": [
         "HUWE1"
