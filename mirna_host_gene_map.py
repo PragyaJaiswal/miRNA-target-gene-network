@@ -1,528 +1,496 @@
 mirna_host_gene_map = {
     "ebv-miR-BART16": [],
-    "ebv-miR-BART3-3p": [],
-    "ebv-miR-BART6-5p": [],
-    "hsa-let-7a-3p": [],
-    "hsa-let-7a-5p": [],
-    "hsa-let-7b-3p": [],
-    "hsa-let-7b-5p": [],
+    "ebv-miR-BART3": [],
+    "ebv-miR-BART6": [],
+    "hsa-let-7a": [],
+    "hsa-let-7b": [],
+    "hsa-let-7c": [],
     "hsa-let-7c*": [],
-    "hsa-let-7c-5p": [],
-    "hsa-let-7d-3p": [],
-    "hsa-let-7d-5p": [],
-    "hsa-let-7e-3p": [],
-    "hsa-let-7e-5p": [],
-    "hsa-let-7f-1-3p": [],
-    "hsa-let-7f-2-3p": [],
-    "hsa-let-7f-5p": [],
-    "hsa-let-7g-3p": [],
-    "hsa-let-7g-5p": [],
-    "hsa-let-7i-5p": [],
+    "hsa-let-7d": [],
+    "hsa-let-7e": [],
+    "hsa-let-7f": [],
+    "hsa-let-7f-1": [],
+    "hsa-let-7f-2": [
+        "HUWE1"
+    ],
+    "hsa-let-7g": [
+        "WDR82"
+    ],
+    "hsa-let-7i": [],
     "hsa-miR-1": [],
-    "hsa-miR-100-5p": [],
-    "hsa-miR-101-3p": [],
-    "hsa-miR-101-5p": [],
-    "hsa-miR-103a-2-5p": [],
-    "hsa-miR-103a-3p": [],
-    "hsa-miR-105-5p": [],
-    "hsa-miR-106a-5p": [],
-    "hsa-miR-106b-3p": [],
-    "hsa-miR-106b-5p": [],
+    "hsa-miR-100": [],
+    "hsa-miR-101": [],
+    "hsa-miR-103a": [],
+    "hsa-miR-103a-2": [],
+    "hsa-miR-105": [],
+    "hsa-miR-106a": [],
+    "hsa-miR-106b": [
+        "MCM7"
+    ],
     "hsa-miR-107": [],
-    "hsa-miR-10a-3p": [],
-    "hsa-miR-10a-5p": [],
-    "hsa-miR-10b-3p": [],
-    "hsa-miR-10b-5p": [],
-    "hsa-miR-1180-3p": [],
-    "hsa-miR-122-5p": [],
-    "hsa-miR-1224-3p": [],
-    "hsa-miR-1224-5p": [],
-    "hsa-miR-1225-3p": [
-        "PKD1"
+    "hsa-miR-10a": [
+        "HOXB3"
     ],
-    "hsa-miR-1225-5p": [
-        "PKD1"
+    "hsa-miR-10b": [],
+    "hsa-miR-1180": [],
+    "hsa-miR-122": [],
+    "hsa-miR-1224": [],
+    "hsa-miR-1225": [],
+    "hsa-miR-1226": [
+        "DHX30"
     ],
-    "hsa-miR-1226-3p": [],
-    "hsa-miR-1226-5p": [],
-    "hsa-miR-1227-3p": [],
-    "hsa-miR-1228-3p": [],
-    "hsa-miR-1229-3p": [],
-    "hsa-miR-1236-3p": [],
-    "hsa-miR-1237-3p": [],
-    "hsa-miR-124-3p": [],
+    "hsa-miR-1227": [
+        "PLEKHJ1"
+    ],
+    "hsa-miR-1228": [
+        "LRP1",
+        "RP1"
+    ],
+    "hsa-miR-1229": [
+        "MGA",
+        "MGAT4B"
+    ],
+    "hsa-miR-1236": [],
+    "hsa-miR-1237": [
+        "RPS6KA4",
+        "RPS6"
+    ],
+    "hsa-miR-124": [],
     "hsa-miR-1245a": [],
-    "hsa-miR-1247-5p": [],
+    "hsa-miR-1247": [],
     "hsa-miR-1249": [],
-    "hsa-miR-1250-5p": [],
+    "hsa-miR-1250": [
+        "AATK"
+    ],
     "hsa-miR-1254": [],
     "hsa-miR-1256": [
         "EIF4G3"
     ],
     "hsa-miR-1258": [],
-    "hsa-miR-125a-3p": [],
-    "hsa-miR-125a-5p": [],
-    "hsa-miR-125b-2-3p": [],
-    "hsa-miR-125b-5p": [],
-    "hsa-miR-126-3p": [],
-    "hsa-miR-126-5p": [],
+    "hsa-miR-125a": [],
+    "hsa-miR-125b": [],
+    "hsa-miR-125b-2": [],
+    "hsa-miR-126": [
+        "EGFL7"
+    ],
     "hsa-miR-1260a": [],
     "hsa-miR-1260b": [],
     "hsa-miR-1262": [
         "GPR17"
     ],
     "hsa-miR-1268a": [],
-    "hsa-miR-127-3p": [],
+    "hsa-miR-127": [],
     "hsa-miR-1270": [],
-    "hsa-miR-1271-5p": [],
+    "hsa-miR-1271": [],
     "hsa-miR-1274a": [],
     "hsa-miR-1274b": [],
     "hsa-miR-1276": [
         "KLHL2"
     ],
-    "hsa-miR-128-3p": [],
+    "hsa-miR-128": [],
     "hsa-miR-1280": [],
     "hsa-miR-1284": [
         "FOXP1"
     ],
-    "hsa-miR-1285-3p": [],
-    "hsa-miR-1287-5p": [],
+    "hsa-miR-1285": [],
+    "hsa-miR-1287": [],
     "hsa-miR-128b": [],
-    "hsa-miR-129-1-3p": [],
-    "hsa-miR-129-2-3p": [],
-    "hsa-miR-129-5p": [],
-    "hsa-miR-1292-5p": [],
+    "hsa-miR-129": [],
+    "hsa-miR-129-1": [],
+    "hsa-miR-129-2": [],
+    "hsa-miR-1292": [
+        "NOP56"
+    ],
     "hsa-miR-1293": [
         "LIMA1"
     ],
     "hsa-miR-1295a": [],
-    "hsa-miR-1296-5p": [],
+    "hsa-miR-1296": [
+        "JMJD1C"
+    ],
     "hsa-miR-1297": [],
-    "hsa-miR-1301-3p": [],
+    "hsa-miR-1301": [
+        "DNMT3A"
+    ],
     "hsa-miR-1303": [],
-    "hsa-miR-1304-5p": [],
-    "hsa-miR-1307-3p": [],
-    "hsa-miR-130a-3p": [],
-    "hsa-miR-130b-3p": [],
-    "hsa-miR-130b-5p": [],
-    "hsa-miR-132-3p": [],
-    "hsa-miR-132-5p": [],
-    "hsa-miR-133a-3p": [],
+    "hsa-miR-1304": [
+        "TAF1",
+        "TAF1D"
+    ],
+    "hsa-miR-1307": [],
+    "hsa-miR-130a": [],
+    "hsa-miR-130b": [],
+    "hsa-miR-132": [],
+    "hsa-miR-133a": [],
     "hsa-miR-133b": [],
-    "hsa-miR-134-5p": [],
-    "hsa-miR-135a-5p": [],
-    "hsa-miR-135b-5p": [],
-    "hsa-miR-136-5p": [],
+    "hsa-miR-134": [],
+    "hsa-miR-135a": [],
+    "hsa-miR-135b": [],
+    "hsa-miR-136": [],
     "hsa-miR-137": [],
-    "hsa-miR-138-5p": [],
-    "hsa-miR-139-3p": [],
-    "hsa-miR-139-5p": [],
-    "hsa-miR-140-3p": [],
-    "hsa-miR-140-5p": [],
-    "hsa-miR-141-3p": [],
-    "hsa-miR-142-3p": [
-        "BZRAP1"
+    "hsa-miR-138": [],
+    "hsa-miR-139": [
+        "PDE2A"
     ],
-    "hsa-miR-142-5p": [
-        "BZRAP1"
+    "hsa-miR-140": [
+        "WWP2"
     ],
-    "hsa-miR-143-3p": [],
-    "hsa-miR-144-3p": [],
-    "hsa-miR-145-5p": [],
-    "hsa-miR-146a-3p": [],
-    "hsa-miR-146a-5p": [],
-    "hsa-miR-146b-3p": [],
-    "hsa-miR-146b-5p": [],
+    "hsa-miR-141": [],
+    "hsa-miR-142": [],
+    "hsa-miR-143": [],
+    "hsa-miR-144": [],
+    "hsa-miR-145": [],
+    "hsa-miR-146a": [],
+    "hsa-miR-146b": [],
     "hsa-miR-147a": [],
     "hsa-miR-147b": [],
-    "hsa-miR-148a-3p": [],
-    "hsa-miR-148a-5p": [],
-    "hsa-miR-148b-3p": [],
-    "hsa-miR-148b-5p": [],
-    "hsa-miR-149-3p": [],
-    "hsa-miR-149-5p": [],
-    "hsa-miR-150-5p": [],
-    "hsa-miR-151a-3p": [],
-    "hsa-miR-151a-5p": [],
-    "hsa-miR-152-3p": [],
-    "hsa-miR-153-3p": [],
-    "hsa-miR-154-5p": [],
-    "hsa-miR-155-3p": [],
-    "hsa-miR-155-5p": [],
-    "hsa-miR-15a-3p": [],
-    "hsa-miR-15a-5p": [],
-    "hsa-miR-15b-3p": [],
-    "hsa-miR-15b-5p": [],
-    "hsa-miR-16-1-3p": [],
-    "hsa-miR-16-2-3p": [],
-    "hsa-miR-16-5p": [],
-    "hsa-miR-17-3p": [],
-    "hsa-miR-17-5p": [],
-    "hsa-miR-181a-2-3p": [],
-    "hsa-miR-181a-3p": [],
-    "hsa-miR-181a-5p": [],
-    "hsa-miR-181b-5p": [],
-    "hsa-miR-181c-3p": [],
-    "hsa-miR-181c-5p": [],
-    "hsa-miR-181d-5p": [],
-    "hsa-miR-182-3p": [],
-    "hsa-miR-182-5p": [],
+    "hsa-miR-148a": [],
+    "hsa-miR-148b": [
+        "COPZ1"
+    ],
+    "hsa-miR-149": [
+        "GPC1"
+    ],
+    "hsa-miR-150": [],
+    "hsa-miR-151a": [],
+    "hsa-miR-152": [
+        "COPZ2"
+    ],
+    "hsa-miR-153": [],
+    "hsa-miR-154": [],
+    "hsa-miR-155": [],
+    "hsa-miR-15a": [],
+    "hsa-miR-15b": [
+        "SMC4"
+    ],
+    "hsa-miR-16": [],
+    "hsa-miR-16-1": [],
+    "hsa-miR-16-2": [
+        "SMC4"
+    ],
+    "hsa-miR-17": [],
+    "hsa-miR-181a": [],
+    "hsa-miR-181a-2": [],
+    "hsa-miR-181b": [],
+    "hsa-miR-181c": [],
+    "hsa-miR-181d": [],
+    "hsa-miR-182": [],
     "hsa-miR-1826": [],
-    "hsa-miR-183-3p": [],
-    "hsa-miR-183-5p": [],
+    "hsa-miR-183": [],
     "hsa-miR-184": [],
-    "hsa-miR-185-3p": [],
-    "hsa-miR-185-5p": [],
-    "hsa-miR-186-3p": [],
-    "hsa-miR-186-5p": [],
-    "hsa-miR-187-3p": [],
-    "hsa-miR-188-3p": [],
-    "hsa-miR-188-5p": [],
-    "hsa-miR-18a-3p": [],
-    "hsa-miR-18a-5p": [],
-    "hsa-miR-18b-5p": [],
-    "hsa-miR-1908-5p": [],
-    "hsa-miR-1909-3p": [],
-    "hsa-miR-1909-5p": [],
-    "hsa-miR-190a-5p": [],
-    "hsa-miR-191-3p": [],
-    "hsa-miR-191-5p": [],
-    "hsa-miR-1910-5p": [],
+    "hsa-miR-185": [],
+    "hsa-miR-186": [],
+    "hsa-miR-187": [],
+    "hsa-miR-188": [
+        "CLCN5"
+    ],
+    "hsa-miR-18a": [],
+    "hsa-miR-18b": [],
+    "hsa-miR-1908": [],
+    "hsa-miR-1909": [],
+    "hsa-miR-190a": [],
+    "hsa-miR-191": [
+        "DALRD3"
+    ],
+    "hsa-miR-1910": [],
     "hsa-miR-1913": [],
-    "hsa-miR-1914-3p": [],
-    "hsa-miR-1914-5p": [],
-    "hsa-miR-1915-3p": [],
-    "hsa-miR-1915-5p": [],
-    "hsa-miR-192-5p": [],
-    "hsa-miR-193a-3p": [],
-    "hsa-miR-193a-5p": [],
-    "hsa-miR-193b-3p": [],
-    "hsa-miR-193b-5p": [],
-    "hsa-miR-194-5p": [],
-    "hsa-miR-195-5p": [],
-    "hsa-miR-196a-3p": [],
-    "hsa-miR-196a-5p": [],
-    "hsa-miR-196b-3p": [],
-    "hsa-miR-196b-5p": [],
-    "hsa-miR-197-3p": [],
+    "hsa-miR-1914": [],
+    "hsa-miR-1915": [],
+    "hsa-miR-192": [
+        "TG"
+    ],
+    "hsa-miR-193a": [],
+    "hsa-miR-193b": [],
+    "hsa-miR-194": [],
+    "hsa-miR-195": [],
+    "hsa-miR-196a": [],
+    "hsa-miR-196b": [
+        "HOXA10",
+        "HOXA1"
+    ],
+    "hsa-miR-197": [
+        "GNAI3"
+    ],
     "hsa-miR-198": [
         "FSTL1"
     ],
-    "hsa-miR-199a-3p": [],
-    "hsa-miR-199a-5p": [],
-    "hsa-miR-199b-5p": [],
-    "hsa-miR-19a-3p": [],
-    "hsa-miR-19a-5p": [],
-    "hsa-miR-19b-1-5p": [],
-    "hsa-miR-19b-3p": [],
-    "hsa-miR-200a-3p": [],
-    "hsa-miR-200b-3p": [],
-    "hsa-miR-200c-3p": [],
-    "hsa-miR-202-3p": [],
+    "hsa-miR-199a": [],
+    "hsa-miR-199b": [],
+    "hsa-miR-19a": [],
+    "hsa-miR-19b": [],
+    "hsa-miR-19b-1": [],
+    "hsa-miR-200a": [],
+    "hsa-miR-200b": [],
+    "hsa-miR-200c": [],
+    "hsa-miR-202": [],
     "hsa-miR-203a": [],
-    "hsa-miR-204-5p": [],
-    "hsa-miR-205-5p": [],
+    "hsa-miR-204": [],
+    "hsa-miR-205": [],
     "hsa-miR-206": [],
-    "hsa-miR-208a-3p": [],
-    "hsa-miR-208b-3p": [],
-    "hsa-miR-20a-3p": [],
-    "hsa-miR-20a-5p": [],
-    "hsa-miR-20b-5p": [],
-    "hsa-miR-21-3p": [],
-    "hsa-miR-21-5p": [],
-    "hsa-miR-210-3p": [],
-    "hsa-miR-211-5p": [],
+    "hsa-miR-208a": [],
+    "hsa-miR-208b": [],
+    "hsa-miR-20a": [],
+    "hsa-miR-20b": [],
+    "hsa-miR-21": [],
+    "hsa-miR-210": [],
+    "hsa-miR-211": [
+        "TRPM1"
+    ],
     "hsa-miR-2110": [],
-    "hsa-miR-2116-3p": [],
-    "hsa-miR-212-3p": [],
-    "hsa-miR-214-3p": [],
-    "hsa-miR-215-5p": [],
-    "hsa-miR-216a-5p": [],
-    "hsa-miR-216b-5p": [],
+    "hsa-miR-2116": [],
+    "hsa-miR-212": [],
+    "hsa-miR-214": [],
+    "hsa-miR-215": [],
+    "hsa-miR-216a": [],
+    "hsa-miR-216b": [],
     "hsa-miR-217": [],
-    "hsa-miR-218-1-3p": [],
-    "hsa-miR-218-5p": [],
-    "hsa-miR-219a-5p": [],
-    "hsa-miR-22-3p": [],
-    "hsa-miR-22-5p": [],
-    "hsa-miR-221-3p": [],
-    "hsa-miR-221-5p": [],
-    "hsa-miR-222-3p": [],
-    "hsa-miR-223-3p": [],
-    "hsa-miR-224-5p": [],
-    "hsa-miR-2277-5p": [],
-    "hsa-miR-23a-3p": [],
-    "hsa-miR-23a-5p": [],
-    "hsa-miR-23b-3p": [],
-    "hsa-miR-23b-5p": [],
-    "hsa-miR-24-1-5p": [],
-    "hsa-miR-24-2-5p": [],
-    "hsa-miR-24-3p": [],
-    "hsa-miR-25-3p": [],
-    "hsa-miR-25-5p": [],
-    "hsa-miR-26a-2-3p": [],
-    "hsa-miR-26a-5p": [],
-    "hsa-miR-26b-3p": [],
-    "hsa-miR-26b-5p": [],
-    "hsa-miR-27a-3p": [],
-    "hsa-miR-27b-3p": [],
-    "hsa-miR-27b-5p": [],
-    "hsa-miR-28-3p": [],
-    "hsa-miR-28-5p": [],
-    "hsa-miR-296-3p": [],
-    "hsa-miR-296-5p": [],
+    "hsa-miR-218": [],
+    "hsa-miR-218-1": [
+        "SLIT2"
+    ],
+    "hsa-miR-219a": [],
+    "hsa-miR-22": [],
+    "hsa-miR-221": [],
+    "hsa-miR-222": [],
+    "hsa-miR-223": [],
+    "hsa-miR-224": [
+        "GABRE",
+        "ABR"
+    ],
+    "hsa-miR-2277": [],
+    "hsa-miR-23a": [],
+    "hsa-miR-23b": [],
+    "hsa-miR-24": [],
+    "hsa-miR-24-1": [],
+    "hsa-miR-24-2": [],
+    "hsa-miR-25": [
+        "MCM7"
+    ],
+    "hsa-miR-26a": [],
+    "hsa-miR-26a-2": [
+        "SP2",
+        "DSP",
+        "CTDSP2"
+    ],
+    "hsa-miR-26b": [
+        "DSP",
+        "CTDSP1"
+    ],
+    "hsa-miR-27a": [],
+    "hsa-miR-27b": [],
+    "hsa-miR-28": [
+        "LPP"
+    ],
+    "hsa-miR-296": [],
     "hsa-miR-298": [],
-    "hsa-miR-299-3p": [],
-    "hsa-miR-299-5p": [],
-    "hsa-miR-29a-3p": [],
-    "hsa-miR-29b-2-5p": [],
-    "hsa-miR-29b-3p": [],
-    "hsa-miR-29c-3p": [],
-    "hsa-miR-29c-5p": [],
-    "hsa-miR-301a-3p": [],
+    "hsa-miR-299": [],
+    "hsa-miR-29a": [],
+    "hsa-miR-29b": [],
+    "hsa-miR-29b-2": [],
+    "hsa-miR-29c": [],
+    "hsa-miR-301a": [],
     "hsa-miR-301b": [],
-    "hsa-miR-302a-3p": [],
-    "hsa-miR-302b-3p": [],
-    "hsa-miR-302c-3p": [],
-    "hsa-miR-302d-3p": [],
-    "hsa-miR-3065-3p": [],
-    "hsa-miR-3065-5p": [],
-    "hsa-miR-30a-3p": [],
-    "hsa-miR-30a-5p": [],
-    "hsa-miR-30b-3p": [],
-    "hsa-miR-30b-5p": [],
-    "hsa-miR-30c-1-3p": [],
-    "hsa-miR-30c-2-3p": [],
-    "hsa-miR-30c-5p": [],
-    "hsa-miR-30d-3p": [],
-    "hsa-miR-30d-5p": [],
-    "hsa-miR-30e-3p": [],
-    "hsa-miR-30e-5p": [],
-    "hsa-miR-31-3p": [],
-    "hsa-miR-31-5p": [],
-    "hsa-miR-3117-3p": [],
-    "hsa-miR-3127-5p": [],
+    "hsa-miR-302a": [],
+    "hsa-miR-302b": [],
+    "hsa-miR-302c": [],
+    "hsa-miR-302d": [],
+    "hsa-miR-3065": [],
+    "hsa-miR-30a": [],
+    "hsa-miR-30b": [],
+    "hsa-miR-30c": [],
+    "hsa-miR-30c-1": [
+        "NFYC"
+    ],
+    "hsa-miR-30c-2": [],
+    "hsa-miR-30d": [],
+    "hsa-miR-30e": [
+        "NFYC"
+    ],
+    "hsa-miR-31": [],
+    "hsa-miR-3117": [],
+    "hsa-miR-3127": [],
     "hsa-miR-3131": [],
-    "hsa-miR-3140-3p": [],
-    "hsa-miR-3144-3p": [],
-    "hsa-miR-3157-5p": [],
+    "hsa-miR-3140": [],
+    "hsa-miR-3144": [],
+    "hsa-miR-3157": [],
     "hsa-miR-3176": [],
-    "hsa-miR-3177-3p": [],
+    "hsa-miR-3177": [],
     "hsa-miR-3181": [],
-    "hsa-miR-3187-3p": [],
+    "hsa-miR-3187": [],
     "hsa-miR-3188": [],
     "hsa-miR-3196": [],
     "hsa-miR-3198": [],
-    "hsa-miR-32-5p": [],
-    "hsa-miR-3200-3p": [],
+    "hsa-miR-32": [],
+    "hsa-miR-3200": [],
     "hsa-miR-320a": [],
     "hsa-miR-320b": [],
     "hsa-miR-320c": [],
     "hsa-miR-320d": [],
     "hsa-miR-320e": [],
-    "hsa-miR-324-3p": [
-        "DVL2"
-    ],
-    "hsa-miR-324-5p": [
-        "DVL2"
-    ],
+    "hsa-miR-324": [],
     "hsa-miR-326": [
         "ARRB1",
         "RB1"
     ],
-    "hsa-miR-328-3p": [],
-    "hsa-miR-330-3p": [],
-    "hsa-miR-330-5p": [],
-    "hsa-miR-331-3p": [],
-    "hsa-miR-331-5p": [],
-    "hsa-miR-335-5p": [],
-    "hsa-miR-337-3p": [],
-    "hsa-miR-338-3p": [],
-    "hsa-miR-338-5p": [],
-    "hsa-miR-339-3p": [],
-    "hsa-miR-339-5p": [],
-    "hsa-miR-33a-3p": [],
-    "hsa-miR-33a-5p": [],
-    "hsa-miR-33b-5p": [],
-    "hsa-miR-340-3p": [],
-    "hsa-miR-340-5p": [],
-    "hsa-miR-342-3p": [],
-    "hsa-miR-342-5p": [],
-    "hsa-miR-345-5p": [],
+    "hsa-miR-328": [],
+    "hsa-miR-330": [],
+    "hsa-miR-331": [],
+    "hsa-miR-335": [
+        "MEST"
+    ],
+    "hsa-miR-337": [],
+    "hsa-miR-338": [
+        "AATK"
+    ],
+    "hsa-miR-339": [],
+    "hsa-miR-33a": [
+        "SREBF2"
+    ],
+    "hsa-miR-33b": [
+        "EBF1",
+        "SREBF1"
+    ],
+    "hsa-miR-340": [
+        "RNF13",
+        "RNF130"
+    ],
+    "hsa-miR-342": [
+        "EVL"
+    ],
+    "hsa-miR-345": [],
     "hsa-miR-346": [],
-    "hsa-miR-34a-3p": [],
-    "hsa-miR-34a-5p": [],
-    "hsa-miR-34b-3p": [],
-    "hsa-miR-34b-5p": [],
-    "hsa-miR-34c-5p": [],
-    "hsa-miR-3605-3p": [],
-    "hsa-miR-361-3p": [
-        "CHM"
-    ],
-    "hsa-miR-361-5p": [
-        "CHM"
-    ],
+    "hsa-miR-34a": [],
+    "hsa-miR-34b": [],
+    "hsa-miR-34c": [],
+    "hsa-miR-3605": [],
+    "hsa-miR-361": [],
     "hsa-miR-3615": [],
-    "hsa-miR-3619-5p": [],
-    "hsa-miR-362-3p": [
-        "CLCN5"
-    ],
-    "hsa-miR-362-5p": [
-        "CLCN5"
-    ],
-    "hsa-miR-3620-3p": [],
-    "hsa-miR-3622a-3p": [],
-    "hsa-miR-363-3p": [],
+    "hsa-miR-3619": [],
+    "hsa-miR-362": [],
+    "hsa-miR-3620": [],
+    "hsa-miR-3622a": [],
+    "hsa-miR-363": [],
     "hsa-miR-3648": [],
-    "hsa-miR-365a-3p": [],
-    "hsa-miR-365a-5p": [],
-    "hsa-miR-3663-3p": [],
-    "hsa-miR-3676-3p": [],
-    "hsa-miR-3679-3p": [],
+    "hsa-miR-365a": [],
+    "hsa-miR-3663": [],
+    "hsa-miR-3676": [],
+    "hsa-miR-3679": [],
     "hsa-miR-3687": [],
-    "hsa-miR-369-5p": [],
-    "hsa-miR-3691-5p": [],
-    "hsa-miR-370-3p": [],
-    "hsa-miR-372-3p": [],
-    "hsa-miR-373-3p": [],
-    "hsa-miR-374a-3p": [],
-    "hsa-miR-374a-5p": [],
-    "hsa-miR-374b-5p": [],
+    "hsa-miR-369": [],
+    "hsa-miR-3691": [],
+    "hsa-miR-370": [],
+    "hsa-miR-372": [],
+    "hsa-miR-373": [],
+    "hsa-miR-374a": [],
+    "hsa-miR-374b": [],
     "hsa-miR-375": [],
-    "hsa-miR-376a-3p": [],
-    "hsa-miR-376a-5p": [],
-    "hsa-miR-376b-3p": [],
-    "hsa-miR-376c-3p": [],
-    "hsa-miR-377-3p": [],
-    "hsa-miR-378a-3p": [],
-    "hsa-miR-378a-5p": [],
+    "hsa-miR-376a": [],
+    "hsa-miR-376b": [],
+    "hsa-miR-376c": [],
+    "hsa-miR-377": [],
+    "hsa-miR-378a": [],
     "hsa-miR-378c": [],
-    "hsa-miR-379-5p": [],
-    "hsa-miR-383-5p": [],
+    "hsa-miR-379": [],
+    "hsa-miR-383": [],
     "hsa-miR-384": [],
     "hsa-miR-3909": [],
-    "hsa-miR-3928-3p": [],
+    "hsa-miR-3928": [],
     "hsa-miR-3929": [],
-    "hsa-miR-3934-5p": [],
+    "hsa-miR-3934": [],
     "hsa-miR-3943": [],
-    "hsa-miR-409-3p": [],
-    "hsa-miR-412-3p": [],
+    "hsa-miR-409": [],
+    "hsa-miR-412": [],
     "hsa-miR-421": [],
     "hsa-miR-422a": [],
-    "hsa-miR-423-3p": [],
-    "hsa-miR-423-5p": [],
-    "hsa-miR-424-3p": [],
-    "hsa-miR-424-5p": [],
-    "hsa-miR-425-3p": [],
-    "hsa-miR-425-5p": [],
+    "hsa-miR-423": [],
+    "hsa-miR-424": [],
+    "hsa-miR-425": [
+        "DALRD3"
+    ],
     "hsa-miR-4284": [],
     "hsa-miR-4286": [],
     "hsa-miR-429": [],
     "hsa-miR-4323": [],
     "hsa-miR-4324": [],
     "hsa-miR-4326": [],
-    "hsa-miR-433-3p": [],
+    "hsa-miR-433": [],
     "hsa-miR-448": [
         "HTR2C"
     ],
     "hsa-miR-449a": [],
-    "hsa-miR-449b-5p": [],
-    "hsa-miR-449c-3p": [],
-    "hsa-miR-449c-5p": [],
-    "hsa-miR-450a-1-3p": [],
-    "hsa-miR-450a-5p": [],
-    "hsa-miR-450b-5p": [],
+    "hsa-miR-449b": [],
+    "hsa-miR-449c": [],
+    "hsa-miR-450a": [],
+    "hsa-miR-450a-1": [],
+    "hsa-miR-450b": [],
     "hsa-miR-451a": [],
-    "hsa-miR-454-3p": [],
-    "hsa-miR-454-5p": [],
-    "hsa-miR-455-3p": [],
-    "hsa-miR-455-5p": [],
-    "hsa-miR-483-3p": [
-        "IGF2"
-    ],
-    "hsa-miR-483-5p": [
-        "IGF2"
-    ],
+    "hsa-miR-454": [],
+    "hsa-miR-455": [],
+    "hsa-miR-483": [],
     "hsa-miR-484": [
         "NDE1"
     ],
-    "hsa-miR-485-3p": [],
-    "hsa-miR-485-5p": [],
-    "hsa-miR-486-5p": [],
-    "hsa-miR-488-3p": [],
-    "hsa-miR-488-5p": [],
-    "hsa-miR-489-3p": [],
-    "hsa-miR-490-3p": [
-        "CHRM2"
+    "hsa-miR-485": [],
+    "hsa-miR-486": [],
+    "hsa-miR-488": [
+        "ASTN1"
     ],
-    "hsa-miR-491-5p": [],
-    "hsa-miR-494-3p": [],
-    "hsa-miR-495-3p": [],
-    "hsa-miR-497-5p": [],
+    "hsa-miR-489": [],
+    "hsa-miR-490": [],
+    "hsa-miR-491": [],
+    "hsa-miR-494": [],
+    "hsa-miR-495": [],
+    "hsa-miR-497": [],
     "hsa-miR-498": [],
-    "hsa-miR-499a-5p": [],
-    "hsa-miR-500a-3p": [],
-    "hsa-miR-500a-5p": [],
-    "hsa-miR-501-3p": [
-        "CLCN5"
+    "hsa-miR-499a": [],
+    "hsa-miR-500a": [],
+    "hsa-miR-501": [],
+    "hsa-miR-502": [],
+    "hsa-miR-503": [],
+    "hsa-miR-504": [
+        "FGF1"
     ],
-    "hsa-miR-501-5p": [
-        "CLCN5"
-    ],
-    "hsa-miR-502-3p": [
-        "CLCN5"
-    ],
-    "hsa-miR-503-5p": [],
-    "hsa-miR-504-5p": [],
-    "hsa-miR-505-3p": [],
-    "hsa-miR-505-5p": [],
-    "hsa-miR-506-3p": [],
-    "hsa-miR-509-3p": [],
-    "hsa-miR-510-5p": [],
-    "hsa-miR-511-5p": [],
-    "hsa-miR-512-5p": [],
-    "hsa-miR-513a-3p": [],
-    "hsa-miR-513a-5p": [],
-    "hsa-miR-515-3p": [],
-    "hsa-miR-516a-3p": [],
-    "hsa-miR-518a-5p": [],
+    "hsa-miR-505": [],
+    "hsa-miR-506": [],
+    "hsa-miR-509": [],
+    "hsa-miR-510": [],
+    "hsa-miR-511": [],
+    "hsa-miR-512": [],
+    "hsa-miR-513a": [],
+    "hsa-miR-515": [],
+    "hsa-miR-516a": [],
+    "hsa-miR-518a": [],
     "hsa-miR-518b": [],
-    "hsa-miR-519a-3p": [],
-    "hsa-miR-519b-3p": [],
-    "hsa-miR-519c-3p": [],
-    "hsa-miR-519d-3p": [],
-    "hsa-miR-519e-3p": [],
-    "hsa-miR-520a-3p": [],
+    "hsa-miR-519a": [],
+    "hsa-miR-519b": [],
+    "hsa-miR-519c": [],
+    "hsa-miR-519d": [],
+    "hsa-miR-519e": [],
+    "hsa-miR-520a": [],
     "hsa-miR-520b": [],
-    "hsa-miR-520c-3p": [],
+    "hsa-miR-520c": [],
     "hsa-miR-520e": [],
-    "hsa-miR-520g-3p": [],
+    "hsa-miR-520g": [],
     "hsa-miR-520h": [],
     "hsa-miR-521": [],
-    "hsa-miR-522-3p": [],
-    "hsa-miR-524-5p": [],
-    "hsa-miR-532-3p": [
-        "CLCN5"
-    ],
-    "hsa-miR-532-5p": [
-        "CLCN5"
-    ],
-    "hsa-miR-542-3p": [],
-    "hsa-miR-542-5p": [],
-    "hsa-miR-545-3p": [],
-    "hsa-miR-548a-3p": [],
+    "hsa-miR-522": [],
+    "hsa-miR-524": [],
+    "hsa-miR-532": [],
+    "hsa-miR-542": [],
+    "hsa-miR-545": [],
+    "hsa-miR-548a": [],
     "hsa-miR-548aa": [],
-    "hsa-miR-548b-3p": [],
-    "hsa-miR-548d-3p": [],
-    "hsa-miR-548d-5p": [],
-    "hsa-miR-548h-5p": [],
-    "hsa-miR-548j-5p": [],
-    "hsa-miR-548o-3p": [],
+    "hsa-miR-548b": [],
+    "hsa-miR-548d": [],
+    "hsa-miR-548h": [],
+    "hsa-miR-548j": [
+        "TPST2"
+    ],
+    "hsa-miR-548o": [],
     "hsa-miR-548q": [],
     "hsa-miR-548v": [],
-    "hsa-miR-550a-3p": [],
-    "hsa-miR-550a-5p": [],
-    "hsa-miR-551b-3p": [],
+    "hsa-miR-550a": [],
+    "hsa-miR-551b": [],
     "hsa-miR-559": [
         "CS"
     ],
@@ -531,31 +499,20 @@ mirna_host_gene_map = {
         "TNIK"
     ],
     "hsa-miR-572": [],
-    "hsa-miR-574-3p": [
-        "FAM114A1"
-    ],
-    "hsa-miR-574-5p": [
-        "FAM114A1"
-    ],
-    "hsa-miR-576-5p": [
-        "SEC24B"
-    ],
+    "hsa-miR-574": [],
+    "hsa-miR-576": [],
     "hsa-miR-577": [
         "UGT8"
     ],
     "hsa-miR-5787": [],
-    "hsa-miR-582-5p": [
-        "PDE4D"
+    "hsa-miR-582": [],
+    "hsa-miR-584": [
+        "SH3TC2"
     ],
-    "hsa-miR-584-5p": [],
-    "hsa-miR-589-3p": [],
-    "hsa-miR-589-5p": [],
-    "hsa-miR-590-3p": [
-        "EIF4H"
+    "hsa-miR-589": [
+        "FBXL18"
     ],
-    "hsa-miR-590-5p": [
-        "EIF4H"
-    ],
+    "hsa-miR-590": [],
     "hsa-miR-595": [
         "TPRN",
         "PTPRN",
@@ -563,12 +520,14 @@ mirna_host_gene_map = {
         "TPR"
     ],
     "hsa-miR-596": [],
-    "hsa-miR-597-5p": [],
-    "hsa-miR-598-3p": [],
+    "hsa-miR-597": [
+        "TNKS"
+    ],
+    "hsa-miR-598": [],
     "hsa-miR-603": [
         "KIAA1217"
     ],
-    "hsa-miR-605-5p": [],
+    "hsa-miR-605": [],
     "hsa-miR-608": [
         "SEMA4G"
     ],
@@ -578,16 +537,10 @@ mirna_host_gene_map = {
         "APOLD1",
         "POLD1"
     ],
-    "hsa-miR-615-3p": [
-        "HOXC4",
-        "C5"
+    "hsa-miR-615": [],
+    "hsa-miR-616": [
+        "DDIT3"
     ],
-    "hsa-miR-615-5p": [
-        "HOXC4",
-        "C5"
-    ],
-    "hsa-miR-616-3p": [],
-    "hsa-miR-616-5p": [],
     "hsa-miR-617": [
         "LIN7A"
     ],
@@ -600,22 +553,21 @@ mirna_host_gene_map = {
         "MED13"
     ],
     "hsa-miR-622": [],
-    "hsa-miR-624-3p": [],
-    "hsa-miR-624-5p": [],
-    "hsa-miR-625-3p": [],
-    "hsa-miR-625-5p": [],
+    "hsa-miR-624": [
+        "STRN",
+        "STRN3"
+    ],
+    "hsa-miR-625": [
+        "FUT8"
+    ],
     "hsa-miR-626": [
         "MGA",
         "MAX"
     ],
-    "hsa-miR-628-3p": [
-        "CCPG1"
+    "hsa-miR-628": [],
+    "hsa-miR-629": [
+        "TLE3"
     ],
-    "hsa-miR-628-5p": [
-        "CCPG1"
-    ],
-    "hsa-miR-629-3p": [],
-    "hsa-miR-629-5p": [],
     "hsa-miR-630": [
         "ARIH1"
     ],
@@ -634,91 +586,101 @@ mirna_host_gene_map = {
     "hsa-miR-641": [
         "AKT2"
     ],
-    "hsa-miR-642a-5p": [],
+    "hsa-miR-642a": [],
     "hsa-miR-644a": [],
     "hsa-miR-650": [],
-    "hsa-miR-652-3p": [],
-    "hsa-miR-654-3p": [],
+    "hsa-miR-652": [],
+    "hsa-miR-654": [],
     "hsa-miR-657": [
         "AATK"
     ],
-    "hsa-miR-659-3p": [],
-    "hsa-miR-660-5p": [],
+    "hsa-miR-659": [],
+    "hsa-miR-660": [
+        "CLCN5"
+    ],
     "hsa-miR-661": [],
     "hsa-miR-662": [
         "MSLN"
     ],
     "hsa-miR-663a": [],
     "hsa-miR-663b": [],
-    "hsa-miR-664a-3p": [],
-    "hsa-miR-671-3p": [
-        "CS"
+    "hsa-miR-664a": [],
+    "hsa-miR-671": [],
+    "hsa-miR-675": [],
+    "hsa-miR-7": [],
+    "hsa-miR-7-1": [
+        "HNRNPK"
     ],
-    "hsa-miR-671-5p": [
-        "CS"
+    "hsa-miR-708": [],
+    "hsa-miR-744": [
+        "MAP2",
+        "MAP2K4"
     ],
-    "hsa-miR-675-5p": [],
-    "hsa-miR-7-1-3p": [],
-    "hsa-miR-7-5p": [],
-    "hsa-miR-708-3p": [],
-    "hsa-miR-708-5p": [],
-    "hsa-miR-744-3p": [],
-    "hsa-miR-744-5p": [],
     "hsa-miR-760": [],
     "hsa-miR-762": [],
     "hsa-miR-765": [
         "ARHGEF1"
     ],
-    "hsa-miR-766-3p": [],
-    "hsa-miR-768-5p": [],
-    "hsa-miR-769-3p": [],
-    "hsa-miR-769-5p": [],
+    "hsa-miR-766": [
+        "SEPT6"
+    ],
+    "hsa-miR-768": [],
+    "hsa-miR-769": [],
     "hsa-miR-802": [],
-    "hsa-miR-874-3p": [],
-    "hsa-miR-876-3p": [],
-    "hsa-miR-877-3p": [],
-    "hsa-miR-877-5p": [],
-    "hsa-miR-885-5p": [],
-    "hsa-miR-886-3p": [],
-    "hsa-miR-887-3p": [],
+    "hsa-miR-874": [
+        "KLHL3"
+    ],
+    "hsa-miR-876": [],
+    "hsa-miR-877": [
+        "ABCF1"
+    ],
+    "hsa-miR-885": [],
+    "hsa-miR-886": [],
+    "hsa-miR-887": [],
     "hsa-miR-892b": [],
-    "hsa-miR-9-3p": [],
-    "hsa-miR-9-5p": [],
-    "hsa-miR-92a-1-5p": [],
-    "hsa-miR-92a-3p": [],
-    "hsa-miR-92b-3p": [],
-    "hsa-miR-92b-5p": [],
-    "hsa-miR-93-3p": [],
-    "hsa-miR-93-5p": [],
+    "hsa-miR-9": [],
+    "hsa-miR-92a": [],
+    "hsa-miR-92a-1": [],
+    "hsa-miR-92b": [],
+    "hsa-miR-93": [
+        "MCM7"
+    ],
     "hsa-miR-935": [],
-    "hsa-miR-937-3p": [],
-    "hsa-miR-939-5p": [],
+    "hsa-miR-937": [
+        "SCRIB"
+    ],
+    "hsa-miR-939": [
+        "CPSF1"
+    ],
     "hsa-miR-940": [],
     "hsa-miR-941": [],
-    "hsa-miR-942-5p": [],
+    "hsa-miR-942": [
+        "TF",
+        "TTF2"
+    ],
     "hsa-miR-943": [],
-    "hsa-miR-95-3p": [],
-    "hsa-miR-96-5p": [],
-    "hsa-miR-98-5p": [],
-    "hsa-miR-99a-3p": [],
-    "hsa-miR-99a-5p": [],
-    "hsa-miR-99b-3p": [],
-    "hsa-miR-99b-5p": [],
-    "kshv-miR-K12-1-5p": [],
-    "kshv-miR-K12-11-3p": [],
-    "kshv-miR-K12-3-5p": [],
-    "kshv-miR-K12-4-3p": [],
-    "kshv-miR-K12-4-5p": [],
-    "kshv-miR-K12-5-3p": [],
-    "kshv-miR-K12-6-3p": [],
-    "kshv-miR-K12-6-5p": [],
-    "mmu-miR-100-5p": [],
-    "mmu-miR-124-3p": [],
-    "mmu-miR-137-3p": [],
-    "mmu-miR-210-3p": [],
-    "mmu-miR-24-2-5p": [],
-    "mmu-miR-465a-5p": [],
-    "rno-miR-150-5p": [],
-    "rno-miR-194-5p": [],
-    "rno-miR-200c-3p": []
+    "hsa-miR-95": [
+        "LIM2"
+    ],
+    "hsa-miR-96": [],
+    "hsa-miR-98": [
+        "HUWE1"
+    ],
+    "hsa-miR-99a": [],
+    "hsa-miR-99b": [],
+    "kshv-miR-K12-1": [],
+    "kshv-miR-K12-11": [],
+    "kshv-miR-K12-3": [],
+    "kshv-miR-K12-4": [],
+    "kshv-miR-K12-5": [],
+    "kshv-miR-K12-6": [],
+    "mmu-miR-100": [],
+    "mmu-miR-124": [],
+    "mmu-miR-137": [],
+    "mmu-miR-210": [],
+    "mmu-miR-24-2": [],
+    "mmu-miR-465a": [],
+    "rno-miR-150": [],
+    "rno-miR-194": [],
+    "rno-miR-200c": []
 }
