@@ -73,7 +73,7 @@ def get_host_gene(mirna, data, mirna_host_gene_map):
 		count = 0
 		for gene in data.keys():
 			count+=1
-			if str(gene) in str(data_around_hostgene):
+			if str(gene) in data_around_hostgene[1]:
 				print gene
 				mirna_host_gene_map[mirna].append(gene)
 		print count
