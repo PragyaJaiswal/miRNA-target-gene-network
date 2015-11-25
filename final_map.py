@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from mirna_map_dict import mirna_map_dict
 from gene_coordinates_from_ensembl import gene_coordinates_from_ensembl as gene_dict
 
-'''
+
 def main():
 	global mirna_data, gene_data
 	gene_dict = {}
@@ -50,7 +50,7 @@ def main():
 			# raw_input('Enter')
 		print len(gene_dict.keys())
 		jsonify(gene_dict, '.\data_used_for_mapping\gene_coordinates_from_ensembl.py', 'gene_coordinates_from_ensembl')
-'''
+
 
 def compare_coordinates():
 	final_dict = {}
@@ -91,5 +91,5 @@ def jsonify(dictionary, filename, text='None'):
 
 
 if __name__ == '__main__':
-	# main()
+	main()
 	compare_coordinates()
