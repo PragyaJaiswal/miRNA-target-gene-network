@@ -49,7 +49,7 @@ def main():
 					gene_dict[each_line[1]][each_line[0]]['transcript_count'] = int(each_line[5])
 			# raw_input('Enter')
 		print len(gene_dict.keys())
-		jsonify(gene_dict, 'gene_coordinates_from_ensembl.py', 'gene_coordinates_from_ensembl')
+		jsonify(gene_dict, '.\data_used_for_mapping\gene_coordinates_from_ensembl.py', 'gene_coordinates_from_ensembl')
 '''
 
 def compare_coordinates():
