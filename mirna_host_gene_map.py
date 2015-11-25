@@ -7,31 +7,23 @@ mirna_host_gene_map = {
     "hsa-let-7b-3p": [],
     "hsa-let-7b-5p": [],
     "hsa-let-7c*": [],
-    "hsa-let-7c-5p": [
-        "ENSG00000215386"
-    ],
-    "hsa-let-7d-3p": [
-        "ENSG00000269946"
-    ],
+    "hsa-let-7c-5p": [],
+    "hsa-let-7d-3p": [],
     "hsa-let-7d-5p": [],
     "hsa-let-7e-3p": [],
     "hsa-let-7e-5p": [],
-    "hsa-let-7f-1-3p": [
-        "ENSG00000269946"
-    ],
+    "hsa-let-7f-1-3p": [],
     "hsa-let-7f-2-3p": [
-        "ENSG00000086758"
+        "HUWE1"
     ],
     "hsa-let-7f-5p": [],
     "hsa-let-7g-3p": [
-        "ENSG00000164091"
+        "WDR82"
     ],
     "hsa-let-7g-5p": [
         "WDR82"
     ],
-    "hsa-let-7i-5p": [
-        "ENSG00000257354"
-    ],
+    "hsa-let-7i-5p": [],
     "hsa-miR-1": [],
     "hsa-miR-100-5p": [],
     "hsa-miR-101-3p": [],
@@ -44,7 +36,7 @@ mirna_host_gene_map = {
         "MCM7"
     ],
     "hsa-miR-106b-5p": [
-        "ENSG00000166508"
+        "MCM7"
     ],
     "hsa-miR-107": [],
     "hsa-miR-10a-3p": [
@@ -72,7 +64,7 @@ mirna_host_gene_map = {
         "DHX30"
     ],
     "hsa-miR-1227-3p": [
-        "ENSG00000104886"
+        "PLEKHJ1"
     ],
     "hsa-miR-1228-3p": [
         "LRP1"
@@ -93,7 +85,7 @@ mirna_host_gene_map = {
         "C22orf9"
     ],
     "hsa-miR-1250-5p": [
-        "ENSG00000181409"
+        "AATK"
     ],
     "hsa-miR-1254": [],
     "hsa-miR-1256": [
@@ -102,9 +94,7 @@ mirna_host_gene_map = {
     "hsa-miR-1258": [],
     "hsa-miR-125a-3p": [],
     "hsa-miR-125a-5p": [],
-    "hsa-miR-125b-2-3p": [
-        "ENSG00000215386"
-    ],
+    "hsa-miR-125b-2-3p": [],
     "hsa-miR-125b-5p": [],
     "hsa-miR-126-3p": [
         "EGFL7"
@@ -136,7 +126,7 @@ mirna_host_gene_map = {
     "hsa-miR-128b": [],
     "hsa-miR-129-1-3p": [],
     "hsa-miR-129-2-3p": [
-        "ENSG00000149084"
+        "HSD17B12"
     ],
     "hsa-miR-129-5p": [],
     "hsa-miR-1292-5p": [
@@ -183,10 +173,7 @@ mirna_host_gene_map = {
     "hsa-miR-140-5p": [
         "WWP2"
     ],
-    "hsa-miR-141-3p": [
-        "ENSG00000126749",
-        "ENSG00000257084"
-    ],
+    "hsa-miR-141-3p": [],
     "hsa-miR-142-3p": [],
     "hsa-miR-142-5p": [],
     "hsa-miR-143-3p": [],
@@ -222,9 +209,7 @@ mirna_host_gene_map = {
     "hsa-miR-154-5p": [],
     "hsa-miR-155-3p": [],
     "hsa-miR-155-5p": [],
-    "hsa-miR-15a-3p": [
-        "ENSG00000231607"
-    ],
+    "hsa-miR-15a-3p": [],
     "hsa-miR-15a-5p": [
         "DLEU2"
     ],
@@ -232,32 +217,22 @@ mirna_host_gene_map = {
         "SMC4"
     ],
     "hsa-miR-15b-5p": [
-        "ENSG00000113810"
+        "SMC4"
     ],
-    "hsa-miR-16-1-3p": [
-        "ENSG00000231607"
-    ],
+    "hsa-miR-16-1-3p": [],
     "hsa-miR-16-2-3p": [
-        "ENSG00000113810"
+        "SMC4"
     ],
     "hsa-miR-16-5p": [],
-    "hsa-miR-17-3p": [
-        "ENSG00000215417"
-    ],
+    "hsa-miR-17-3p": [],
     "hsa-miR-17-5p": [],
-    "hsa-miR-181a-2-3p": [
-        "ENSG00000224020"
-    ],
+    "hsa-miR-181a-2-3p": [],
     "hsa-miR-181a-3p": [],
     "hsa-miR-181a-5p": [],
     "hsa-miR-181b-5p": [],
     "hsa-miR-181c-3p": [],
-    "hsa-miR-181c-5p": [
-        "ENSG00000187556"
-    ],
-    "hsa-miR-181d-5p": [
-        "ENSG00000187556"
-    ],
+    "hsa-miR-181c-5p": [],
+    "hsa-miR-181d-5p": [],
     "hsa-miR-182-3p": [],
     "hsa-miR-182-5p": [],
     "hsa-miR-1826": [],
@@ -270,14 +245,12 @@ mirna_host_gene_map = {
     "hsa-miR-186-5p": [],
     "hsa-miR-187-3p": [],
     "hsa-miR-188-3p": [
-        "ENSG00000171365"
+        "CLCN5"
     ],
     "hsa-miR-188-5p": [
         "CLCN5"
     ],
-    "hsa-miR-18a-3p": [
-        "ENSG00000215417"
-    ],
+    "hsa-miR-18a-3p": [],
     "hsa-miR-18a-5p": [],
     "hsa-miR-18b-5p": [],
     "hsa-miR-1908-5p": [],
@@ -285,16 +258,14 @@ mirna_host_gene_map = {
     "hsa-miR-1909-5p": [],
     "hsa-miR-190a-5p": [],
     "hsa-miR-191-3p": [
-        "ENSG00000178149"
+        "DALRD3"
     ],
     "hsa-miR-191-5p": [
         "DALRD3"
     ],
     "hsa-miR-1910-5p": [],
     "hsa-miR-1913": [],
-    "hsa-miR-1914-3p": [
-        "ENSG00000198276"
-    ],
+    "hsa-miR-1914-3p": [],
     "hsa-miR-1914-5p": [],
     "hsa-miR-1915-3p": [],
     "hsa-miR-1915-5p": [],
@@ -304,14 +275,9 @@ mirna_host_gene_map = {
     "hsa-miR-193a-3p": [],
     "hsa-miR-193a-5p": [],
     "hsa-miR-193b-3p": [],
-    "hsa-miR-193b-5p": [
-        "ENSG00000262454"
-    ],
+    "hsa-miR-193b-5p": [],
     "hsa-miR-194-5p": [],
-    "hsa-miR-195-5p": [
-        "ENSG00000267047",
-        "ENSG00000267532"
-    ],
+    "hsa-miR-195-5p": [],
     "hsa-miR-196a-3p": [],
     "hsa-miR-196a-5p": [],
     "hsa-miR-196b-3p": [
@@ -329,20 +295,13 @@ mirna_host_gene_map = {
     "hsa-miR-199a-3p": [],
     "hsa-miR-199a-5p": [],
     "hsa-miR-199b-5p": [],
-    "hsa-miR-19a-3p": [
-        "ENSG00000215417"
-    ],
+    "hsa-miR-19a-3p": [],
     "hsa-miR-19a-5p": [],
-    "hsa-miR-19b-1-5p": [
-        "ENSG00000215417"
-    ],
+    "hsa-miR-19b-1-5p": [],
     "hsa-miR-19b-3p": [],
     "hsa-miR-200a-3p": [],
     "hsa-miR-200b-3p": [],
-    "hsa-miR-200c-3p": [
-        "ENSG00000126749",
-        "ENSG00000257084"
-    ],
+    "hsa-miR-200c-3p": [],
     "hsa-miR-202-3p": [],
     "hsa-miR-203a": [],
     "hsa-miR-204-5p": [
@@ -356,9 +315,7 @@ mirna_host_gene_map = {
     "hsa-miR-208b-3p": [
         "MYH7"
     ],
-    "hsa-miR-20a-3p": [
-        "ENSG00000215417"
-    ],
+    "hsa-miR-20a-3p": [],
     "hsa-miR-20a-5p": [],
     "hsa-miR-20b-5p": [],
     "hsa-miR-21-3p": [
@@ -376,15 +333,9 @@ mirna_host_gene_map = {
     "hsa-miR-212-3p": [],
     "hsa-miR-214-3p": [],
     "hsa-miR-215-5p": [],
-    "hsa-miR-216a-5p": [
-        "ENSG00000226702"
-    ],
-    "hsa-miR-216b-5p": [
-        "ENSG00000226702"
-    ],
-    "hsa-miR-217": [
-        "ENSG00000226702"
-    ],
+    "hsa-miR-216a-5p": [],
+    "hsa-miR-216b-5p": [],
+    "hsa-miR-217": [],
     "hsa-miR-218-1-3p": [
         "SLIT2"
     ],
@@ -397,32 +348,24 @@ mirna_host_gene_map = {
         "C17orf91"
     ],
     "hsa-miR-221-3p": [],
-    "hsa-miR-221-5p": [
-        "ENSG00000270069"
-    ],
-    "hsa-miR-222-3p": [
-        "ENSG00000270069"
-    ],
+    "hsa-miR-221-5p": [],
+    "hsa-miR-222-3p": [],
     "hsa-miR-223-3p": [],
     "hsa-miR-224-5p": [
-        "ENSG00000102287"
+        "GABRE"
     ],
     "hsa-miR-2277-5p": [],
     "hsa-miR-23a-3p": [],
     "hsa-miR-23a-5p": [],
-    "hsa-miR-23b-3p": [
-        "ENSG00000148120"
-    ],
+    "hsa-miR-23b-3p": [],
     "hsa-miR-23b-5p": [
         "C9orf3"
     ],
-    "hsa-miR-24-1-5p": [
-        "ENSG00000148120"
-    ],
+    "hsa-miR-24-1-5p": [],
     "hsa-miR-24-2-5p": [],
     "hsa-miR-24-3p": [],
     "hsa-miR-25-3p": [
-        "ENSG00000166508"
+        "MCM7"
     ],
     "hsa-miR-25-5p": [
         "MCM7"
@@ -438,9 +381,7 @@ mirna_host_gene_map = {
         "CTDSP1"
     ],
     "hsa-miR-27a-3p": [],
-    "hsa-miR-27b-3p": [
-        "ENSG00000148120"
-    ],
+    "hsa-miR-27b-3p": [],
     "hsa-miR-27b-5p": [
         "C9orf3"
     ],
@@ -461,42 +402,28 @@ mirna_host_gene_map = {
     "hsa-miR-29c-3p": [],
     "hsa-miR-29c-5p": [],
     "hsa-miR-301a-3p": [
-        "ENSG00000182628"
+        "SKA2"
     ],
     "hsa-miR-301b": [],
-    "hsa-miR-302a-3p": [
-        "ENSG00000249532"
-    ],
-    "hsa-miR-302b-3p": [
-        "ENSG00000249532"
-    ],
-    "hsa-miR-302c-3p": [
-        "ENSG00000249532"
-    ],
-    "hsa-miR-302d-3p": [
-        "ENSG00000249532"
-    ],
+    "hsa-miR-302a-3p": [],
+    "hsa-miR-302b-3p": [],
+    "hsa-miR-302c-3p": [],
+    "hsa-miR-302d-3p": [],
     "hsa-miR-3065-3p": [],
     "hsa-miR-3065-5p": [],
-    "hsa-miR-30a-3p": [
-        "ENSG00000233237",
-        "ENSG00000269966"
-    ],
+    "hsa-miR-30a-3p": [],
     "hsa-miR-30a-5p": [],
     "hsa-miR-30b-3p": [],
     "hsa-miR-30b-5p": [],
     "hsa-miR-30c-1-3p": [
-        "ENSG00000066136"
+        "NFYC"
     ],
-    "hsa-miR-30c-2-3p": [
-        "ENSG00000233237",
-        "ENSG00000269966"
-    ],
+    "hsa-miR-30c-2-3p": [],
     "hsa-miR-30c-5p": [],
     "hsa-miR-30d-3p": [],
     "hsa-miR-30d-5p": [],
     "hsa-miR-30e-3p": [
-        "ENSG00000066136"
+        "NFYC"
     ],
     "hsa-miR-30e-5p": [
         "NFYC"
@@ -510,7 +437,7 @@ mirna_host_gene_map = {
     "hsa-miR-3144-3p": [],
     "hsa-miR-3157-5p": [],
     "hsa-miR-3176": [
-        "ENSG00000103326"
+        "SOLH"
     ],
     "hsa-miR-3177-3p": [],
     "hsa-miR-3181": [],
@@ -549,7 +476,7 @@ mirna_host_gene_map = {
         "AATK"
     ],
     "hsa-miR-338-5p": [
-        "ENSG00000181409"
+        "AATK"
     ],
     "hsa-miR-339-3p": [],
     "hsa-miR-339-5p": [],
@@ -560,7 +487,7 @@ mirna_host_gene_map = {
         "SREBF2"
     ],
     "hsa-miR-33b-5p": [
-        "ENSG00000072310"
+        "SREBF1"
     ],
     "hsa-miR-340-3p": [
         "RNF130"
@@ -587,7 +514,7 @@ mirna_host_gene_map = {
     "hsa-miR-3615": [],
     "hsa-miR-3619-5p": [],
     "hsa-miR-362-3p": [
-        "ENSG00000171365"
+        "CLCN5"
     ],
     "hsa-miR-362-5p": [],
     "hsa-miR-3620-3p": [],
@@ -595,9 +522,7 @@ mirna_host_gene_map = {
     "hsa-miR-363-3p": [],
     "hsa-miR-3648": [],
     "hsa-miR-365a-3p": [],
-    "hsa-miR-365a-5p": [
-        "ENSG00000262454"
-    ],
+    "hsa-miR-365a-5p": [],
     "hsa-miR-3663-3p": [],
     "hsa-miR-3676-3p": [],
     "hsa-miR-3679-3p": [],
@@ -608,13 +533,8 @@ mirna_host_gene_map = {
     "hsa-miR-372-3p": [],
     "hsa-miR-373-3p": [],
     "hsa-miR-374a-3p": [],
-    "hsa-miR-374a-5p": [
-        "ENSG00000230590"
-    ],
-    "hsa-miR-374b-5p": [
-        "ENSG00000230590",
-        "ENSG00000271430"
-    ],
+    "hsa-miR-374a-5p": [],
+    "hsa-miR-374b-5p": [],
     "hsa-miR-375": [],
     "hsa-miR-376a-3p": [],
     "hsa-miR-376a-5p": [],
@@ -634,17 +554,14 @@ mirna_host_gene_map = {
     "hsa-miR-3943": [],
     "hsa-miR-409-3p": [],
     "hsa-miR-412-3p": [],
-    "hsa-miR-421": [
-        "ENSG00000230590",
-        "ENSG00000271430"
-    ],
+    "hsa-miR-421": [],
     "hsa-miR-422a": [],
     "hsa-miR-423-3p": [],
     "hsa-miR-423-5p": [],
     "hsa-miR-424-3p": [],
     "hsa-miR-424-5p": [],
     "hsa-miR-425-3p": [
-        "ENSG00000178149"
+        "DALRD3"
     ],
     "hsa-miR-425-5p": [
         "DALRD3"
@@ -657,17 +574,11 @@ mirna_host_gene_map = {
     "hsa-miR-4326": [],
     "hsa-miR-433-3p": [],
     "hsa-miR-448": [
-        "ENSG00000147246"
+        "HTR2C"
     ],
-    "hsa-miR-449a": [
-        "ENSG00000164287"
-    ],
-    "hsa-miR-449b-5p": [
-        "ENSG00000164287"
-    ],
-    "hsa-miR-449c-3p": [
-        "ENSG00000164287"
-    ],
+    "hsa-miR-449a": [],
+    "hsa-miR-449b-5p": [],
+    "hsa-miR-449c-3p": [],
     "hsa-miR-449c-5p": [],
     "hsa-miR-450a-1-3p": [],
     "hsa-miR-450a-5p": [],
@@ -677,7 +588,7 @@ mirna_host_gene_map = {
         "FAM33A"
     ],
     "hsa-miR-454-5p": [
-        "ENSG00000182628"
+        "SKA2"
     ],
     "hsa-miR-455-3p": [],
     "hsa-miR-455-5p": [],
@@ -695,29 +606,24 @@ mirna_host_gene_map = {
     "hsa-miR-488-5p": [
         "ASTN1"
     ],
-    "hsa-miR-489-3p": [
-        "ENSG00000004948"
-    ],
+    "hsa-miR-489-3p": [],
     "hsa-miR-490-3p": [],
     "hsa-miR-491-5p": [],
     "hsa-miR-494-3p": [],
     "hsa-miR-495-3p": [],
-    "hsa-miR-497-5p": [
-        "ENSG00000267047",
-        "ENSG00000267532"
-    ],
+    "hsa-miR-497-5p": [],
     "hsa-miR-498": [],
     "hsa-miR-499a-5p": [],
     "hsa-miR-500a-3p": [],
     "hsa-miR-500a-5p": [
-        "ENSG00000171365"
+        "CLCN5"
     ],
     "hsa-miR-501-3p": [],
     "hsa-miR-501-5p": [
-        "ENSG00000171365"
+        "CLCN5"
     ],
     "hsa-miR-502-3p": [
-        "ENSG00000171365"
+        "CLCN5"
     ],
     "hsa-miR-503-5p": [],
     "hsa-miR-504-5p": [
@@ -751,14 +657,12 @@ mirna_host_gene_map = {
     "hsa-miR-522-3p": [],
     "hsa-miR-524-5p": [],
     "hsa-miR-532-3p": [
-        "ENSG00000171365"
+        "CLCN5"
     ],
     "hsa-miR-532-5p": [],
     "hsa-miR-542-3p": [],
     "hsa-miR-542-5p": [],
-    "hsa-miR-545-3p": [
-        "ENSG00000230590"
-    ],
+    "hsa-miR-545-3p": [],
     "hsa-miR-548a-3p": [],
     "hsa-miR-548aa": [],
     "hsa-miR-548b-3p": [],
@@ -802,7 +706,7 @@ mirna_host_gene_map = {
     "hsa-miR-590-3p": [],
     "hsa-miR-590-5p": [],
     "hsa-miR-595": [
-        "ENSG00000155093"
+        "PTPRN2"
     ],
     "hsa-miR-596": [],
     "hsa-miR-597-5p": [
@@ -823,9 +727,7 @@ mirna_host_gene_map = {
     "hsa-miR-613": [
         "APOLD1"
     ],
-    "hsa-miR-615-3p": [
-        "ENSG00000273049"
-    ],
+    "hsa-miR-615-3p": [],
     "hsa-miR-615-5p": [],
     "hsa-miR-616-3p": [
         "DDIT3"
@@ -834,10 +736,10 @@ mirna_host_gene_map = {
         "DDIT3"
     ],
     "hsa-miR-617": [
-        "ENSG00000111052"
+        "LIN7A"
     ],
     "hsa-miR-618": [
-        "ENSG00000111052"
+        "LIN7A"
     ],
     "hsa-miR-620": [
         "MED13L"
@@ -878,7 +780,7 @@ mirna_host_gene_map = {
         "SFRS2"
     ],
     "hsa-miR-638": [
-        "ENSG00000079805"
+        "DNM2"
     ],
     "hsa-miR-639": [],
     "hsa-miR-641": [
@@ -888,17 +790,17 @@ mirna_host_gene_map = {
     "hsa-miR-644a": [],
     "hsa-miR-650": [],
     "hsa-miR-652-3p": [
-        "ENSG00000157600"
+        "TMEM164"
     ],
     "hsa-miR-654-3p": [],
     "hsa-miR-657": [
-        "ENSG00000181409"
+        "AATK"
     ],
     "hsa-miR-659-3p": [
-        "ENSG00000100124"
+        "ANKRD54"
     ],
     "hsa-miR-660-5p": [
-        "ENSG00000171365"
+        "CLCN5"
     ],
     "hsa-miR-661": [
         "PLEC1"
@@ -919,9 +821,7 @@ mirna_host_gene_map = {
     "hsa-miR-708-3p": [
         "ODZ4"
     ],
-    "hsa-miR-708-5p": [
-        "ENSG00000149256"
-    ],
+    "hsa-miR-708-5p": [],
     "hsa-miR-744-3p": [
         "MAP2K4"
     ],
@@ -958,9 +858,7 @@ mirna_host_gene_map = {
     "hsa-miR-892b": [],
     "hsa-miR-9-3p": [],
     "hsa-miR-9-5p": [],
-    "hsa-miR-92a-1-5p": [
-        "ENSG00000215417"
-    ],
+    "hsa-miR-92a-1-5p": [],
     "hsa-miR-92a-3p": [],
     "hsa-miR-92b-3p": [],
     "hsa-miR-92b-5p": [],
@@ -968,18 +866,16 @@ mirna_host_gene_map = {
         "MCM7"
     ],
     "hsa-miR-93-5p": [
-        "ENSG00000166508"
+        "MCM7"
     ],
     "hsa-miR-935": [],
     "hsa-miR-937-3p": [
         "SCRIB"
     ],
     "hsa-miR-939-5p": [
-        "ENSG00000071894"
+        "CPSF1"
     ],
-    "hsa-miR-940": [
-        "ENSG00000260778"
-    ],
+    "hsa-miR-940": [],
     "hsa-miR-941": [],
     "hsa-miR-942-5p": [
         "TTF2"
@@ -992,11 +888,9 @@ mirna_host_gene_map = {
     ],
     "hsa-miR-96-5p": [],
     "hsa-miR-98-5p": [
-        "ENSG00000086758"
+        "HUWE1"
     ],
-    "hsa-miR-99a-3p": [
-        "ENSG00000215386"
-    ],
+    "hsa-miR-99a-3p": [],
     "hsa-miR-99a-5p": [],
     "hsa-miR-99b-3p": [],
     "hsa-miR-99b-5p": [],
