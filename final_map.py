@@ -5,8 +5,8 @@ and the list of mirna obtained from mirBase.
 
 import re, json, csv, itertools
 import os, sys
-import requests
-from bs4 import BeautifulSoup
+
+sys.path.insert(0, './data_used_for_mapping/')
 
 from mirna_map_dict import mirna_map_dict
 from gene_coordinates_from_ensembl import gene_coordinates_from_ensembl as gene_dict
@@ -65,11 +65,12 @@ def compare_coordinates():
 				mirna_start = line[1]
 				mirna_end = line[2]
 				for each in gene_dict[chro].keys():
-					if gene_dict[chro][each]['start'] < int(mirna_start) and int(mirna_end) < gene_dict[chro][each]['end']:
+					final_dict[line[3]]['miRNA Transcript Count'] = ''
+					final_dict[line[3]]['Host Gene'] = ''
+					final_dict[line[3]]['Gene Transcript Count'] = ''
+					if gene_dict[chro][each]['start'] <= int(mirna_start) and int(mirna_end) <= gene_dict[chro][each]['end']:
 						if 'MIR' in str(gene_dict[chro][each]['gene_name']):
 							final_dict[line[3]]['miRNA Transcript Count'] = gene_dict[chro][each]['transcript_count']
-							final_dict[line[3]]['Host Gene'] = ''
-							final_dict[line[3]]['Gene Transcript Count'] = ''
 						else:
 							final_dict[line[3]]['Host Gene'] = gene_dict[chro][each]['gene_name']
 							final_dict[line[3]]['Gene Transcript Count'] = gene_dict[chro][each]['transcript_count']
@@ -91,5 +92,5 @@ def jsonify(dictionary, filename, text='None'):
 
 
 if __name__ == '__main__':
-	main()
+	# main()
 	compare_coordinates()
