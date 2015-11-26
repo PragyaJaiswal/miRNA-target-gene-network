@@ -15,6 +15,7 @@ def find_k_equivalent():
 			print targets
 			# print predicted_map[mirna][targets][19]
 			del_g_binding = predicted_map[mirna][targets][19]
+			# Gibbs Free Energy equation at R = 0.008314 kJ/(mol.K) and T = 298 K
 			keq = float(math.exp(-1 * del_g_binding/(0.008314 * 298)))
 			# print del_g_binding
 			# print keq
