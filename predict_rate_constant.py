@@ -8,11 +8,12 @@ import math
 from predicted import predicted_map
 from mirna_host_gene_map_with_transcript_count import mirna_host_gene_map_with_transcript_count
 
+
 def find_k_equivalent():
 	for mirna in predicted_map.keys():
 		for targets in predicted_map[mirna].keys():
-			print mirna
-			print targets
+			# print mirna
+			# print targets
 			# print predicted_map[mirna][targets][19]
 			del_g_binding = predicted_map[mirna][targets][19]
 			# Gibbs Free Energy equation at R = 0.008314 kJ/(mol.K) and T = 298 K
@@ -20,27 +21,39 @@ def find_k_equivalent():
 			# print del_g_binding
 			# print keq
 			predicted_map[mirna][targets].append(keq)
-			predicted_map[mirna][targets].append(0)	# Putting mmi = 0 by default for each mirna-target gene combination so that each list has same structure.
+			# predicted_map[mirna][targets].append(0)	# Putting mmi = 0 by default for each mirna-target gene combination so that each list has same structure.
 			# print predicted_map[mirna][targets]
 			if mirna in mirna_host_gene_map_with_transcript_count.keys():
-				if not mirna_host_gene_map_with_transcript_count[mirna]["Host Gene"] == "":
+				if "Host Gene" in mirna_host_gene_map_with_transcript_count[mirna].keys():
+					# print mirna, targets
+					# print mirna_host_gene_map_with_transcript_count[mirna]["Host Gene"]
+					# raw_input('Enter')
 					m = find_target_gene_expression(targets)
 					mi = float(mirna_host_gene_map_with_transcript_count[mirna]["Gene Transcript Count"])
+					# if m == None or mi == None or keq == None:
+					# 	pass
 					mmi = keq * m * mi
+					# print m, mi, mmi
+					# raw_input('Enter')
 					predicted_map[mirna][targets].append(mmi)
-	jsonify(predicted_map, 'predicted_with_keq_mmi_exp.py', 'predicted_map_with_keq_mmi_exp')
-			# raw_input('Enter')
+			jsonify(predicted_map, 'predicted_with_keq_mmi_exp.py', 'predicted_map_with_keq_mmi_exp')
 
 
 def find_target_gene_expression(target_gene):
+	# print target_gene
 	with open('./data_used_for_mapping/gene_coordinates_from_ensembl.tsv', 'r') as gene_file:
 		gene_data = csv.reader(gene_file, dialect = 'excel-tab', skipinitialspace = True)
 		next(gene_data, None)
 		for each_line in gene_data:
-			if each_line[4] == target_gene:
-				return float(each_line[5])
+			if str(each_line[4]) == str(target_gene):
+				value = float(each_line[5])
+				gene_file.seek(0)
+				return value
+			else:
+				# Also returns 0 for the genes whose transcript count is not known to us
+				value = float(0)
 		gene_file.seek(0)
-				# return each_line[5]
+		return value
 
 
 def jsonify(dictionary, filename, text='None'):
