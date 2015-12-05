@@ -65,20 +65,25 @@ def compare_coordinates():
 				mirna_start = line[1]
 				mirna_end = line[2]
 				for each in gene_dict[chro].keys():
-					final_dict[line[3]]['miRNA Transcript Count'] = ''
-					final_dict[line[3]]['Host Gene'] = ''
-					final_dict[line[3]]['Gene Transcript Count'] = ''
+					# final_dict[line[3]]['miRNA Transcript Count'] = ''
+					# final_dict[line[3]]['Host Gene'] = ''
+					# final_dict[line[3]]['Gene Transcript Count'] = ''
 					if gene_dict[chro][each]['start'] <= int(mirna_start) and int(mirna_end) <= gene_dict[chro][each]['end']:
 						if 'MIR' in str(gene_dict[chro][each]['gene_name']):
 							final_dict[line[3]]['miRNA Transcript Count'] = gene_dict[chro][each]['transcript_count']
+							final_dict[line[3]]['miRNA Name'] = gene_dict[chro][each]['gene_name']
 						else:
 							final_dict[line[3]]['Host Gene'] = gene_dict[chro][each]['gene_name']
 							final_dict[line[3]]['Gene Transcript Count'] = gene_dict[chro][each]['transcript_count']
 							print 'Gene : ' + str(gene_dict[chro][each]['gene_name'])
+							print 'Normal: ' + str(gene_dict[chro][each]['gene_name'])
+							print 'In dict: ' + final_dict[line[3]]['Host Gene']
 							print 'Transcript count : ' + str(gene_dict[chro][each]['transcript_count'])
 						# print final_dict
 						# raw_input('Enter')
-				jsonify(final_dict, 'mirna_host_gene_map_with_transcript_count.py', 'mirna_host_gene_map_with_transcript_count')
+				# jsonify(final_dict, 'mirna_host_gene_map_with_transcript_count.py', 'mirna_host_gene_map_with_transcript_count')
+		# print final_dict
+		jsonify(final_dict, 'mirna_host_gene_map_with_transcript_count.py', 'mirna_host_gene_map_with_transcript_count')
 
 
 def jsonify(dictionary, filename, text='None'):
