@@ -64,7 +64,12 @@ def find_k_equivalent():
 					mirna_host_target_gene_expression[mirna]["Host Gene Transcript Count"] = mi
 
 					predicted_map[mirna][targets].append(mmi)
+	for mirna in mirna_host_gene_map_with_transcript_count.keys():
+		if "Host Gene" in mirna_host_gene_map_with_transcript_count[mirna].keys():
+			mirna_host_target_gene_expression[mirna]["Host Gene"] = mirna_host_gene_map_with_transcript_count[mirna]["Host Gene"]
+			mirna_host_target_gene_expression[mirna]["Host Gene Transcript Count"] = mirna_host_gene_map_with_transcript_count[mirna]["Host Gene Transcript Count"]
 	# jsonify(predicted_map, 'predicted_with_keq_mmi_exp.py', 'predicted_map_with_keq_mmi_exp')
+	# jsonify(mirna_host_target_gene_expression, 'mirna_host_target_gene_expression.json')
 	jsonify(mirna_host_target_gene_expression, 'mirna_host_target_gene_expression.py', 'mirna_host_target_gene_expression')
 
 
