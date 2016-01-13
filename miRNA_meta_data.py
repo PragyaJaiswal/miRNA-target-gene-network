@@ -2,7 +2,10 @@ miRNA_meta_data = {
     "ebv-miR-BART16": {},
     "ebv-miR-BART3-3p": {},
     "ebv-miR-BART6-5p": {},
-    "hsa-let-7a-3p": {},
+    "hsa-let-7a-3p": {
+        "Host Gene": "RP11-2B6.3",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-let-7a-5p": {
         "Host Gene": "RP11-2B6.3",
         "Host Gene Transcript Count": 1,
@@ -360,7 +363,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIRLET7A1",
         "miRNA Sequence": "UGAGGUAGUAGGUUGUAUAGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-let-7b-3p": {
         "Host Gene": "",
@@ -375,7 +378,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIRLET7B",
         "miRNA Sequence": "CUAUACAACCUACUGCCUUCCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-let-7b-5p": {
         "Host Gene": "",
@@ -822,11 +825,14 @@ miRNA_meta_data = {
         "miRNA Name": "MIRLET7B",
         "miRNA Sequence": "UGAGGUAGUAGGUUGUGUGGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-let-7c*": {},
     "hsa-let-7c-5p": {},
-    "hsa-let-7d-3p": {},
+    "hsa-let-7d-3p": {
+        "Host Gene": "RP11-2B6.3",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-let-7d-5p": {
         "Host Gene": "RP11-2B6.3",
         "Host Gene Transcript Count": 1,
@@ -1136,9 +1142,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIRLET7D",
         "miRNA Sequence": "AGAGGUAGUAGGUUGCAUAGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-let-7e-3p": {},
+    "hsa-let-7e-3p": {
+        "Host Gene": "SPACA6P-AS",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-let-7e-5p": {
         "Host Gene": "SPACA6P-AS",
         "Host Gene Transcript Count": 1,
@@ -1368,7 +1377,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIRLET7E",
         "miRNA Sequence": "UGAGGUAGGAGGUUGUAUAGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-let-7f-1-3p": {
         "Host Gene": "RP11-2B6.3",
@@ -1383,9 +1392,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIRLET7F1",
         "miRNA Sequence": "CUAUACAAUCUAUUGCCUUCCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-let-7f-2-3p": {},
+    "hsa-let-7f-2-3p": {
+        "Host Gene": "HUWE1",
+        "Host Gene Transcript Count": 15
+    },
     "hsa-let-7f-5p": {
         "Host Gene": "HUWE1",
         "Host Gene Transcript Count": 15,
@@ -1403,9 +1415,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIRLET7F2",
         "miRNA Sequence": "UGAGGUAGUAGAUUGUAUAGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-let-7g-3p": {},
+    "hsa-let-7g-3p": {
+        "Host Gene": "WDR82",
+        "Host Gene Transcript Count": 4
+    },
     "hsa-let-7g-5p": {
         "Host Gene": "WDR82",
         "Host Gene Transcript Count": 4,
@@ -1427,7 +1442,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIRLET7G",
         "miRNA Sequence": "UGAGGUAGUAGUUUGUACAGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-let-7i-5p": {
         "Host Gene": "RP11-631N16.2",
@@ -1466,13 +1481,13 @@ miRNA_meta_data = {
         "miRNA Name": "MIRLET7I",
         "miRNA Sequence": "UGAGGUAGUAGUUUGUGCUGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-1": {
         "Target Gene with Transcript Count": [],
-        "mature miRNA entry": None,
+        "mature miRNA entry": null,
         "miRNA Sequence": "UGGAAUGUAAAGAAGUAUGUAU",
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-100-5p": {
         "Host Gene": "",
@@ -1499,7 +1514,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR100",
         "miRNA Sequence": "AACCCGUAGAUCCGAACUUGUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-101-3p": {
         "Host Gene": "RCL1",
@@ -1810,7 +1825,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR101-2",
         "miRNA Sequence": "UACAGUACUGUGAUAACUGAA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-101-5p": {
         "Host Gene": "",
@@ -1829,9 +1844,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR101-1",
         "miRNA Sequence": "CAGUUAUCACAGUGCUGAUGCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-103a-2-5p": {},
+    "hsa-miR-103a-2-5p": {
+        "Host Gene": "PANK2",
+        "Host Gene Transcript Count": 10
+    },
     "hsa-miR-103a-3p": {
         "Host Gene": "PANK3",
         "Host Gene Transcript Count": 3,
@@ -2373,9 +2391,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR103A1",
         "miRNA Sequence": "AGCAGCAUUGUACAGGGCUAUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-105-5p": {},
+    "hsa-miR-105-5p": {
+        "Host Gene": "GABRA3",
+        "Host Gene Transcript Count": 4
+    },
     "hsa-miR-106a-5p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -2497,7 +2518,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR106A",
         "miRNA Sequence": "AAAAGUGCUUACAGUGCAGGUAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-106b-3p": {
         "Host Gene": "MCM7",
@@ -2516,7 +2537,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR106B",
         "miRNA Sequence": "CCGCACUGUGGGUACUUGCUGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-106b-5p": {
         "Host Gene": "MCM7",
@@ -2771,7 +2792,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR106B",
         "miRNA Sequence": "UAAAGUGCUGACAGUGCAGAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-107": {
         "Host Gene": "PANK1",
@@ -2786,9 +2807,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR107",
         "miRNA Sequence": "AGCAGCAUUGUACAGGGCUAUCA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-10a-3p": {},
+    "hsa-miR-10a-3p": {
+        "Host Gene": "HOXB3",
+        "Host Gene Transcript Count": 13
+    },
     "hsa-miR-10a-5p": {
         "Host Gene": "HOXB3",
         "Host Gene Transcript Count": 13,
@@ -3118,7 +3142,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR10A",
         "miRNA Sequence": "UACCCUGUAGAUCCGAAUUUGUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-10b-3p": {
         "Host Gene": "HOXD3",
@@ -3133,7 +3157,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR10B",
         "miRNA Sequence": "ACAGAUUCGAUUCUAGGGGAAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-10b-5p": {
         "Host Gene": "HOXD3",
@@ -3268,9 +3292,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR10B",
         "miRNA Sequence": "UACCCUGUAGAACCGAAUUUGUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-1180-3p": {},
+    "hsa-miR-1180-3p": {
+        "Host Gene": "B9D1",
+        "Host Gene Transcript Count": 15
+    },
     "hsa-miR-122-5p": {
         "Host Gene": "RP11-1151B14.3",
         "Host Gene Transcript Count": 1,
@@ -3364,10 +3391,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR122",
         "miRNA Sequence": "UGGAGUGUGACAAUGGUGUUUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-1224-3p": {},
-    "hsa-miR-1224-5p": {},
+    "hsa-miR-1224-3p": {
+        "Host Gene": "EIF2B5",
+        "Host Gene Transcript Count": 17
+    },
+    "hsa-miR-1224-5p": {
+        "Host Gene": "EIF2B5",
+        "Host Gene Transcript Count": 17
+    },
     "hsa-miR-1225-3p": {
         "Host Gene": "PKD1",
         "Host Gene Transcript Count": 40,
@@ -3381,9 +3414,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1225",
         "miRNA Sequence": "UGAGCCCCUGUGCCGCCCCCAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-1225-5p": {},
+    "hsa-miR-1225-5p": {
+        "Host Gene": "PKD1",
+        "Host Gene Transcript Count": 40
+    },
     "hsa-miR-1226-3p": {
         "Host Gene": "DHX30",
         "Host Gene Transcript Count": 15,
@@ -3493,7 +3529,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1226",
         "miRNA Sequence": "UCACCAGCCCUGUGUUCCCUAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-1226-5p": {
         "Host Gene": "DHX30",
@@ -3508,10 +3544,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1226",
         "miRNA Sequence": "GUGAGGGCAUGCAGGCCUGGAUGGGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-1227-3p": {},
-    "hsa-miR-1228-3p": {},
+    "hsa-miR-1227-3p": {
+        "Host Gene": "PLEKHJ1",
+        "Host Gene Transcript Count": 13
+    },
+    "hsa-miR-1228-3p": {
+        "Host Gene": "LRP1",
+        "Host Gene Transcript Count": 12
+    },
     "hsa-miR-1229-3p": {
         "Host Gene": "MGAT4B",
         "Host Gene Transcript Count": 23,
@@ -3629,10 +3671,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1229",
         "miRNA Sequence": "CUCUCACCACUGCCCUCCCACAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-1236-3p": {},
-    "hsa-miR-1237-3p": {},
+    "hsa-miR-1236-3p": {
+        "Host Gene": "NELFE",
+        "Host Gene Transcript Count": 14
+    },
+    "hsa-miR-1237-3p": {
+        "Host Gene": "RPS6KA4",
+        "Host Gene Transcript Count": 8
+    },
     "hsa-miR-124-3p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -5410,7 +5458,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR124-2",
         "miRNA Sequence": "UAAGGCACGCGGUGAAUGCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-1245a": {
         "Host Gene": "COL3A1",
@@ -5425,11 +5473,17 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1245A",
         "miRNA Sequence": "AAGUGAUCUAAAGGCCUACAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-1247-5p": {},
+    "hsa-miR-1247-5p": {
+        "Host Gene": "DIO3OS",
+        "Host Gene Transcript Count": 13
+    },
     "hsa-miR-1249": {},
-    "hsa-miR-1250-5p": {},
+    "hsa-miR-1250-5p": {
+        "Host Gene": "AATK",
+        "Host Gene Transcript Count": 10
+    },
     "hsa-miR-1254": {
         "Host Gene": "CCAR1",
         "Host Gene Transcript Count": 18,
@@ -5463,7 +5517,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1254-1",
         "miRNA Sequence": "AGCCUGGAAGCUGGAGCCUGCAGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-1256": {
         "Host Gene": "EIF4G3",
@@ -5478,9 +5532,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1256",
         "miRNA Sequence": "AGGCAUUGACUUCUCACUAGCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-1258": {},
+    "hsa-miR-1258": {
+        "Host Gene": "ZNF385B",
+        "Host Gene Transcript Count": 13
+    },
     "hsa-miR-125a-3p": {
         "Host Gene": "SPACA6P-AS",
         "Host Gene Transcript Count": 1,
@@ -5498,7 +5555,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR125A",
         "miRNA Sequence": "ACAGGUGAGGUUCUUGGGAGCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-125a-5p": {
         "Host Gene": "SPACA6P-AS",
@@ -5629,7 +5686,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR125A",
         "miRNA Sequence": "UCCCUGAGACCCUUUAACCUGUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-125b-2-3p": {
         "Host Gene": "",
@@ -5664,7 +5721,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR99AHG",
         "miRNA Sequence": "UCACAAGUCAGGCUCUUGGGAC",
         "miRNA Transcript Count": 19,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-125b-5p": {
         "Host Gene": "",
@@ -6011,7 +6068,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR99AHG",
         "miRNA Sequence": "UCCCUGAGACCCUAACUUGUGA",
         "miRNA Transcript Count": 19,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-126-3p": {
         "Host Gene": "EGFL7",
@@ -6030,7 +6087,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR126",
         "miRNA Sequence": "UCGUACCGUGAGUAAUAAUGCG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-126-5p": {
         "Host Gene": "EGFL7",
@@ -6057,7 +6114,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR126",
         "miRNA Sequence": "CAUUAUUACUUUUGGUACGCG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-1260a": {
         "Host Gene": "NGB",
@@ -6072,7 +6129,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1260A",
         "miRNA Sequence": "AUCCCACCUCUGCCACCA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-1260b": {
         "Host Gene": "MAML2",
@@ -6119,13 +6176,25 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1260B",
         "miRNA Sequence": "AUCCCACCACUGCCACCAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-1262": {},
+    "hsa-miR-1262": {
+        "Host Gene": "GNG12-AS1",
+        "Host Gene Transcript Count": 4
+    },
     "hsa-miR-1268a": {},
-    "hsa-miR-127-3p": {},
-    "hsa-miR-1270": {},
-    "hsa-miR-1271-5p": {},
+    "hsa-miR-127-3p": {
+        "Host Gene": "RTL1",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-1270": {
+        "Host Gene": "ZNF826P",
+        "Host Gene Transcript Count": 7
+    },
+    "hsa-miR-1271-5p": {
+        "Host Gene": "ARL10",
+        "Host Gene Transcript Count": 4
+    },
     "hsa-miR-1274a": {},
     "hsa-miR-1274b": {},
     "hsa-miR-1276": {
@@ -6141,13 +6210,25 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1276",
         "miRNA Sequence": "UAAAGAGCCCUGUGGAGACA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-128-3p": {},
+    "hsa-miR-128-3p": {
+        "Host Gene": "ARPP21",
+        "Host Gene Transcript Count": 35
+    },
     "hsa-miR-1280": {},
-    "hsa-miR-1284": {},
-    "hsa-miR-1285-3p": {},
-    "hsa-miR-1287-5p": {},
+    "hsa-miR-1284": {
+        "Host Gene": "FOXP1",
+        "Host Gene Transcript Count": 23
+    },
+    "hsa-miR-1285-3p": {
+        "Host Gene": "AC000120.7",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-1287-5p": {
+        "Host Gene": "PYROXD2",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-128b": {},
     "hsa-miR-129-1-3p": {},
     "hsa-miR-129-2-3p": {
@@ -6171,7 +6252,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR129-2",
         "miRNA Sequence": "AAGCCCUUACCCCAAAAAGCAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-129-5p": {
         "Host Gene": "",
@@ -6206,12 +6287,24 @@ miRNA_meta_data = {
         "miRNA Name": "MIR129-1",
         "miRNA Sequence": "CUUUUUGCGGUCUGGGCUUGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-1292-5p": {},
-    "hsa-miR-1293": {},
-    "hsa-miR-1295a": {},
-    "hsa-miR-1296-5p": {},
+    "hsa-miR-1292-5p": {
+        "Host Gene": "NOP56",
+        "Host Gene Transcript Count": 20
+    },
+    "hsa-miR-1293": {
+        "Host Gene": "LIMA1",
+        "Host Gene Transcript Count": 16
+    },
+    "hsa-miR-1295a": {
+        "Host Gene": "FMO3",
+        "Host Gene Transcript Count": 6
+    },
+    "hsa-miR-1296-5p": {
+        "Host Gene": "JMJD1C",
+        "Host Gene Transcript Count": 11
+    },
     "hsa-miR-1297": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -6222,15 +6315,24 @@ miRNA_meta_data = {
             ]
         ],
         "mature miRNA entry": "http://mirbase.org/cgi-bin/mature.pl?mature_acc=MIMAT0005886",
-        "miRNA Name": None,
+        "miRNA Name": null,
         "miRNA Sequence": "UUCAAGUAAUUCAGGUG",
-        "miRNA Transcript Count": None,
-        "miRNA family entry": None
+        "miRNA Transcript Count": null,
+        "miRNA family entry": null
     },
-    "hsa-miR-1301-3p": {},
+    "hsa-miR-1301-3p": {
+        "Host Gene": "DNMT3A",
+        "Host Gene Transcript Count": 15
+    },
     "hsa-miR-1303": {},
-    "hsa-miR-1304-5p": {},
-    "hsa-miR-1307-3p": {},
+    "hsa-miR-1304-5p": {
+        "Host Gene": "TAF1D",
+        "Host Gene Transcript Count": 22
+    },
+    "hsa-miR-1307-3p": {
+        "Host Gene": "USMG5",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-130a-3p": {
         "Host Gene": "AP000662.4",
         "Host Gene Transcript Count": 5,
@@ -6304,7 +6406,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR130A",
         "miRNA Sequence": "CAGUGCAAUGUUAAAAGGGCAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-130b-3p": {
         "Host Gene": "PPIL2",
@@ -6871,7 +6973,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR130B",
         "miRNA Sequence": "CAGUGCAAUGAUGAAAGGGCAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-130b-5p": {
         "Host Gene": "PPIL2",
@@ -6990,7 +7092,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR130B",
         "miRNA Sequence": "ACUCUUUCCCUGUUGCACUAC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-132-3p": {
         "Host Gene": "",
@@ -7145,7 +7247,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR132",
         "miRNA Sequence": "UAACAGUCUACAGCCAUGGUCG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-132-5p": {},
     "hsa-miR-133a-3p": {},
@@ -7174,7 +7276,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR133B",
         "miRNA Sequence": "UUUGGUCCCCUUCAACCAGCUA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-134-5p": {},
     "hsa-miR-135a-5p": {
@@ -7194,10 +7296,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR135A1",
         "miRNA Sequence": "UAUGGCUUUUUAUUCCUAUGUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-135b-5p": {},
-    "hsa-miR-136-5p": {},
+    "hsa-miR-135b-5p": {
+        "Host Gene": "LEMD1",
+        "Host Gene Transcript Count": 11
+    },
+    "hsa-miR-136-5p": {
+        "Host Gene": "RTL1",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-137": {},
     "hsa-miR-138-5p": {},
     "hsa-miR-139-3p": {
@@ -7213,7 +7321,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR139",
         "miRNA Sequence": "UGGAGACGCGGCCCUGUUGGAGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-139-5p": {
         "Host Gene": "PDE2A",
@@ -7232,7 +7340,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR139",
         "miRNA Sequence": "UCUACAGUGCACGUGUCUCCAGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-140-3p": {
         "Host Gene": "WWP2",
@@ -7271,9 +7379,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR140",
         "miRNA Sequence": "UACCACAGGGUAGAACCACGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-140-5p": {},
+    "hsa-miR-140-5p": {
+        "Host Gene": "WWP2",
+        "Host Gene Transcript Count": 20
+    },
     "hsa-miR-141-3p": {
         "Host Gene": "U47924.27",
         "Host Gene Transcript Count": 1,
@@ -7371,7 +7482,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR141",
         "miRNA Sequence": "UAACACUGUCUGGUAAAGAUGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-142-3p": {
         "Host Gene": "RP5-1171I10.5",
@@ -7482,11 +7593,17 @@ miRNA_meta_data = {
         "miRNA Name": "MIR142",
         "miRNA Sequence": "UGUAGUGUUUCCUACUUUAUGGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-142-5p": {},
+    "hsa-miR-142-5p": {
+        "Host Gene": "RP5-1171I10.5",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-143-3p": {},
-    "hsa-miR-144-3p": {},
+    "hsa-miR-144-3p": {
+        "Host Gene": "RP11-20B24.2",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-145-5p": {
         "Host Gene": "RP11-394O4.5",
         "Host Gene Transcript Count": 1,
@@ -7560,9 +7677,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR145",
         "miRNA Sequence": "GUCCAGUUUUCCCAGGAAUCCCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-146a-3p": {},
+    "hsa-miR-146a-3p": {
+        "Host Gene": "CTC-231O11.1",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-146a-5p": {
         "Host Gene": "CTC-231O11.1",
         "Host Gene Transcript Count": 1,
@@ -7632,7 +7752,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR146A",
         "miRNA Sequence": "UGAGAACUGAAUUCCAUGGGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-146b-3p": {},
     "hsa-miR-146b-5p": {
@@ -7652,7 +7772,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR146B",
         "miRNA Sequence": "UGAGAACUGAAUUCCAUAGGCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-147a": {
         "Host Gene": "",
@@ -7667,9 +7787,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR147A",
         "miRNA Sequence": "GUGUGUGGAAAUGCUUCUGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-147b": {},
+    "hsa-miR-147b": {
+        "Host Gene": "RP11-519G16.5",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-148a-3p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -7851,7 +7974,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR148A",
         "miRNA Sequence": "UCAGUGCACUACAGAACUUUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-148a-5p": {},
     "hsa-miR-148b-3p": {
@@ -7903,7 +8026,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR148B",
         "miRNA Sequence": "UCAGUGCAUCACAGAACUUUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-148b-5p": {
         "Host Gene": "RP11-968A15.8",
@@ -7922,7 +8045,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR148B",
         "miRNA Sequence": "AAGUUCUGUUAUACACUCAGGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-149-3p": {
         "Host Gene": "PP14571",
@@ -7949,7 +8072,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR149",
         "miRNA Sequence": "AGGGAGGGACGGGGGCUGUGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-149-5p": {
         "Host Gene": "PP14571",
@@ -8180,7 +8303,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR149",
         "miRNA Sequence": "UCUGGCUCCGUGUCUUCACUCCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-150-5p": {},
     "hsa-miR-151a-3p": {
@@ -8252,11 +8375,20 @@ miRNA_meta_data = {
         "miRNA Name": "MIR151A",
         "miRNA Sequence": "CUAGACUGAAGCUCCUUGAGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-151a-5p": {},
-    "hsa-miR-152-3p": {},
-    "hsa-miR-153-3p": {},
+    "hsa-miR-151a-5p": {
+        "Host Gene": "PTK2",
+        "Host Gene Transcript Count": 57
+    },
+    "hsa-miR-152-3p": {
+        "Host Gene": "COPZ2",
+        "Host Gene Transcript Count": 10
+    },
+    "hsa-miR-153-3p": {
+        "Host Gene": "PTPRN2",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-154-5p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -8270,7 +8402,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR154",
         "miRNA Sequence": "UAGGUUAUCCGUGUUGCCUUCG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-155-3p": {},
     "hsa-miR-155-5p": {
@@ -9050,7 +9182,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR155",
         "miRNA Sequence": "UUAAUGCUAAUCGUGAUAGGGGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-15a-3p": {
         "Host Gene": "DLEU2",
@@ -9073,10 +9205,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR15A",
         "miRNA Sequence": "CAGGCCAUAUUGUGCUGCCUCA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-15a-5p": {},
-    "hsa-miR-15b-3p": {},
+    "hsa-miR-15a-5p": {
+        "Host Gene": "DLEU2",
+        "Host Gene Transcript Count": 8
+    },
+    "hsa-miR-15b-3p": {
+        "Host Gene": "RP11-432B6.3",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-15b-5p": {
         "Host Gene": "RP11-432B6.3",
         "Host Gene Transcript Count": 1,
@@ -9146,7 +9284,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR15B",
         "miRNA Sequence": "UAGCAGCACAUCAUGGUUUACA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-16-1-3p": {
         "Host Gene": "DLEU2",
@@ -9161,7 +9299,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR16-1",
         "miRNA Sequence": "CCAGUAUUAACUGUGCUGCUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-16-2-3p": {
         "Host Gene": "RP11-432B6.3",
@@ -9180,7 +9318,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR16-2",
         "miRNA Sequence": "CCAAUAUUACUGUGCUGCUUUA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-16-5p": {
         "Host Gene": "RP11-432B6.3",
@@ -10399,7 +10537,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR16-2",
         "miRNA Sequence": "UAGCAGCACGUAAAUAUUGGCG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-17-3p": {
         "Host Gene": "",
@@ -10462,7 +10600,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR17HG",
         "miRNA Sequence": "ACUGCAGUGAAGGCACUUGUAG",
         "miRNA Transcript Count": 3,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-17-5p": {
         "Host Gene": "",
@@ -10821,9 +10959,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR17HG",
         "miRNA Sequence": "CAAAGUGCUUACAGUGCAGGUAG",
         "miRNA Transcript Count": 3,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-181a-2-3p": {},
+    "hsa-miR-181a-2-3p": {
+        "Host Gene": "NR6A1",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-181a-3p": {},
     "hsa-miR-181a-5p": {
         "Host Gene": "NR6A1",
@@ -11358,12 +11499,24 @@ miRNA_meta_data = {
         "miRNA Name": "MIR181A2",
         "miRNA Sequence": "AACAUUCAACGCUGUCGGUGAGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-181b-5p": {},
-    "hsa-miR-181c-3p": {},
-    "hsa-miR-181c-5p": {},
-    "hsa-miR-181d-5p": {},
+    "hsa-miR-181b-5p": {
+        "Host Gene": "NR6A1",
+        "Host Gene Transcript Count": 5
+    },
+    "hsa-miR-181c-3p": {
+        "Host Gene": "NANOS3",
+        "Host Gene Transcript Count": 4
+    },
+    "hsa-miR-181c-5p": {
+        "Host Gene": "NANOS3",
+        "Host Gene Transcript Count": 4
+    },
+    "hsa-miR-181d-5p": {
+        "Host Gene": "NANOS3",
+        "Host Gene Transcript Count": 4
+    },
     "hsa-miR-182-3p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -11377,7 +11530,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR182",
         "miRNA Sequence": "UGGUUCUAGACUUGCCAACUA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-182-5p": {},
     "hsa-miR-1826": {},
@@ -11551,7 +11704,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR183",
         "miRNA Sequence": "UAUGGCACUGGUAGAAUUCACU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-184": {
         "Host Gene": "ANKRD34C-AS1",
@@ -11574,7 +11727,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR184",
         "miRNA Sequence": "UGGACGGAGAACUGAUAAGGGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-185-3p": {
         "Host Gene": "TANGO2",
@@ -11593,7 +11746,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR185",
         "miRNA Sequence": "AGGGGCUGGCUUUCCUCUGGUC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-185-5p": {
         "Host Gene": "TANGO2",
@@ -11796,7 +11949,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR185",
         "miRNA Sequence": "UGGAGAGAAAGGCAGUUCCUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-186-3p": {
         "Host Gene": "ZRANB2",
@@ -11823,7 +11976,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR186",
         "miRNA Sequence": "GCCCAAAGGUGAAUUUUUUGGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-186-5p": {
         "Host Gene": "ZRANB2",
@@ -12714,11 +12867,17 @@ miRNA_meta_data = {
         "miRNA Name": "MIR186",
         "miRNA Sequence": "CAAAGAAUUCUCCUUUUGGGCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-187-3p": {},
-    "hsa-miR-188-3p": {},
-    "hsa-miR-188-5p": {},
+    "hsa-miR-188-3p": {
+        "Host Gene": "CLCN5",
+        "Host Gene Transcript Count": 5
+    },
+    "hsa-miR-188-5p": {
+        "Host Gene": "CLCN5",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-18a-3p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -13132,7 +13291,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR18A",
         "miRNA Sequence": "ACUGCCCUAAGUGCUCCUUCUGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-18a-5p": {
         "Host Gene": "",
@@ -13467,13 +13626,25 @@ miRNA_meta_data = {
         "miRNA Name": "MIR18A",
         "miRNA Sequence": "UAAGGUGCAUCUAGUGCAGAUAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-18b-5p": {},
-    "hsa-miR-1908-5p": {},
-    "hsa-miR-1909-3p": {},
-    "hsa-miR-1909-5p": {},
-    "hsa-miR-190a-5p": {},
+    "hsa-miR-1908-5p": {
+        "Host Gene": "FADS2",
+        "Host Gene Transcript Count": 15
+    },
+    "hsa-miR-1909-3p": {
+        "Host Gene": "REXO1",
+        "Host Gene Transcript Count": 7
+    },
+    "hsa-miR-1909-5p": {
+        "Host Gene": "REXO1",
+        "Host Gene Transcript Count": 7
+    },
+    "hsa-miR-190a-5p": {
+        "Host Gene": "TLN2",
+        "Host Gene Transcript Count": 11
+    },
     "hsa-miR-191-3p": {
         "Host Gene": "DALRD3",
         "Host Gene Transcript Count": 15,
@@ -13487,11 +13658,20 @@ miRNA_meta_data = {
         "miRNA Name": "MIR191",
         "miRNA Sequence": "GCUGCGCUUGGAUUUCGUCCCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-191-5p": {},
-    "hsa-miR-1910-5p": {},
-    "hsa-miR-1913": {},
+    "hsa-miR-191-5p": {
+        "Host Gene": "DALRD3",
+        "Host Gene Transcript Count": 15
+    },
+    "hsa-miR-1910-5p": {
+        "Host Gene": "C16orf74",
+        "Host Gene Transcript Count": 7
+    },
+    "hsa-miR-1913": {
+        "Host Gene": "RPS6KA2",
+        "Host Gene Transcript Count": 13
+    },
     "hsa-miR-1914-3p": {
         "Host Gene": "UCKL1",
         "Host Gene Transcript Count": 7,
@@ -13505,10 +13685,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1914",
         "miRNA Sequence": "GGAGGGGUCCCGCACUGGGAGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-1914-5p": {},
-    "hsa-miR-1915-3p": {},
+    "hsa-miR-1914-5p": {
+        "Host Gene": "UCKL1",
+        "Host Gene Transcript Count": 7
+    },
+    "hsa-miR-1915-3p": {
+        "Host Gene": "CASC10",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-1915-5p": {
         "Host Gene": "CASC10",
         "Host Gene Transcript Count": 1,
@@ -13526,7 +13712,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR1915",
         "miRNA Sequence": "ACCUUGCCUUGCUGCCCGGGCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-192-5p": {
         "Host Gene": "AP001187.9",
@@ -14529,7 +14715,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR192",
         "miRNA Sequence": "CUGACCUAUGAAUUGACAGCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-193a-3p": {
         "Host Gene": "",
@@ -14584,7 +14770,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR193A",
         "miRNA Sequence": "AACUGGCCUACAAAGUCCCAGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-193a-5p": {},
     "hsa-miR-193b-3p": {
@@ -15160,9 +15346,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR193B",
         "miRNA Sequence": "AACUGGCCCUCAAAGUCCCGCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-193b-5p": {},
+    "hsa-miR-193b-5p": {
+        "Host Gene": "RP11-65J21.3",
+        "Host Gene Transcript Count": 3
+    },
     "hsa-miR-194-5p": {
         "Host Gene": "AP001187.9",
         "Host Gene Transcript Count": 1,
@@ -15216,7 +15405,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR194-2",
         "miRNA Sequence": "UGUAACAGCAACUCCAUGUGGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-195-5p": {
         "Host Gene": "RP11-589P10.7",
@@ -15271,11 +15460,20 @@ miRNA_meta_data = {
         "miRNA Name": "MIR497HG",
         "miRNA Sequence": "UAGCAGCACAGAAAUAUUGGC",
         "miRNA Transcript Count": 2,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-196a-3p": {},
-    "hsa-miR-196a-5p": {},
-    "hsa-miR-196b-3p": {},
+    "hsa-miR-196a-3p": {
+        "Host Gene": "RP11-834C11.12",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-196a-5p": {
+        "Host Gene": "HOXB7",
+        "Host Gene Transcript Count": 3
+    },
+    "hsa-miR-196b-3p": {
+        "Host Gene": "HOXA9",
+        "Host Gene Transcript Count": 6
+    },
     "hsa-miR-196b-5p": {
         "Host Gene": "HOXA9",
         "Host Gene Transcript Count": 6,
@@ -15305,7 +15503,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR196B",
         "miRNA Sequence": "UAGGUAGUUUCCUGUUGUUGGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-197-3p": {
         "Host Gene": "GNAI3",
@@ -15380,10 +15578,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR197",
         "miRNA Sequence": "UUCACCACCUUCUCCACCCAGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-198": {},
-    "hsa-miR-199a-3p": {},
+    "hsa-miR-198": {
+        "Host Gene": "FSTL1",
+        "Host Gene Transcript Count": 10
+    },
+    "hsa-miR-199a-3p": {
+        "Host Gene": "DNM2",
+        "Host Gene Transcript Count": 22
+    },
     "hsa-miR-199a-5p": {
         "Host Gene": "DNM2",
         "Host Gene Transcript Count": 22,
@@ -15449,7 +15653,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR199A1",
         "miRNA Sequence": "CCCAGUGUUCAGACUACCUGUUC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-199b-5p": {
         "Host Gene": "DNM1",
@@ -15464,7 +15668,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR199B",
         "miRNA Sequence": "CCCAGUGUUUAGACUAUCUGUUC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-19a-3p": {},
     "hsa-miR-19a-5p": {},
@@ -15770,7 +15974,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR19B2",
         "miRNA Sequence": "UGUGCAAAUCCAUGCAAAACUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-200a-3p": {
         "Host Gene": "",
@@ -15893,7 +16097,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR200A",
         "miRNA Sequence": "UAACACUGUCUGGUAACGAUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-200b-3p": {
         "Host Gene": "",
@@ -16000,9 +16204,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR200B",
         "miRNA Sequence": "UAAUACUGCCUGGUAAUGAUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-200c-3p": {},
+    "hsa-miR-200c-3p": {
+        "Host Gene": "U47924.27",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-202-3p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -16016,7 +16223,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR202HG",
         "miRNA Sequence": "AGAGGUAUAGGGCAUGGGAA",
         "miRNA Transcript Count": 2,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-203a": {},
     "hsa-miR-204-5p": {
@@ -16224,7 +16431,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR204",
         "miRNA Sequence": "UUCCCUUUGUCAUCCUAUGCCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-205-5p": {
         "Host Gene": "",
@@ -16271,11 +16478,17 @@ miRNA_meta_data = {
         "miRNA Name": "MIR205",
         "miRNA Sequence": "UCCUUCAUUCCACCGGAGUCUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-206": {},
-    "hsa-miR-208a-3p": {},
-    "hsa-miR-208b-3p": {},
+    "hsa-miR-208a-3p": {
+        "Host Gene": "MYH6",
+        "Host Gene Transcript Count": 3
+    },
+    "hsa-miR-208b-3p": {
+        "Host Gene": "MYH7",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-20a-3p": {},
     "hsa-miR-20a-5p": {
         "Host Gene": "",
@@ -16426,10 +16639,13 @@ miRNA_meta_data = {
         "miRNA Name": "MIR17HG",
         "miRNA Sequence": "UAAAGUGCUUAUAGUGCAGGUAG",
         "miRNA Transcript Count": 3,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-20b-5p": {},
-    "hsa-miR-21-3p": {},
+    "hsa-miR-21-3p": {
+        "Host Gene": "VMP1",
+        "Host Gene Transcript Count": 17
+    },
     "hsa-miR-21-5p": {
         "Host Gene": "VMP1",
         "Host Gene Transcript Count": 17,
@@ -16823,11 +17039,17 @@ miRNA_meta_data = {
         "miRNA Name": "MIR21",
         "miRNA Sequence": "UAGCUUAUCAGACUGAUGUUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-210-3p": {},
-    "hsa-miR-211-5p": {},
-    "hsa-miR-2110": {},
+    "hsa-miR-211-5p": {
+        "Host Gene": "TRPM1",
+        "Host Gene Transcript Count": 12
+    },
+    "hsa-miR-2110": {
+        "Host Gene": "CCDC186",
+        "Host Gene Transcript Count": 6
+    },
     "hsa-miR-2116-3p": {
         "Host Gene": "MYO1E",
         "Host Gene Transcript Count": 10,
@@ -16841,7 +17063,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR2116",
         "miRNA Sequence": "CCUCCCAUGCCAAGAACUCCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-212-3p": {
         "Host Gene": "",
@@ -16872,10 +17094,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR212",
         "miRNA Sequence": "UAACAGUCUCCAGUCACGGCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-214-3p": {},
-    "hsa-miR-215-5p": {},
+    "hsa-miR-214-3p": {
+        "Host Gene": "DNM3OS",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-215-5p": {
+        "Host Gene": "IARS2",
+        "Host Gene Transcript Count": 4
+    },
     "hsa-miR-216a-5p": {
         "Host Gene": "RP11-481J13.1",
         "Host Gene Transcript Count": 1,
@@ -16893,9 +17121,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR217HG",
         "miRNA Sequence": "UAAUCUCAGCUGGCAACUGUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-216b-5p": {},
+    "hsa-miR-216b-5p": {
+        "Host Gene": "RP11-481J13.1",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-217": {
         "Host Gene": "RP11-481J13.1",
         "Host Gene Transcript Count": 1,
@@ -16917,9 +17148,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR217HG",
         "miRNA Sequence": "UACUGCAUCAGGAACUGAUUGGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-218-1-3p": {},
+    "hsa-miR-218-1-3p": {
+        "Host Gene": "SLIT2",
+        "Host Gene Transcript Count": 12
+    },
     "hsa-miR-218-5p": {
         "Host Gene": "SLIT3",
         "Host Gene Transcript Count": 8,
@@ -17181,7 +17415,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR218-2",
         "miRNA Sequence": "UUGUGCUUGAUCUAACCAUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-219a-5p": {},
     "hsa-miR-22-3p": {
@@ -17341,7 +17575,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR22",
         "miRNA Sequence": "AAGCUGCCAGUUGAAGAACUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-22-5p": {
         "Host Gene": "",
@@ -17364,7 +17598,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR22",
         "miRNA Sequence": "AGUUCUUCAGUGGCAAGCUUUA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-221-3p": {
         "Host Gene": "",
@@ -17583,7 +17817,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR221",
         "miRNA Sequence": "AGCUACAUUGUCUGCUGGGUUUC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-221-5p": {},
     "hsa-miR-222-3p": {
@@ -17783,9 +18017,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR222",
         "miRNA Sequence": "AGCUACAUCUGGCUACUGGGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-223-3p": {},
+    "hsa-miR-223-3p": {
+        "Host Gene": "RP6-159A1.4",
+        "Host Gene Transcript Count": 2
+    },
     "hsa-miR-224-5p": {
         "Host Gene": "GABRE",
         "Host Gene Transcript Count": 12,
@@ -17851,9 +18088,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR224",
         "miRNA Sequence": "CAAGUCACUAGUGGUUCCGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-2277-5p": {},
+    "hsa-miR-2277-5p": {
+        "Host Gene": "FAM172A",
+        "Host Gene Transcript Count": 9
+    },
     "hsa-miR-23a-3p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -17911,7 +18151,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR23A",
         "miRNA Sequence": "AUCACAUUGCCAGGGAUUUCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-23a-5p": {},
     "hsa-miR-23b-3p": {
@@ -17947,10 +18187,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR23B",
         "miRNA Sequence": "AUCACAUUGCCAGGGAUUACC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-23b-5p": {},
-    "hsa-miR-24-1-5p": {},
+    "hsa-miR-23b-5p": {
+        "Host Gene": "C9orf3",
+        "Host Gene Transcript Count": 22
+    },
+    "hsa-miR-24-1-5p": {
+        "Host Gene": "C9orf3",
+        "Host Gene Transcript Count": 22
+    },
     "hsa-miR-24-2-5p": {},
     "hsa-miR-24-3p": {
         "Host Gene": "C9orf3",
@@ -18237,7 +18483,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR3074",
         "miRNA Sequence": "UGGCUCAGUUCAGCAGGAACAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-25-3p": {
         "Host Gene": "MCM7",
@@ -18404,7 +18650,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR25",
         "miRNA Sequence": "CAUUGCACUUGUCUCGGUCUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-25-5p": {
         "Host Gene": "MCM7",
@@ -18419,9 +18665,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR25",
         "miRNA Sequence": "AGGCGGAGACUUGGGCAAUUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-26a-2-3p": {},
+    "hsa-miR-26a-2-3p": {
+        "Host Gene": "CTDSP2",
+        "Host Gene Transcript Count": 9
+    },
     "hsa-miR-26a-5p": {
         "Host Gene": "CTDSPL",
         "Host Gene Transcript Count": 8,
@@ -18747,9 +18996,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR26A1",
         "miRNA Sequence": "UUCAAGUAAUCCAGGAUAGGCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-26b-3p": {},
+    "hsa-miR-26b-3p": {
+        "Host Gene": "CTDSP1",
+        "Host Gene Transcript Count": 15
+    },
     "hsa-miR-26b-5p": {
         "Host Gene": "CTDSP1",
         "Host Gene Transcript Count": 15,
@@ -19683,7 +19935,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR26B",
         "miRNA Sequence": "UUCAAGUAAUUCAGGAUAGGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-27a-3p": {
         "Host Gene": "",
@@ -19998,7 +20250,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR27A",
         "miRNA Sequence": "UUCACAGUGGCUAAGUUCCGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-27b-3p": {
         "Host Gene": "C9orf3",
@@ -20045,9 +20297,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR27B",
         "miRNA Sequence": "UUCACAGUGGCUAAGUUCUGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-27b-5p": {},
+    "hsa-miR-27b-5p": {
+        "Host Gene": "C9orf3",
+        "Host Gene Transcript Count": 22
+    },
     "hsa-miR-28-3p": {
         "Host Gene": "LPP",
         "Host Gene Transcript Count": 21,
@@ -20073,7 +20328,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR28",
         "miRNA Sequence": "CACUAGAUUGUGAGCUCCUGGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-28-5p": {
         "Host Gene": "LPP",
@@ -20144,7 +20399,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR28",
         "miRNA Sequence": "AAGGAGCUCACAGUCUAUUGAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-296-3p": {
         "Host Gene": "RP4-806M20.4",
@@ -20207,9 +20462,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR296",
         "miRNA Sequence": "GAGGGUUGGGUGGAGGCUCUCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-296-5p": {},
+    "hsa-miR-296-5p": {
+        "Host Gene": "RP4-806M20.4",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-298": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -20227,7 +20485,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR298",
         "miRNA Sequence": "AGCAGAAGCAGGGAGGUUCUCCCA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-299-3p": {},
     "hsa-miR-299-5p": {
@@ -20243,7 +20501,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR299",
         "miRNA Sequence": "UGGUUUACCGUCCCACAUACAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-29a-3p": {
         "Host Gene": "AC016831.7",
@@ -20290,7 +20548,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR29A",
         "miRNA Sequence": "UAGCACCAUCUGAAAUCGGUUA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-29b-2-5p": {
         "Host Gene": "C1orf132",
@@ -20309,7 +20567,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR29B2",
         "miRNA Sequence": "CUGGUUUCACAUGGUGGCUUAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-29b-3p": {
         "Host Gene": "AC016831.7",
@@ -20388,7 +20646,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR29B1",
         "miRNA Sequence": "UAGCACCAUUUGAAAUCAGUGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-29c-3p": {
         "Host Gene": "C1orf132",
@@ -20679,9 +20937,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR29C",
         "miRNA Sequence": "UAGCACCAUUUGAAAUCGGUUA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-29c-5p": {},
+    "hsa-miR-29c-5p": {
+        "Host Gene": "C1orf132",
+        "Host Gene Transcript Count": 2
+    },
     "hsa-miR-301a-3p": {
         "Host Gene": "SKA2",
         "Host Gene Transcript Count": 10,
@@ -20747,13 +21008,13 @@ miRNA_meta_data = {
         "miRNA Name": "MIR301A",
         "miRNA Sequence": "CAGUGCAAUAGUAUUGUCAAAGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-301b": {
         "Target Gene with Transcript Count": [],
-        "mature miRNA entry": None,
+        "mature miRNA entry": null,
         "miRNA Sequence": "CAGUGCAAUGAUAUUGUCAAAGC",
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-302a-3p": {
         "Host Gene": "LARP7",
@@ -20792,7 +21053,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR302A",
         "miRNA Sequence": "UAAGUGCUUCCAUGUUUUGGUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-302b-3p": {
         "Host Gene": "LARP7",
@@ -20807,7 +21068,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR302B",
         "miRNA Sequence": "UAAGUGCUUCCAUGUUUUAGUAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-302c-3p": {
         "Host Gene": "LARP7",
@@ -20822,7 +21083,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR302C",
         "miRNA Sequence": "UAAGUGCUUCCAUGUUUCAGUGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-302d-3p": {
         "Host Gene": "LARP7",
@@ -20873,9 +21134,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR302D",
         "miRNA Sequence": "UAAGUGCUUCCAUGUUUGAGUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-3065-3p": {},
+    "hsa-miR-3065-3p": {
+        "Host Gene": "AC115099.1",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-3065-5p": {
         "Host Gene": "AC115099.1",
         "Host Gene Transcript Count": 1,
@@ -20886,10 +21150,10 @@ miRNA_meta_data = {
             ]
         ],
         "mature miRNA entry": "http://mirbase.org/cgi-bin/mature.pl?mature_acc=MIMAT0015066",
-        "miRNA Name": None,
+        "miRNA Name": null,
         "miRNA Sequence": "UCAACAAAAUCACUGAUGCUGGA",
-        "miRNA Transcript Count": None,
-        "miRNA family entry": None
+        "miRNA Transcript Count": null,
+        "miRNA family entry": null
     },
     "hsa-miR-30a-3p": {
         "Host Gene": "LINC00472",
@@ -20960,7 +21224,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR30A",
         "miRNA Sequence": "CUUUCAGUCGGAUGUUUGCAGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-30a-5p": {
         "Host Gene": "LINC00472",
@@ -21267,7 +21531,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR30A",
         "miRNA Sequence": "UGUAAACAUCCUCGACUGGAAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-30b-3p": {},
     "hsa-miR-30b-5p": {
@@ -21471,7 +21735,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR30B",
         "miRNA Sequence": "UGUAAACAUCCUACACUCAGCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-30c-1-3p": {
         "Host Gene": "NFYC",
@@ -21506,7 +21770,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR30C1",
         "miRNA Sequence": "CUGGGAGAGGGUUGUUUACUCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-30c-2-3p": {
         "Host Gene": "LINC00472",
@@ -21561,7 +21825,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR30C2",
         "miRNA Sequence": "CUGGGAGAAGGCUGUUUACUCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-30c-5p": {
         "Host Gene": "LINC00472",
@@ -21676,7 +21940,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR30C2",
         "miRNA Sequence": "UGUAAACAUCCUACACUCUCAGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-30d-3p": {},
     "hsa-miR-30d-5p": {
@@ -21716,7 +21980,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR30D",
         "miRNA Sequence": "UGUAAACAUCCCCGACUGGAAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-30e-3p": {
         "Host Gene": "NFYC",
@@ -21743,7 +22007,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR30E",
         "miRNA Sequence": "CUUUCAGUCGGAUGUUUACAGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-30e-5p": {
         "Host Gene": "NFYC",
@@ -21818,7 +22082,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR30E",
         "miRNA Sequence": "UGUAAACAUCCUUGACUGGAAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-31-3p": {
         "Host Gene": "",
@@ -21861,7 +22125,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR31",
         "miRNA Sequence": "UGCUAUGCCAACAUAUUGCCAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-31-5p": {
         "Host Gene": "",
@@ -21884,9 +22148,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR31",
         "miRNA Sequence": "AGGCAAGAUGCUGGCAUAGCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-3117-3p": {},
+    "hsa-miR-3117-3p": {
+        "Host Gene": "SGIP1",
+        "Host Gene Transcript Count": 14
+    },
     "hsa-miR-3127-5p": {
         "Host Gene": "AC092636.1",
         "Host Gene Transcript Count": 1,
@@ -21897,13 +22164,19 @@ miRNA_meta_data = {
             ]
         ],
         "mature miRNA entry": "http://mirbase.org/cgi-bin/mature.pl?mature_acc=MIMAT0014990",
-        "miRNA Name": None,
+        "miRNA Name": null,
         "miRNA Sequence": "AUCAGGGCUUGUGGAAUGGGAAG",
-        "miRNA Transcript Count": None,
-        "miRNA family entry": None
+        "miRNA Transcript Count": null,
+        "miRNA family entry": null
     },
-    "hsa-miR-3131": {},
-    "hsa-miR-3140-3p": {},
+    "hsa-miR-3131": {
+        "Host Gene": "IHH",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-3140-3p": {
+        "Host Gene": "FBXW7",
+        "Host Gene Transcript Count": 13
+    },
     "hsa-miR-3144-3p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -21917,7 +22190,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR3144",
         "miRNA Sequence": "AUAUACCUGUUCGGUCUCUUUA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-3157-5p": {
         "Host Gene": "ENTPD1-AS1",
@@ -21936,7 +22209,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR3157",
         "miRNA Sequence": "UUCAGCCAGGCUAGUGCAGUCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-3176": {
         "Host Gene": "CAPN15",
@@ -21963,10 +22236,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR3176",
         "miRNA Sequence": "ACUGGCCUGGGACUACCGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-3177-3p": {},
-    "hsa-miR-3181": {},
+    "hsa-miR-3177-3p": {
+        "Host Gene": "MAPK8IP3",
+        "Host Gene Transcript Count": 16
+    },
+    "hsa-miR-3181": {
+        "Host Gene": "CYLD",
+        "Host Gene Transcript Count": 16
+    },
     "hsa-miR-3187-3p": {
         "Host Gene": "LPPR3",
         "Host Gene Transcript Count": 4,
@@ -21980,7 +22259,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR3187",
         "miRNA Sequence": "UUGGCCAUGGGGCUGCGCGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-3188": {
         "Host Gene": "",
@@ -21995,10 +22274,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR3188",
         "miRNA Sequence": "AGAGGCUUUGUGCGGAUACGGGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-3196": {},
-    "hsa-miR-3198": {},
+    "hsa-miR-3196": {
+        "Host Gene": "BIRC7",
+        "Host Gene Transcript Count": 3
+    },
+    "hsa-miR-3198": {
+        "Host Gene": "BID",
+        "Host Gene Transcript Count": 15
+    },
     "hsa-miR-32-5p": {
         "Host Gene": "TMEM245",
         "Host Gene Transcript Count": 5,
@@ -22132,9 +22417,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR32",
         "miRNA Sequence": "UAUUGCACAUUACUAAGUUGCA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-3200-3p": {},
+    "hsa-miR-3200-3p": {
+        "Host Gene": "OSBP2",
+        "Host Gene Transcript Count": 19
+    },
     "hsa-miR-320a": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -22600,9 +22888,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR320A",
         "miRNA Sequence": "AAAAGCUGGGUUGAGAGGGCGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-320b": {},
+    "hsa-miR-320b": {
+        "Host Gene": "NVL",
+        "Host Gene Transcript Count": 24
+    },
     "hsa-miR-320c": {
         "Host Gene": "OSBPL1A",
         "Host Gene Transcript Count": 16,
@@ -22644,7 +22935,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR320C2",
         "miRNA Sequence": "AAAAGCUGGGUUGAGAGGGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-320d": {
         "Host Gene": "",
@@ -22659,7 +22950,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR320D2",
         "miRNA Sequence": "AAAAGCUGGGUUGAGAGGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-320e": {
         "Host Gene": "PRKD2",
@@ -22674,7 +22965,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR320E",
         "miRNA Sequence": "AAAGCUGGGUUGAGAAGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-324-3p": {
         "Host Gene": "ACADVL",
@@ -22933,7 +23224,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR324",
         "miRNA Sequence": "ACUGCCCCAGGUGCUGCUGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-324-5p": {
         "Host Gene": "ACADVL",
@@ -23104,7 +23395,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR324",
         "miRNA Sequence": "CGCAUCCCCUAGGGCAUUGGUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-326": {
         "Host Gene": "ARRB1",
@@ -23139,9 +23430,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR326",
         "miRNA Sequence": "CCUCUGGGCCCUUCCUCCAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-328-3p": {},
+    "hsa-miR-328-3p": {
+        "Host Gene": "ELMO3",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-330-3p": {
         "Host Gene": "EML2",
         "Host Gene Transcript Count": 31,
@@ -23191,7 +23485,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR330",
         "miRNA Sequence": "GCAAAGCACACGGCCUGCAGAGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-330-5p": {
         "Host Gene": "EML2",
@@ -23238,7 +23532,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR330",
         "miRNA Sequence": "UCUCUGGGCCUGUGUCUUAGGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-331-3p": {
         "Host Gene": "",
@@ -23553,7 +23847,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR331",
         "miRNA Sequence": "GCCCCUGGGCCUAUCCUAGAA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-331-5p": {},
     "hsa-miR-335-5p": {
@@ -25221,7 +25515,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR335",
         "miRNA Sequence": "UCAAGAGCAAUAACGAAAAAUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-337-3p": {
         "Host Gene": "",
@@ -25244,7 +25538,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR337",
         "miRNA Sequence": "CUCCUAUAUGAUGCCUUUCUUC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-338-3p": {
         "Host Gene": "AC115099.1",
@@ -25268,13 +25562,19 @@ miRNA_meta_data = {
             ]
         ],
         "mature miRNA entry": "http://mirbase.org/cgi-bin/mature.pl?mature_acc=MIMAT0000763",
-        "miRNA Name": None,
+        "miRNA Name": null,
         "miRNA Sequence": "UCCAGCAUCAGUGAUUUUGUUG",
-        "miRNA Transcript Count": None,
-        "miRNA family entry": None
+        "miRNA Transcript Count": null,
+        "miRNA family entry": null
     },
-    "hsa-miR-338-5p": {},
-    "hsa-miR-339-3p": {},
+    "hsa-miR-338-5p": {
+        "Host Gene": "AC115099.1",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-339-3p": {
+        "Host Gene": "C7orf50",
+        "Host Gene Transcript Count": 8
+    },
     "hsa-miR-339-5p": {
         "Host Gene": "C7orf50",
         "Host Gene Transcript Count": 8,
@@ -25320,9 +25620,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR339",
         "miRNA Sequence": "UCCCUGUCCUCCAGGAGCUCACG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-33a-3p": {},
+    "hsa-miR-33a-3p": {
+        "Host Gene": "SREBF2",
+        "Host Gene Transcript Count": 9
+    },
     "hsa-miR-33a-5p": {
         "Host Gene": "SREBF2",
         "Host Gene Transcript Count": 9,
@@ -25572,7 +25875,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR33A",
         "miRNA Sequence": "GUGCAUUGUAGUUGCAUUGCA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-33b-5p": {
         "Host Gene": "SREBF1",
@@ -25591,10 +25894,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR33B",
         "miRNA Sequence": "GUGCAUUGCUGUUGCAUUGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-340-3p": {},
-    "hsa-miR-340-5p": {},
+    "hsa-miR-340-3p": {
+        "Host Gene": "RNF130",
+        "Host Gene Transcript Count": 8
+    },
+    "hsa-miR-340-5p": {
+        "Host Gene": "RNF130",
+        "Host Gene Transcript Count": 8
+    },
     "hsa-miR-342-3p": {
         "Host Gene": "EVL",
         "Host Gene Transcript Count": 24,
@@ -25744,7 +26053,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR342",
         "miRNA Sequence": "UCUCACACAGAAAUCGCACCCGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-342-5p": {
         "Host Gene": "EVL",
@@ -25799,10 +26108,13 @@ miRNA_meta_data = {
         "miRNA Name": "MIR342",
         "miRNA Sequence": "AGGGGUGCUAUCUGUGAUUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-345-5p": {},
-    "hsa-miR-346": {},
+    "hsa-miR-346": {
+        "Host Gene": "GRID1",
+        "Host Gene Transcript Count": 4
+    },
     "hsa-miR-34a-3p": {},
     "hsa-miR-34a-5p": {
         "Host Gene": "",
@@ -26157,7 +26469,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR34A",
         "miRNA Sequence": "UGGCAGUGUCUUAGCUGGUUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-34b-3p": {
         "Host Gene": "",
@@ -26176,7 +26488,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR34B",
         "miRNA Sequence": "CAAUCACUAACUCCACUGCCAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-34b-5p": {
         "Host Gene": "",
@@ -26215,10 +26527,13 @@ miRNA_meta_data = {
         "miRNA Name": "MIR34B",
         "miRNA Sequence": "UAGGCAGUGUCAUUAGCUGAUUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-34c-5p": {},
-    "hsa-miR-3605-3p": {},
+    "hsa-miR-3605-3p": {
+        "Host Gene": "PHC2",
+        "Host Gene Transcript Count": 12
+    },
     "hsa-miR-361-3p": {
         "Host Gene": "CHM",
         "Host Gene Transcript Count": 5,
@@ -26236,7 +26551,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR361",
         "miRNA Sequence": "UCCCCCAGGUGUGAUUCUGAUUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-361-5p": {
         "Host Gene": "CHM",
@@ -26439,9 +26754,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR361",
         "miRNA Sequence": "UUAUCAGAAUCUCCAGGGGUAC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-3615": {},
+    "hsa-miR-3615": {
+        "Host Gene": "SLC9A3R1",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-3619-5p": {},
     "hsa-miR-362-3p": {
         "Host Gene": "CLCN5",
@@ -26464,9 +26782,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR362",
         "miRNA Sequence": "AACACACCUAUUCAAGGAUUCA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-362-5p": {},
+    "hsa-miR-362-5p": {
+        "Host Gene": "CLCN5",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-3620-3p": {
         "Host Gene": "ARF1",
         "Host Gene Transcript Count": 14,
@@ -26480,12 +26801,18 @@ miRNA_meta_data = {
         "miRNA Name": "MIR3620",
         "miRNA Sequence": "UCACCCUGCAUCCCGCACCCAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-3622a-3p": {},
+    "hsa-miR-3622a-3p": {
+        "Host Gene": "RP11-16P20.4",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-363-3p": {},
     "hsa-miR-3648": {},
-    "hsa-miR-365a-3p": {},
+    "hsa-miR-365a-3p": {
+        "Host Gene": "RP11-65J21.3",
+        "Host Gene Transcript Count": 3
+    },
     "hsa-miR-365a-5p": {
         "Host Gene": "RP11-65J21.3",
         "Host Gene Transcript Count": 3,
@@ -26503,7 +26830,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR365A",
         "miRNA Sequence": "AGGGACUUUUGGGGGCAGAUGUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-3663-3p": {},
     "hsa-miR-3676-3p": {},
@@ -26524,13 +26851,22 @@ miRNA_meta_data = {
         "miRNA Name": "MIR3679",
         "miRNA Sequence": "CUUCCCCCCAGUAAUCUUCAUC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-3687": {},
     "hsa-miR-369-5p": {},
-    "hsa-miR-3691-5p": {},
-    "hsa-miR-370-3p": {},
-    "hsa-miR-372-3p": {},
+    "hsa-miR-3691-5p": {
+        "Host Gene": "LYRM4",
+        "Host Gene Transcript Count": 9
+    },
+    "hsa-miR-370-3p": {
+        "Host Gene": "MEG8",
+        "Host Gene Transcript Count": 7
+    },
+    "hsa-miR-372-3p": {
+        "Host Gene": "CTD-3022G6.1",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-373-3p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -26708,9 +27044,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR373",
         "miRNA Sequence": "GAAGUGCUUCGAUUUUGGGGUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-374a-3p": {},
+    "hsa-miR-374a-3p": {
+        "Host Gene": "FTX",
+        "Host Gene Transcript Count": 10
+    },
     "hsa-miR-374a-5p": {
         "Host Gene": "FTX",
         "Host Gene Transcript Count": 10,
@@ -26748,9 +27087,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR374A",
         "miRNA Sequence": "UUAUAAUACAACCUGAUAAGUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-374b-5p": {},
+    "hsa-miR-374b-5p": {
+        "Host Gene": "FTX",
+        "Host Gene Transcript Count": 10
+    },
     "hsa-miR-375": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -27112,7 +27454,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR375",
         "miRNA Sequence": "UUUGUUCGUUCGGCUCGCGUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-376a-3p": {
         "Host Gene": "",
@@ -27131,7 +27473,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR376A1",
         "miRNA Sequence": "AUCAUAGAGGAAAAUCCACGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-376a-5p": {
         "Host Gene": "",
@@ -27162,7 +27504,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR376A1",
         "miRNA Sequence": "GUAGAUUCUCCUUCUAUGAGUA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-376b-3p": {},
     "hsa-miR-376c-3p": {
@@ -27182,7 +27524,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR376C",
         "miRNA Sequence": "AACAUAGAGGAAAUUCCACGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-377-3p": {
         "Host Gene": "",
@@ -27201,7 +27543,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR377",
         "miRNA Sequence": "AUCACACAAAGGCAACUUUUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-378a-3p": {
         "Host Gene": "PPARGC1B",
@@ -27304,7 +27646,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR378A",
         "miRNA Sequence": "ACUGGACUUGGAGUCAGAAGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-378a-5p": {
         "Host Gene": "PPARGC1B",
@@ -27427,11 +27769,14 @@ miRNA_meta_data = {
         "miRNA Name": "MIR378A",
         "miRNA Sequence": "CUCCUGACUCCAGGUCCUGUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-378c": {},
     "hsa-miR-379-5p": {},
-    "hsa-miR-383-5p": {},
+    "hsa-miR-383-5p": {
+        "Host Gene": "SGCZ",
+        "Host Gene Transcript Count": 3
+    },
     "hsa-miR-384": {},
     "hsa-miR-3909": {
         "Host Gene": "TOM1",
@@ -27450,7 +27795,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR3909",
         "miRNA Sequence": "UGUCCUCUAGGGCCUGCAGUCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-3928-3p": {},
     "hsa-miR-3929": {
@@ -27466,10 +27811,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR3929",
         "miRNA Sequence": "GAGGCUGAUGUGAGUAGACCACU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-3934-5p": {},
-    "hsa-miR-3943": {},
+    "hsa-miR-3934-5p": {
+        "Host Gene": "UQCC2",
+        "Host Gene Transcript Count": 4
+    },
+    "hsa-miR-3943": {
+        "Host Gene": "HECW1-IT1",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-409-3p": {},
     "hsa-miR-412-3p": {},
     "hsa-miR-421": {
@@ -27757,7 +28108,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR421",
         "miRNA Sequence": "AUCAACAGACAUUAAUUGGGCGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-422a": {
         "Host Gene": "",
@@ -27772,7 +28123,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR422A",
         "miRNA Sequence": "ACUGGACUUAGGGUCAGAAGGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-423-3p": {
         "Host Gene": "RP11-1148O4.2",
@@ -27863,7 +28214,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR423",
         "miRNA Sequence": "AGCUCGGUCUGAGGCCCCUCAGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-423-5p": {
         "Host Gene": "RP11-1148O4.2",
@@ -28106,7 +28457,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR423",
         "miRNA Sequence": "UGAGGGGCAGAGAGCGAGACUUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-424-3p": {},
     "hsa-miR-424-5p": {
@@ -28218,7 +28569,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR424",
         "miRNA Sequence": "CAGCAGCAAUUCAUGUUUUGAA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-425-3p": {
         "Host Gene": "DALRD3",
@@ -28241,7 +28592,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR425",
         "miRNA Sequence": "AUCGGGAAUGUCGUGUCCGCCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-425-5p": {
         "Host Gene": "DALRD3",
@@ -28412,10 +28763,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR425",
         "miRNA Sequence": "AAUGACACGAUCACUCCCGUUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-4284": {},
-    "hsa-miR-4286": {},
+    "hsa-miR-4284": {
+        "Host Gene": "STX1A",
+        "Host Gene Transcript Count": 14
+    },
+    "hsa-miR-4286": {
+        "Host Gene": "RP1L1",
+        "Host Gene Transcript Count": 2
+    },
     "hsa-miR-429": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -28473,10 +28830,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR429",
         "miRNA Sequence": "UAAUACUGUCUGGUAAAACCGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-4323": {},
-    "hsa-miR-4324": {},
+    "hsa-miR-4323": {
+        "Host Gene": "POU2F2",
+        "Host Gene Transcript Count": 19
+    },
+    "hsa-miR-4324": {
+        "Host Gene": "SLC6A16",
+        "Host Gene Transcript Count": 7
+    },
     "hsa-miR-4326": {
         "Host Gene": "ARFGAP1",
         "Host Gene Transcript Count": 23,
@@ -28494,10 +28857,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR4326",
         "miRNA Sequence": "UGUUCCUCUGUCUCCCAGAC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-433-3p": {},
-    "hsa-miR-448": {},
+    "hsa-miR-433-3p": {
+        "Host Gene": "RTL1",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-448": {
+        "Host Gene": "HTR2C",
+        "Host Gene Transcript Count": 3
+    },
     "hsa-miR-449a": {
         "Host Gene": "CDC20B",
         "Host Gene Transcript Count": 5,
@@ -28547,10 +28916,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR449A",
         "miRNA Sequence": "UGGCAGUGUAUUGUUAGCUGGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-449b-5p": {},
-    "hsa-miR-449c-3p": {},
+    "hsa-miR-449b-5p": {
+        "Host Gene": "CDC20B",
+        "Host Gene Transcript Count": 5
+    },
+    "hsa-miR-449c-3p": {
+        "Host Gene": "CDC20B",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-449c-5p": {
         "Host Gene": "CDC20B",
         "Host Gene Transcript Count": 5,
@@ -28568,12 +28943,15 @@ miRNA_meta_data = {
         "miRNA Name": "MIR449C",
         "miRNA Sequence": "UAGGCAGUGUAUUGCUAGCGGCUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-450a-1-3p": {},
     "hsa-miR-450a-5p": {},
     "hsa-miR-450b-5p": {},
-    "hsa-miR-451a": {},
+    "hsa-miR-451a": {
+        "Host Gene": "RP11-20B24.2",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-454-3p": {
         "Host Gene": "SKA2",
         "Host Gene Transcript Count": 10,
@@ -28647,9 +29025,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR454",
         "miRNA Sequence": "UAGUGCAAUAUUGCUUAUAGGGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-454-5p": {},
+    "hsa-miR-454-5p": {
+        "Host Gene": "SKA2",
+        "Host Gene Transcript Count": 10
+    },
     "hsa-miR-455-3p": {
         "Host Gene": "COL27A1",
         "Host Gene Transcript Count": 8,
@@ -28731,7 +29112,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR455",
         "miRNA Sequence": "GCAGUCCAUGGGCAUAUACAC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-455-5p": {
         "Host Gene": "COL27A1",
@@ -28746,7 +29127,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR455",
         "miRNA Sequence": "UAUGUGCCUUUGGACUACAUCG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-483-3p": {
         "Host Gene": "INS-IGF2",
@@ -28765,7 +29146,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR483",
         "miRNA Sequence": "UCACUCCUCUCCUCCCGUCUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-483-5p": {
         "Host Gene": "INS-IGF2",
@@ -28780,7 +29161,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR483",
         "miRNA Sequence": "AAGACGGGAGGAAAGAAGGGAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-484": {
         "Host Gene": "NDE1",
@@ -29487,7 +29868,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR484",
         "miRNA Sequence": "UCAGGCUCAGUCCCCUCCCGAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-485-3p": {
         "Host Gene": "",
@@ -29502,13 +29883,25 @@ miRNA_meta_data = {
         "miRNA Name": "MIR485",
         "miRNA Sequence": "GUCAUACACGGCUCUCCUCUCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-485-5p": {},
-    "hsa-miR-486-5p": {},
-    "hsa-miR-488-3p": {},
-    "hsa-miR-488-5p": {},
-    "hsa-miR-489-3p": {},
+    "hsa-miR-486-5p": {
+        "Host Gene": "AC113133.1",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-488-3p": {
+        "Host Gene": "ASTN1",
+        "Host Gene Transcript Count": 5
+    },
+    "hsa-miR-488-5p": {
+        "Host Gene": "ASTN1",
+        "Host Gene Transcript Count": 5
+    },
+    "hsa-miR-489-3p": {
+        "Host Gene": "CALCR",
+        "Host Gene Transcript Count": 7
+    },
     "hsa-miR-490-3p": {
         "Host Gene": "AC009264.1",
         "Host Gene Transcript Count": 9,
@@ -29522,9 +29915,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR490",
         "miRNA Sequence": "CAACCUGGAGGACUCCAUGCUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-491-5p": {},
+    "hsa-miR-491-5p": {
+        "Host Gene": "FOCAD",
+        "Host Gene Transcript Count": 17
+    },
     "hsa-miR-494-3p": {},
     "hsa-miR-495-3p": {
         "Host Gene": "",
@@ -29539,9 +29935,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR495",
         "miRNA Sequence": "AAACAAACAUGGUGCACUUCUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-497-5p": {},
+    "hsa-miR-497-5p": {
+        "Host Gene": "RP11-589P10.7",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-498": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -29555,9 +29954,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR498",
         "miRNA Sequence": "UUUCAAGCCAGGGGGCGUUUUUC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-499a-5p": {},
+    "hsa-miR-499a-5p": {
+        "Host Gene": "MYH7B",
+        "Host Gene Transcript Count": 9
+    },
     "hsa-miR-500a-3p": {
         "Host Gene": "CLCN5",
         "Host Gene Transcript Count": 5,
@@ -29583,7 +29985,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR500A",
         "miRNA Sequence": "AUGCACCUGGGCAAGGAUUCUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-500a-5p": {
         "Host Gene": "CLCN5",
@@ -29610,7 +30012,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR500A",
         "miRNA Sequence": "UAAUCCUUGCUACCUGGGUGAGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-501-3p": {
         "Host Gene": "CLCN5",
@@ -29629,7 +30031,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR501",
         "miRNA Sequence": "AAUGCACCCGGGCAAGGAUUCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-501-5p": {
         "Host Gene": "CLCN5",
@@ -29652,9 +30054,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR501",
         "miRNA Sequence": "AAUCCUUUGUCCCUGGGUGAGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-502-3p": {},
+    "hsa-miR-502-3p": {
+        "Host Gene": "CLCN5",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-503-5p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -29812,9 +30217,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR503HG",
         "miRNA Sequence": "UAGCAGCGGGAACAGUUCUGCAG",
         "miRNA Transcript Count": 5,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-504-5p": {},
+    "hsa-miR-504-5p": {
+        "Host Gene": "FGF13",
+        "Host Gene Transcript Count": 8
+    },
     "hsa-miR-505-3p": {
         "Host Gene": "ATP11C",
         "Host Gene Transcript Count": 9,
@@ -29880,7 +30288,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR505",
         "miRNA Sequence": "CGUCAACACUUGCUGGUUUCCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-505-5p": {
         "Host Gene": "ATP11C",
@@ -29931,7 +30339,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR505",
         "miRNA Sequence": "GGGAGCCAGGAAGUAUUGAUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-506-3p": {
         "Host Gene": "",
@@ -29946,11 +30354,14 @@ miRNA_meta_data = {
         "miRNA Name": "MIR506",
         "miRNA Sequence": "UAAGGCACCCUUCUGAGUAGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-509-3p": {},
     "hsa-miR-510-5p": {},
-    "hsa-miR-511-5p": {},
+    "hsa-miR-511-5p": {
+        "Host Gene": "MRC1",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-512-5p": {},
     "hsa-miR-513a-3p": {
         "Host Gene": "",
@@ -29965,7 +30376,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR513A2",
         "miRNA Sequence": "UAAAUUUCACCUUUCUGAGAAGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-513a-5p": {
         "Host Gene": "",
@@ -29980,7 +30391,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR513A2",
         "miRNA Sequence": "UUCACAGGGAGGUGUCAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-515-3p": {},
     "hsa-miR-516a-3p": {},
@@ -29997,7 +30408,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR518A2",
         "miRNA Sequence": "CUGCAAAGGGAAGCCCUUUC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-518b": {
         "Host Gene": "",
@@ -30012,9 +30423,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR518B",
         "miRNA Sequence": "CAAAGCGCUCCCCUUUAGAGGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-519a-3p": {},
+    "hsa-miR-519a-3p": {
+        "Host Gene": "AC011453.2",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-519b-3p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -30028,7 +30442,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR519B",
         "miRNA Sequence": "AAAGUGCAUCCUUUUAGAGGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-519c-3p": {},
     "hsa-miR-519d-3p": {},
@@ -30067,7 +30481,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR520B",
         "miRNA Sequence": "AAAGUGCUUCCUUUUAGAGGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-520c-3p": {},
     "hsa-miR-520e": {},
@@ -30093,16 +30507,25 @@ miRNA_meta_data = {
         "miRNA Name": "MIR520H",
         "miRNA Sequence": "ACAAAGUGCUUCCCUUUAGAGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-521": {},
     "hsa-miR-522-3p": {},
     "hsa-miR-524-5p": {},
-    "hsa-miR-532-3p": {},
-    "hsa-miR-532-5p": {},
+    "hsa-miR-532-3p": {
+        "Host Gene": "CLCN5",
+        "Host Gene Transcript Count": 5
+    },
+    "hsa-miR-532-5p": {
+        "Host Gene": "CLCN5",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-542-3p": {},
     "hsa-miR-542-5p": {},
-    "hsa-miR-545-3p": {},
+    "hsa-miR-545-3p": {
+        "Host Gene": "FTX",
+        "Host Gene Transcript Count": 10
+    },
     "hsa-miR-548a-3p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -30120,7 +30543,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR548A3",
         "miRNA Sequence": "CAAAACUGGCAAUUACUUUUGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-548aa": {
         "Host Gene": "ATAD2",
@@ -30135,7 +30558,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR548D1",
         "miRNA Sequence": "AAAAACCACAAUUACUUUUGCACCA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-548b-3p": {
         "Host Gene": "FAM184A",
@@ -30206,7 +30629,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR548B",
         "miRNA Sequence": "CAAGAACCUCAGUUGCUUUUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-548d-3p": {
         "Host Gene": "ATAD2",
@@ -30221,11 +30644,17 @@ miRNA_meta_data = {
         "miRNA Name": "MIR548D1",
         "miRNA Sequence": "CAAAAACCACAGUUUCUUUUGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-548d-5p": {},
+    "hsa-miR-548d-5p": {
+        "Host Gene": "ATAD2",
+        "Host Gene Transcript Count": 8
+    },
     "hsa-miR-548h-5p": {},
-    "hsa-miR-548j-5p": {},
+    "hsa-miR-548j-5p": {
+        "Host Gene": "TPST2",
+        "Host Gene Transcript Count": 9
+    },
     "hsa-miR-548o-3p": {
         "Host Gene": "PRKRIP1",
         "Host Gene Transcript Count": 8,
@@ -30239,16 +30668,40 @@ miRNA_meta_data = {
         "miRNA Name": "MIR548O",
         "miRNA Sequence": "CCAAAACUGCAGUUACUUUUGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-548q": {},
-    "hsa-miR-548v": {},
-    "hsa-miR-550a-3p": {},
-    "hsa-miR-550a-5p": {},
-    "hsa-miR-551b-3p": {},
-    "hsa-miR-559": {},
-    "hsa-miR-562": {},
-    "hsa-miR-569": {},
+    "hsa-miR-548q": {
+        "Host Gene": "CAMK1D",
+        "Host Gene Transcript Count": 4
+    },
+    "hsa-miR-548v": {
+        "Host Gene": "MTUS1",
+        "Host Gene Transcript Count": 28
+    },
+    "hsa-miR-550a-3p": {
+        "Host Gene": "DPY19L1P1",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-550a-5p": {
+        "Host Gene": "DPY19L1P1",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-551b-3p": {
+        "Host Gene": "EGFEM1P",
+        "Host Gene Transcript Count": 13
+    },
+    "hsa-miR-559": {
+        "Host Gene": "EPCAM",
+        "Host Gene Transcript Count": 6
+    },
+    "hsa-miR-562": {
+        "Host Gene": "DIS3L2",
+        "Host Gene Transcript Count": 16
+    },
+    "hsa-miR-569": {
+        "Host Gene": "TNIK",
+        "Host Gene Transcript Count": 15
+    },
     "hsa-miR-572": {},
     "hsa-miR-574-3p": {
         "Host Gene": "FAM114A1",
@@ -30263,7 +30716,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR574",
         "miRNA Sequence": "CACGCUCAUGCACACACCCACA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-574-5p": {
         "Host Gene": "FAM114A1",
@@ -30278,11 +30731,20 @@ miRNA_meta_data = {
         "miRNA Name": "MIR574",
         "miRNA Sequence": "UGAGUGUGUGUGUGUGAGUGUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-576-5p": {},
-    "hsa-miR-577": {},
-    "hsa-miR-5787": {},
+    "hsa-miR-576-5p": {
+        "Host Gene": "SEC24B",
+        "Host Gene Transcript Count": 3
+    },
+    "hsa-miR-577": {
+        "Host Gene": "UGT8",
+        "Host Gene Transcript Count": 3
+    },
+    "hsa-miR-5787": {
+        "Host Gene": "GNAI2",
+        "Host Gene Transcript Count": 12
+    },
     "hsa-miR-582-5p": {
         "Host Gene": "PDE4D",
         "Host Gene Transcript Count": 27,
@@ -30296,9 +30758,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR582",
         "miRNA Sequence": "UUACAGUUGUUCAACCAGUUACU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-584-5p": {},
+    "hsa-miR-584-5p": {
+        "Host Gene": "SH3TC2",
+        "Host Gene Transcript Count": 15
+    },
     "hsa-miR-589-3p": {
         "Host Gene": "FBXL18",
         "Host Gene Transcript Count": 5,
@@ -30312,9 +30777,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR589",
         "miRNA Sequence": "UCAGAACAAAUGCCGGUUCCCAGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-589-5p": {},
+    "hsa-miR-589-5p": {
+        "Host Gene": "FBXL18",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-590-3p": {
         "Host Gene": "EIF4H",
         "Host Gene Transcript Count": 5,
@@ -30468,7 +30936,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR590",
         "miRNA Sequence": "UAAUUUUAUGUAUAAGCUAGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-590-5p": {
         "Host Gene": "EIF4H",
@@ -30483,9 +30951,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR590",
         "miRNA Sequence": "GAGCUUAUUCAUAAAAGUGCAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-595": {},
+    "hsa-miR-595": {
+        "Host Gene": "PTPRN2",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-596": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -30499,14 +30970,32 @@ miRNA_meta_data = {
         "miRNA Name": "MIR596",
         "miRNA Sequence": "AAGCCUGCCCGGCUCCUCGGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-597-5p": {},
-    "hsa-miR-598-3p": {},
-    "hsa-miR-603": {},
-    "hsa-miR-605-5p": {},
-    "hsa-miR-608": {},
-    "hsa-miR-610": {},
+    "hsa-miR-597-5p": {
+        "Host Gene": "TNKS",
+        "Host Gene Transcript Count": 13
+    },
+    "hsa-miR-598-3p": {
+        "Host Gene": "XKR6",
+        "Host Gene Transcript Count": 4
+    },
+    "hsa-miR-603": {
+        "Host Gene": "KIAA1217",
+        "Host Gene Transcript Count": 14
+    },
+    "hsa-miR-605-5p": {
+        "Host Gene": "PRKG1",
+        "Host Gene Transcript Count": 5
+    },
+    "hsa-miR-608": {
+        "Host Gene": "MRPL43",
+        "Host Gene Transcript Count": 14
+    },
+    "hsa-miR-610": {
+        "Host Gene": "KIF18A",
+        "Host Gene Transcript Count": 4
+    },
     "hsa-miR-612": {
         "Host Gene": "NEAT1",
         "Host Gene Transcript Count": 5,
@@ -30520,9 +31009,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR612",
         "miRNA Sequence": "GCUGGGCAGGGCUUCUGAGCUCCUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-613": {},
+    "hsa-miR-613": {
+        "Host Gene": "APOLD1",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-615-3p": {
         "Host Gene": "HOXC4",
         "Host Gene Transcript Count": 3,
@@ -30636,9 +31128,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR615",
         "miRNA Sequence": "UCCGAGCCUGGGUCUCCCUCUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-615-5p": {},
+    "hsa-miR-615-5p": {
+        "Host Gene": "HOXC4",
+        "Host Gene Transcript Count": 3
+    },
     "hsa-miR-616-3p": {
         "Host Gene": "DDIT3",
         "Host Gene Transcript Count": 7,
@@ -30656,7 +31151,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR616",
         "miRNA Sequence": "AGUCAUUGGAGGGUUUGAGCAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-616-5p": {
         "Host Gene": "DDIT3",
@@ -30671,10 +31166,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR616",
         "miRNA Sequence": "ACUCAAAACCCUUCAGUGACUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-617": {},
-    "hsa-miR-618": {},
+    "hsa-miR-617": {
+        "Host Gene": "LIN7A",
+        "Host Gene Transcript Count": 4
+    },
+    "hsa-miR-618": {
+        "Host Gene": "LIN7A",
+        "Host Gene Transcript Count": 4
+    },
     "hsa-miR-620": {
         "Host Gene": "MED13L",
         "Host Gene Transcript Count": 10,
@@ -30688,7 +31189,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR620",
         "miRNA Sequence": "AUGGAGAUAGAUAUAGAAAU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-622": {
         "Host Gene": "KRT18P27",
@@ -30703,7 +31204,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR622",
         "miRNA Sequence": "ACAGUCUGCUGAGGUUGGAGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-624-3p": {
         "Host Gene": "STRN3",
@@ -30718,11 +31219,20 @@ miRNA_meta_data = {
         "miRNA Name": "MIR624",
         "miRNA Sequence": "CACAAGGUAUUGGUAUUACCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-624-5p": {},
-    "hsa-miR-625-3p": {},
-    "hsa-miR-625-5p": {},
+    "hsa-miR-624-5p": {
+        "Host Gene": "STRN3",
+        "Host Gene Transcript Count": 8
+    },
+    "hsa-miR-625-3p": {
+        "Host Gene": "FUT8",
+        "Host Gene Transcript Count": 15
+    },
+    "hsa-miR-625-5p": {
+        "Host Gene": "FUT8",
+        "Host Gene Transcript Count": 15
+    },
     "hsa-miR-626": {
         "Host Gene": "MGA",
         "Host Gene Transcript Count": 12,
@@ -30736,11 +31246,20 @@ miRNA_meta_data = {
         "miRNA Name": "MIR626",
         "miRNA Sequence": "AGCUGUCUGAAAAUGUCUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-628-3p": {},
-    "hsa-miR-628-5p": {},
-    "hsa-miR-629-3p": {},
+    "hsa-miR-628-3p": {
+        "Host Gene": "CCPG1",
+        "Host Gene Transcript Count": 13
+    },
+    "hsa-miR-628-5p": {
+        "Host Gene": "CCPG1",
+        "Host Gene Transcript Count": 13
+    },
+    "hsa-miR-629-3p": {
+        "Host Gene": "TLE3",
+        "Host Gene Transcript Count": 26
+    },
     "hsa-miR-629-5p": {
         "Host Gene": "TLE3",
         "Host Gene Transcript Count": 26,
@@ -30762,14 +31281,32 @@ miRNA_meta_data = {
         "miRNA Name": "MIR629",
         "miRNA Sequence": "UGGGUUUACGUUGGGAGAACU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-630": {},
-    "hsa-miR-631": {},
-    "hsa-miR-632": {},
-    "hsa-miR-633": {},
-    "hsa-miR-636": {},
-    "hsa-miR-638": {},
+    "hsa-miR-630": {
+        "Host Gene": "ARIH1",
+        "Host Gene Transcript Count": 10
+    },
+    "hsa-miR-631": {
+        "Host Gene": "NEIL1",
+        "Host Gene Transcript Count": 24
+    },
+    "hsa-miR-632": {
+        "Host Gene": "RP11-227G15.3",
+        "Host Gene Transcript Count": 2
+    },
+    "hsa-miR-633": {
+        "Host Gene": "RP11-180P8.1",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-636": {
+        "Host Gene": "RP11-318A15.7",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-638": {
+        "Host Gene": "DNM2",
+        "Host Gene Transcript Count": 22
+    },
     "hsa-miR-639": {
         "Host Gene": "DNAJB1",
         "Host Gene Transcript Count": 11,
@@ -30783,7 +31320,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR639",
         "miRNA Sequence": "AUCGCUGCGGUUGCGAGCGCUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-641": {
         "Host Gene": "AKT2",
@@ -30798,7 +31335,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR641",
         "miRNA Sequence": "AAAGACAUAGGAUAGAGUCACCUC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-642a-5p": {
         "Host Gene": "GIPR",
@@ -30813,7 +31350,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR642A",
         "miRNA Sequence": "GUCCCUCUCCAAAUGUGUCUUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-644a": {
         "Host Gene": "ITCH",
@@ -30828,9 +31365,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR644A",
         "miRNA Sequence": "AGUGUGGCUUUCUUAGAGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-650": {},
+    "hsa-miR-650": {
+        "Host Gene": "IGLV2-8",
+        "Host Gene Transcript Count": 1
+    },
     "hsa-miR-652-3p": {
         "Host Gene": "TMEM164",
         "Host Gene Transcript Count": 8,
@@ -30876,7 +31416,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR652",
         "miRNA Sequence": "AAUGGCGCCACUAGGGUUGUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-654-3p": {},
     "hsa-miR-657": {
@@ -30896,10 +31436,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR657",
         "miRNA Sequence": "GGCAGGUUCUCACCCUCUCUAGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-659-3p": {},
-    "hsa-miR-660-5p": {},
+    "hsa-miR-659-3p": {
+        "Host Gene": "ANKRD54",
+        "Host Gene Transcript Count": 12
+    },
+    "hsa-miR-660-5p": {
+        "Host Gene": "CLCN5",
+        "Host Gene Transcript Count": 5
+    },
     "hsa-miR-661": {
         "Host Gene": "PLEC",
         "Host Gene Transcript Count": 15,
@@ -30929,9 +31475,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR661",
         "miRNA Sequence": "UGCCUGGGUCUCUGGCCUGCGCGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-662": {},
+    "hsa-miR-662": {
+        "Host Gene": "MSLNL",
+        "Host Gene Transcript Count": 3
+    },
     "hsa-miR-663a": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -30953,11 +31502,20 @@ miRNA_meta_data = {
         "miRNA Name": "MIR663AHG",
         "miRNA Sequence": "AGGCGGGGCGCCGCGGGACCGC",
         "miRNA Transcript Count": 37,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-663b": {},
-    "hsa-miR-664a-3p": {},
-    "hsa-miR-671-3p": {},
+    "hsa-miR-663b": {
+        "Host Gene": "ANKRD30BL",
+        "Host Gene Transcript Count": 6
+    },
+    "hsa-miR-664a-3p": {
+        "Host Gene": "RAB3GAP2",
+        "Host Gene Transcript Count": 10
+    },
+    "hsa-miR-671-3p": {
+        "Host Gene": "CHPF2",
+        "Host Gene Transcript Count": 4
+    },
     "hsa-miR-671-5p": {
         "Host Gene": "CHPF2",
         "Host Gene Transcript Count": 4,
@@ -30983,9 +31541,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR671",
         "miRNA Sequence": "AGGAAGCCCUGGAGGGGCUGGAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-675-5p": {},
+    "hsa-miR-675-5p": {
+        "Host Gene": "H19",
+        "Host Gene Transcript Count": 13
+    },
     "hsa-miR-7-1-3p": {
         "Host Gene": "HNRNPK",
         "Host Gene Transcript Count": 11,
@@ -31015,7 +31576,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR7-1",
         "miRNA Sequence": "CAACAAAUCACAGUCUGCCAUA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-7-5p": {
         "Host Gene": "HNRNPK",
@@ -31538,11 +32099,20 @@ miRNA_meta_data = {
         "miRNA Name": "MIR7-1",
         "miRNA Sequence": "UGGAAGACUAGUGAUUUUGUUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-708-3p": {},
-    "hsa-miR-708-5p": {},
-    "hsa-miR-744-3p": {},
+    "hsa-miR-708-3p": {
+        "Host Gene": "TENM4",
+        "Host Gene Transcript Count": 12
+    },
+    "hsa-miR-708-5p": {
+        "Host Gene": "TENM4",
+        "Host Gene Transcript Count": 12
+    },
+    "hsa-miR-744-3p": {
+        "Host Gene": "MAP2K4",
+        "Host Gene Transcript Count": 15
+    },
     "hsa-miR-744-5p": {
         "Host Gene": "MAP2K4",
         "Host Gene Transcript Count": 15,
@@ -31744,7 +32314,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR744",
         "miRNA Sequence": "UGCGGGGCUAGGGCUAACAGCA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-760": {
         "Host Gene": "BCAR3",
@@ -31767,10 +32337,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR760",
         "miRNA Sequence": "CGGCUCUGGGUCUGUGGGGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-762": {},
-    "hsa-miR-765": {},
+    "hsa-miR-762": {
+        "Host Gene": "AC106782.20",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-765": {
+        "Host Gene": "ARHGEF11",
+        "Host Gene Transcript Count": 7
+    },
     "hsa-miR-766-3p": {
         "Host Gene": "Sep-06",
         "Host Gene Transcript Count": 9,
@@ -31804,7 +32380,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR766",
         "miRNA Sequence": "ACUCCAGCCCCACAGCCUCAGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-768-5p": {},
     "hsa-miR-769-3p": {
@@ -31908,7 +32484,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR769",
         "miRNA Sequence": "CUGGGAUCUCCGGGGUCUUGGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-769-5p": {
         "Host Gene": "CCDC61",
@@ -31971,10 +32547,16 @@ miRNA_meta_data = {
         "miRNA Name": "MIR769",
         "miRNA Sequence": "UGAGACCUCUGGGUUCUGAGCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-802": {},
-    "hsa-miR-874-3p": {},
+    "hsa-miR-802": {
+        "Host Gene": "AF015720.3",
+        "Host Gene Transcript Count": 1
+    },
+    "hsa-miR-874-3p": {
+        "Host Gene": "KLHL3",
+        "Host Gene Transcript Count": 14
+    },
     "hsa-miR-876-3p": {},
     "hsa-miR-877-3p": {
         "Host Gene": "ABCF1",
@@ -32269,7 +32851,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR877",
         "miRNA Sequence": "UCCUCUUCUCCCUCCUCCCAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-877-5p": {
         "Host Gene": "ABCF1",
@@ -32416,13 +32998,22 @@ miRNA_meta_data = {
         "miRNA Name": "MIR877",
         "miRNA Sequence": "GUAGAGGAGAUGGCGCAGGG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-885-5p": {},
+    "hsa-miR-885-5p": {
+        "Host Gene": "ATP2B2",
+        "Host Gene Transcript Count": 9
+    },
     "hsa-miR-886-3p": {},
-    "hsa-miR-887-3p": {},
+    "hsa-miR-887-3p": {
+        "Host Gene": "FBXL7",
+        "Host Gene Transcript Count": 3
+    },
     "hsa-miR-892b": {},
-    "hsa-miR-9-3p": {},
+    "hsa-miR-9-3p": {
+        "Host Gene": "LINC00461",
+        "Host Gene Transcript Count": 16
+    },
     "hsa-miR-9-5p": {
         "Host Gene": "LINC00461",
         "Host Gene Transcript Count": 16,
@@ -32608,7 +33199,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR9-2",
         "miRNA Sequence": "UCUUUGGUUAUCUAGCUGUAUGA",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-92a-1-5p": {
         "Host Gene": "",
@@ -32627,7 +33218,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR17HG",
         "miRNA Sequence": "AGGUUGGGAUCGGUUGCAAUGCU",
         "miRNA Transcript Count": 3,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-92a-3p": {
         "Host Gene": "",
@@ -33182,7 +33773,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR92A2",
         "miRNA Sequence": "UAUUGCACUUGUCCCGGCCUGU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-92b-3p": {
         "Host Gene": "RP11-263K19.4",
@@ -33261,7 +33852,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR92B",
         "miRNA Sequence": "UAUUGCACUCGUCCCGGCCUCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-92b-5p": {
         "Host Gene": "RP11-263K19.4",
@@ -33288,7 +33879,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR92B",
         "miRNA Sequence": "AGGGACGGGACGCGGUGCAGUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-93-3p": {
         "Host Gene": "MCM7",
@@ -33479,7 +34070,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR93",
         "miRNA Sequence": "ACUGCUGAGCUAGCACUUCCCG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-93-5p": {
         "Host Gene": "MCM7",
@@ -34258,7 +34849,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR93",
         "miRNA Sequence": "CAAAGUGCUGUUCGUGCAGGUAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-935": {
         "Host Gene": "CACNG8",
@@ -34321,9 +34912,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR935",
         "miRNA Sequence": "CCAGUUACCGCUUCCGCUACCGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-937-3p": {},
+    "hsa-miR-937-3p": {
+        "Host Gene": "SCRIB",
+        "Host Gene Transcript Count": 8
+    },
     "hsa-miR-939-5p": {
         "Host Gene": "CPSF1",
         "Host Gene Transcript Count": 14,
@@ -34337,7 +34931,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR939",
         "miRNA Sequence": "UGGGGAGCUGAGGCUCUGGGGGUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-940": {
         "Host Gene": "RP11-304L19.13",
@@ -34444,7 +35038,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR940",
         "miRNA Sequence": "AAGGCAGGGCCCCCGCUCCCC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-941": {
         "Host Gene": "DNAJC5",
@@ -34467,9 +35061,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR941-5",
         "miRNA Sequence": "CACCCGGCUGUGUGCACAUGUGC",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-942-5p": {},
+    "hsa-miR-942-5p": {
+        "Host Gene": "TTF2",
+        "Host Gene Transcript Count": 7
+    },
     "hsa-miR-943": {
         "Host Gene": "NELFA",
         "Host Gene Transcript Count": 16,
@@ -34483,9 +35080,12 @@ miRNA_meta_data = {
         "miRNA Name": "MIR943",
         "miRNA Sequence": "CUGACUGUUGCCGUCCUCCAG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
-    "hsa-miR-95-3p": {},
+    "hsa-miR-95-3p": {
+        "Host Gene": "ABLIM2",
+        "Host Gene Transcript Count": 16
+    },
     "hsa-miR-96-5p": {
         "Host Gene": "",
         "Host Gene Transcript Count": 0,
@@ -34547,7 +35147,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR96",
         "miRNA Sequence": "UUUGGCACUAGCACAUUUUUGCU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-98-5p": {
         "Host Gene": "HUWE1",
@@ -34934,7 +35534,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR98",
         "miRNA Sequence": "UGAGGUAGUAAGUUGUAUUGUU",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-99a-3p": {},
     "hsa-miR-99a-5p": {
@@ -34982,7 +35582,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR99A",
         "miRNA Sequence": "AACCCGUAGAUCCGAUCUUGUG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-99b-3p": {
         "Host Gene": "SPACA6P-AS",
@@ -35005,7 +35605,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR99B",
         "miRNA Sequence": "CAAGCUCGUGUCUGUGGGUCCG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "hsa-miR-99b-5p": {
         "Host Gene": "SPACA6P-AS",
@@ -35024,7 +35624,7 @@ miRNA_meta_data = {
         "miRNA Name": "MIR99B",
         "miRNA Sequence": "CACCCGUAGAACCGACCUUGCG",
         "miRNA Transcript Count": 1,
-        "miRNA family entry": None
+        "miRNA family entry": null
     },
     "kshv-miR-K12-1-5p": {},
     "kshv-miR-K12-11-3p": {},
