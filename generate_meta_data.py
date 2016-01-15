@@ -65,17 +65,19 @@ def include_gene_transcript_count_to_gene_metadata():
 
 
 if __name__ == '__main__':
-	for data in SeqIO.parse('C:\Users\Pragya\Documents\GitHub\miRNA-target-gene-network\mature\mature.fa', 'fasta'):
+	# for data in SeqIO.parse('C:\Users\Pragya\Documents\GitHub\miRNA-target-gene-network\mature\mature.fa', 'fasta'):
+	for data in SeqIO.parse('./mature/mature.fa', 'fasta'):
 		if 'Homo sapiens' in data.description:
 			
 			accession_map[(data.description).split()[0]] = (data.description).split()[1]
 	
-	with open('C:\Users\Pragya\Documents\GitHub\miRNA-target-gene-network\miFam\miFam.dat', 'r') as infile:
+	# with open('C:\Users\Pragya\Documents\GitHub\miRNA-target-gene-network\miFam\miFam.dat', 'r') as infile:
+	with open('./miFam/miFam.dat', 'r') as infile:
 		data = [line.rstrip('\n') for line in infile]
 		for index, line in enumerate(data):
 			lis = line.split()
 			if len(lis) > 2:
 				if 'hsa' in lis[2]:
 					family_accession_map[lis[2]] = lis[1]
-	# append_data()
-	include_gene_transcript_count_to_gene_metadata()
+	append_data()
+	# include_gene_transcript_count_to_gene_metadata()
