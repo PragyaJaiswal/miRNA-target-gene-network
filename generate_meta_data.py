@@ -24,20 +24,29 @@ def append_data():
 			seq = predicted_map[mirna][target][3]
 			mirna_host_target_gene_expression[mirna]["miRNA Sequence"] = seq
 
-			if mirna in family_accession_map.keys():
-				fam_mirna_link = 'http://mirbase.org/cgi-bin/mirna_entry.pl?acc=' + str(family_accession_map[mirna])
+			string = ''
+			lis = mirna.split('-')
+			for x in range(0,len(lis)):
+				if 'p' in lis[x]:
+					pass
+				else:
+					base = lis[x] + '-'
+					string+=base
+			fam_mirna = str.lower(string[:-1])
+
+			if fam_mirna in family_accession_map.keys():
+				fam_mirna_link = 'http://mirbase.org/cgi-bin/mirna_entry.pl?acc=' + str(family_accession_map[fam_mirna])
 				mirna_host_target_gene_expression[mirna]["miRNA family entry"] = fam_mirna_link
 			else:
 				mirna_host_target_gene_expression[mirna]["miRNA family entry"] = None
 
-			# print accession_map[mirna]
 			if mirna in accession_map.keys():
 				mature_mirna_link = 'http://mirbase.org/cgi-bin/mature.pl?mature_acc=' + str(accession_map[mirna])
 				mirna_host_target_gene_expression[mirna]["mature miRNA entry"] = mature_mirna_link
 			else:
 				mirna_host_target_gene_expression[mirna]["mature miRNA entry"] = None
-	jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data.py', 'miRNA_meta_data')
-	jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data.json')
+	jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data_1.py', 'miRNA_meta_data')
+	jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data_1.json')
 	return mirna_host_target_gene_expression
 
 '''
@@ -56,6 +65,7 @@ def reverse_map(miRNA_meta_data):
 			for target in miRNA_meta_data[mirna]['Target Gene with Transcript Count']:
 				reverse[target[0]].append(mirna)
 	jsonify(reverse, 'map_reverse.py', 'miRNA_reverse')
+	jsonify(reverse, 'map_reverse.json')
 	return reverse
 
 
@@ -89,6 +99,7 @@ def extend_reverse_map_for_genes(miRNA_meta_data, gene_data, map_reverse):
 						for key, value in gene_data[gene].iteritems():
 							gene_data_new[gene][key] = value
 	jsonify(gene_data_new, 'gene_meta_data.py', 'gene_meta_data')
+	jsonify(gene_data_new, 'gene_meta_data.json')
 
 '''
 def include_gene_transcript_count_to_gene_metadata():
@@ -134,7 +145,7 @@ if __name__ == '__main__':
 					family_accession_map[lis[2]] = lis[1]
 	miRNA_meta_data = append_data()
 	# include_gene_transcript_count_to_gene_metadata()
-	map_reverse = reverse_map(miRNA_meta_data)
-	with open('./gene_ID_Store.json', 'r') as infile:
-		gene_data = json.loads(infile.read())
-		extend_reverse_map_for_genes(miRNA_meta_data, gene_data, map_reverse)
+	# map_reverse = reverse_map(miRNA_meta_data)
+	# with open('./gene_ID_Store.json', 'r') as infile:
+	# 	gene_data = json.loads(infile.read())
+	# 	extend_reverse_map_for_genes(miRNA_meta_data, gene_data, map_reverse)
