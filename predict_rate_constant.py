@@ -29,7 +29,8 @@ def find_k_equivalent():
 			# print predicted_map[mirna][targets]
 			if mirna in mirna_host_gene_map_with_transcript_count.keys():
 				m = find_target_gene_expression(targets)
-				tup = (targets, m)
+				affinity = predicted_map[mirna][targets][19]
+				tup = (targets, m, affinity)
 				# target_genes_lis.append(targets)
 				# target_gene_expression_lis.append(m)
 				if "miRNA Transcript Count" in mirna_host_gene_map_with_transcript_count[mirna].keys():
