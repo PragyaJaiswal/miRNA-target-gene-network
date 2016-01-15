@@ -1,0 +1,196 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="TUSC2" label="TUSC2" />
+      <node id="JPH4" label="JPH4" />
+      <node id="hsa-miR-33a-5p" label="hsa-miR-33a-5p" />
+      <node id="LARP1" label="LARP1" />
+      <node id="hsa-miR-26b-5p" label="hsa-miR-26b-5p" />
+      <node id="MAP3K1" label="MAP3K1" />
+      <node id="MIB1" label="MIB1" />
+      <node id="WDR6" label="WDR6" />
+      <node id="WIPI2" label="WIPI2" />
+      <node id="MTUS1" label="MTUS1" />
+      <node id="ARRDC3" label="ARRDC3" />
+      <node id="ZNF644" label="ZNF644" />
+      <node id="CSNK2A1" label="CSNK2A1" />
+      <node id="NME4" label="NME4" />
+      <node id="NKIRAS2" label="NKIRAS2" />
+      <node id="CCND2" label="CCND2" />
+      <node id="NR1I2" label="NR1I2" />
+      <node id="VDR" label="VDR" />
+      <node id="ATP2A2" label="ATP2A2" />
+      <node id="ACVR1B" label="ACVR1B" />
+      <node id="ANO6" label="ANO6" />
+      <node id="GLUL" label="GLUL" />
+      <node id="C1GALT1" label="C1GALT1" />
+      <node id="UBAP2" label="UBAP2" />
+      <node id="EGR3" label="EGR3" />
+      <node id="hsa-miR-26a-5p" label="hsa-miR-26a-5p" />
+      <node id="THBS1" label="THBS1" />
+      <node id="NID2" label="NID2" />
+      <node id="SMARCAD1" label="SMARCAD1" />
+      <node id="FNDC3A" label="FNDC3A" />
+      <node id="CDC25B" label="CDC25B" />
+      <node id="NUDT5" label="NUDT5" />
+      <node id="HOXB4" label="HOXB4" />
+      <node id="UBA6" label="UBA6" />
+      <node id="LIN28A" label="LIN28A" />
+      <node id="TAF5" label="TAF5" />
+      <node id="MED13L" label="MED13L" />
+      <node id="CD276" label="CD276" />
+      <node id="FAM105B" label="FAM105B" />
+      <node id="TRIM5" label="TRIM5" />
+      <node id="SESN2" label="SESN2" />
+      <node id="AIDA" label="AIDA" />
+      <node id="TCERG1" label="TCERG1" />
+      <node id="MAPK11" label="MAPK11" />
+      <node id="ADSL" label="ADSL" />
+      <node id="LHFPL2" label="LHFPL2" />
+      <node id="SIK1" label="SIK1" />
+      <node id="ZNF629" label="ZNF629" />
+      <node id="DHX57" label="DHX57" />
+      <node id="GPN1" label="GPN1" />
+      <node id="TTC26" label="TTC26" />
+      <node id="CDKN1A" label="CDKN1A" />
+      <node id="HAS2" label="HAS2" />
+      <node id="RANBP2" label="RANBP2" />
+      <node id="RP11-2B6.3" label="RP11-2B6.3" />
+      <node id="ARL6IP6" label="ARL6IP6" />
+      <node id="HMGA2" label="HMGA2" />
+      <node id="ZFP36L1" label="ZFP36L1" />
+      <node id="HMGA1" label="HMGA1" />
+      <node id="ARID3B" label="ARID3B" />
+      <node id="hsa-let-7a-5p" label="hsa-let-7a-5p" />
+      <node id="S100PBP" label="S100PBP" />
+      <node id="UHRF2" label="UHRF2" />
+      <node id="E2F2" label="E2F2" />
+      <node id="RIOK3" label="RIOK3" />
+      <node id="DICER1" label="DICER1" />
+      <node id="IL6" label="IL6" />
+      <node id="ABCA1" label="ABCA1" />
+      <node id="RRM2" label="RRM2" />
+      <node id="TRIM71" label="TRIM71" />
+      <node id="B4GALNT3" label="B4GALNT3" />
+      <node id="RBMXL1" label="RBMXL1" />
+      <node id="HIST2H2BF" label="HIST2H2BF" />
+      <node id="ZNF780A" label="ZNF780A" />
+      <node id="CLPB" label="CLPB" />
+      <node id="SPTBN1" label="SPTBN1" />
+      <node id="UBOX5" label="UBOX5" />
+      <node id="QKI" label="QKI" />
+      <node id="RAVER2" label="RAVER2" />
+      <node id="NEFM" label="NEFM" />
+      <node id="NRAS" label="NRAS" />
+      <node id="ZCCHC9" label="ZCCHC9" />
+      <node id="ZNF555" label="ZNF555" />
+      <node id="ATP6V1B2" label="ATP6V1B2" />
+      <node id="PRDM1" label="PRDM1" />
+      <node id="ITGB3" label="ITGB3" />
+      <node id="PAQR5" label="PAQR5" />
+      <node id="TMEM241" label="TMEM241" />
+      <node id="PIGN" label="PIGN" />
+      <node id="SLC20A1" label="SLC20A1" />
+      <node id="CASP3" label="CASP3" />
+      <node id="TAB2" label="TAB2" />
+      <node id="hsa-miR-33b-5p" label="hsa-miR-33b-5p" />
+      <node id="hsa-miR-27a-3p" label="hsa-miR-27a-3p" />
+      <node id="CNTRL" label="CNTRL" />
+    </nodes>
+    <edges>
+      <edge id="0" source="hsa-miR-33a-5p" target="ABCA1" />
+      <edge id="1" source="hsa-miR-26b-5p" target="ABCA1" />
+      <edge id="2" source="hsa-miR-26a-5p" target="ABCA1" />
+      <edge id="3" source="RP11-2B6.3" target="hsa-let-7a-5p" />
+      <edge id="4" source="hsa-let-7a-5p" target="TUSC2" />
+      <edge id="5" source="hsa-let-7a-5p" target="JPH4" />
+      <edge id="6" source="hsa-let-7a-5p" target="LARP1" />
+      <edge id="7" source="hsa-let-7a-5p" target="MAP3K1" />
+      <edge id="8" source="hsa-let-7a-5p" target="MIB1" />
+      <edge id="9" source="hsa-let-7a-5p" target="WDR6" />
+      <edge id="10" source="hsa-let-7a-5p" target="WIPI2" />
+      <edge id="11" source="hsa-let-7a-5p" target="MTUS1" />
+      <edge id="12" source="hsa-let-7a-5p" target="ARRDC3" />
+      <edge id="13" source="hsa-let-7a-5p" target="ZNF644" />
+      <edge id="14" source="hsa-let-7a-5p" target="CSNK2A1" />
+      <edge id="15" source="hsa-let-7a-5p" target="NME4" />
+      <edge id="16" source="hsa-let-7a-5p" target="NKIRAS2" />
+      <edge id="17" source="hsa-let-7a-5p" target="CCND2" />
+      <edge id="18" source="hsa-let-7a-5p" target="NR1I2" />
+      <edge id="19" source="hsa-let-7a-5p" target="VDR" />
+      <edge id="20" source="hsa-let-7a-5p" target="ATP2A2" />
+      <edge id="21" source="hsa-let-7a-5p" target="ACVR1B" />
+      <edge id="22" source="hsa-let-7a-5p" target="ANO6" />
+      <edge id="23" source="hsa-let-7a-5p" target="GLUL" />
+      <edge id="24" source="hsa-let-7a-5p" target="C1GALT1" />
+      <edge id="25" source="hsa-let-7a-5p" target="UBAP2" />
+      <edge id="26" source="hsa-let-7a-5p" target="EGR3" />
+      <edge id="27" source="hsa-let-7a-5p" target="THBS1" />
+      <edge id="28" source="hsa-let-7a-5p" target="NID2" />
+      <edge id="29" source="hsa-let-7a-5p" target="SMARCAD1" />
+      <edge id="30" source="hsa-let-7a-5p" target="FNDC3A" />
+      <edge id="31" source="hsa-let-7a-5p" target="CDC25B" />
+      <edge id="32" source="hsa-let-7a-5p" target="NUDT5" />
+      <edge id="33" source="hsa-let-7a-5p" target="HOXB4" />
+      <edge id="34" source="hsa-let-7a-5p" target="UBA6" />
+      <edge id="35" source="hsa-let-7a-5p" target="LIN28A" />
+      <edge id="36" source="hsa-let-7a-5p" target="TAF5" />
+      <edge id="37" source="hsa-let-7a-5p" target="MED13L" />
+      <edge id="38" source="hsa-let-7a-5p" target="CD276" />
+      <edge id="39" source="hsa-let-7a-5p" target="FAM105B" />
+      <edge id="40" source="hsa-let-7a-5p" target="TRIM5" />
+      <edge id="41" source="hsa-let-7a-5p" target="SESN2" />
+      <edge id="42" source="hsa-let-7a-5p" target="AIDA" />
+      <edge id="43" source="hsa-let-7a-5p" target="TCERG1" />
+      <edge id="44" source="hsa-let-7a-5p" target="MAPK11" />
+      <edge id="45" source="hsa-let-7a-5p" target="ADSL" />
+      <edge id="46" source="hsa-let-7a-5p" target="LHFPL2" />
+      <edge id="47" source="hsa-let-7a-5p" target="SIK1" />
+      <edge id="48" source="hsa-let-7a-5p" target="ZNF629" />
+      <edge id="49" source="hsa-let-7a-5p" target="DHX57" />
+      <edge id="50" source="hsa-let-7a-5p" target="GPN1" />
+      <edge id="51" source="hsa-let-7a-5p" target="TTC26" />
+      <edge id="52" source="hsa-let-7a-5p" target="CDKN1A" />
+      <edge id="53" source="hsa-let-7a-5p" target="HAS2" />
+      <edge id="54" source="hsa-let-7a-5p" target="RANBP2" />
+      <edge id="55" source="hsa-let-7a-5p" target="ARL6IP6" />
+      <edge id="56" source="hsa-let-7a-5p" target="HMGA2" />
+      <edge id="57" source="hsa-let-7a-5p" target="ZFP36L1" />
+      <edge id="58" source="hsa-let-7a-5p" target="HMGA1" />
+      <edge id="59" source="hsa-let-7a-5p" target="ARID3B" />
+      <edge id="60" source="hsa-let-7a-5p" target="S100PBP" />
+      <edge id="61" source="hsa-let-7a-5p" target="UHRF2" />
+      <edge id="62" source="hsa-let-7a-5p" target="E2F2" />
+      <edge id="63" source="hsa-let-7a-5p" target="RIOK3" />
+      <edge id="64" source="hsa-let-7a-5p" target="DICER1" />
+      <edge id="65" source="hsa-let-7a-5p" target="IL6" />
+      <edge id="66" source="hsa-let-7a-5p" target="RRM2" />
+      <edge id="67" source="hsa-let-7a-5p" target="TRIM71" />
+      <edge id="68" source="hsa-let-7a-5p" target="B4GALNT3" />
+      <edge id="69" source="hsa-let-7a-5p" target="RBMXL1" />
+      <edge id="70" source="hsa-let-7a-5p" target="HIST2H2BF" />
+      <edge id="71" source="hsa-let-7a-5p" target="ZNF780A" />
+      <edge id="72" source="hsa-let-7a-5p" target="CLPB" />
+      <edge id="73" source="hsa-let-7a-5p" target="SPTBN1" />
+      <edge id="74" source="hsa-let-7a-5p" target="UBOX5" />
+      <edge id="75" source="hsa-let-7a-5p" target="QKI" />
+      <edge id="76" source="hsa-let-7a-5p" target="RAVER2" />
+      <edge id="77" source="hsa-let-7a-5p" target="NEFM" />
+      <edge id="78" source="hsa-let-7a-5p" target="NRAS" />
+      <edge id="79" source="hsa-let-7a-5p" target="ZCCHC9" />
+      <edge id="80" source="hsa-let-7a-5p" target="ZNF555" />
+      <edge id="81" source="hsa-let-7a-5p" target="ATP6V1B2" />
+      <edge id="82" source="hsa-let-7a-5p" target="PRDM1" />
+      <edge id="83" source="hsa-let-7a-5p" target="ITGB3" />
+      <edge id="84" source="hsa-let-7a-5p" target="PAQR5" />
+      <edge id="85" source="hsa-let-7a-5p" target="TMEM241" />
+      <edge id="86" source="hsa-let-7a-5p" target="PIGN" />
+      <edge id="87" source="hsa-let-7a-5p" target="SLC20A1" />
+      <edge id="88" source="hsa-let-7a-5p" target="CASP3" />
+      <edge id="89" source="hsa-let-7a-5p" target="TAB2" />
+      <edge id="90" source="hsa-let-7a-5p" target="CNTRL" />
+      <edge id="91" source="hsa-miR-33b-5p" target="ABCA1" />
+      <edge id="92" source="hsa-miR-27a-3p" target="ABCA1" />
+    </edges>
+  </graph>
+</gexf>
