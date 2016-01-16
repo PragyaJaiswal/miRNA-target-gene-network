@@ -5,7 +5,8 @@ import os, sys
 import json, csv, re
 from Bio import SeqIO
 
-from miRNA_meta_data import miRNA_meta_data
+# from miRNA_meta_data import miRNA_meta_data
+from miRNA_meta_data_new import miRNA_meta_data
 
 miRNA_meta_data_new = {}
 
