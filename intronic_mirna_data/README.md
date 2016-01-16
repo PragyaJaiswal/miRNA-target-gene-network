@@ -1,0 +1,1 @@
+Intonic miRNA data picked from http://inmirna.org/download for Homo sapiens under mature Intronic miRNAs.
