@@ -6,8 +6,8 @@ import json, csv, re
 from Bio import SeqIO
 import Bio
 
-from miRNA_meta_data_new import miRNA_meta_data
-# from mirna_complete_data
+from miRNA_meta_data_intronic import miRNA_meta_data
+
 mirna_complete_data = {}
 
 def extract(data):
@@ -53,17 +53,25 @@ def extract(data):
 
 
 def extend_meta_data():
+	miRNA_meta_data_complete = {}
 	for mirna in miRNA_meta_data:
+		miRNA_meta_data_complete[mirna] = {}
 		for fam_mirna in mirna_complete_data.keys():
 			if mirna in mirna_complete_data[fam_mirna]['products'].keys():
 				for keys, info in mirna_complete_data[fam_mirna]['products'][mirna].iteritems():
-					miRNA_meta_data[mirna][keys] = info
+					miRNA_meta_data_complete[mirna][keys] = info
 
 				for key, value in mirna_complete_data[fam_mirna].iteritems():
 					if not key == 'products':
-						miRNA_meta_data[mirna][key] = value
-		jsonify(miRNA_meta_data, 'miRNA_meta_data_complete.py', 'miRNA_meta_data')
-		jsonify(miRNA_meta_data, 'miRNA_meta_data_complete.json', 'miRNA_meta_data')
+						miRNA_meta_data_complete[mirna][key] = value
+
+				for key, value in miRNA_meta_data[mirna].iteritems():
+					miRNA_meta_data_complete[mirna][key] = value
+
+				miRNA_meta_data_complete[mirna]['family'] = fam_mirna
+		
+		jsonify(miRNA_meta_data_complete, 'miRNA_meta_data_intronic_complete.py', 'miRNA_meta_data')
+		jsonify(miRNA_meta_data_complete, 'miRNA_meta_data_intronic_complete.json', 'miRNA_meta_data')
 
 
 def jsonify(dictionary, filename, text='None'):
