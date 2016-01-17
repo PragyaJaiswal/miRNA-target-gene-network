@@ -1,53 +1,44 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# Outputs - mirna_host_target_gene_expression.py, predicted_with_keq_mmi_exp.py
 import os, sys
 import json, csv, re
 import math
 
-from predicted import predicted_map
 from mirna_host_gene_map_with_transcript_count import mirna_host_gene_map_with_transcript_count
 
-
-def find_k_equivalent():
+def find_k_equivalent(predicted_map):
 	mirna_host_target_gene_expression = {}
 	for mirna in predicted_map.keys():
 		mirna_host_target_gene_expression[mirna] = {}
+		
+		for key, value in mirna_host_gene_map_with_transcript_count[mirna].iteritems():
+			mirna_host_target_gene_expression[mirna][key] = value
+		
 		if predicted_map[mirna].keys():
 			mirna_host_target_gene_expression[mirna]["Target Gene with Transcript Count"] = []
+		
 		for targets in predicted_map[mirna].keys():
-			# print mirna
-			# print targets
-			# print predicted_map[mirna][targets][19]
-			del_g_binding = predicted_map[mirna][targets][19]
-			# Gibbs Free Energy equation at R = 0.008314 kJ/(mol.K) and T = 298 K
-			keq = float(math.exp(-1 * del_g_binding/(0.008314 * 298)))
-			# print del_g_binding
-			# print keq
-			predicted_map[mirna][targets].append(keq)
-			# predicted_map[mirna][targets].append(0)	# Putting mmi = 0 by default for each mirna-target gene combination so that each list has same structure.
-			# print predicted_map[mirna][targets]
-			if mirna in mirna_host_gene_map_with_transcript_count.keys():
-				m = find_target_gene_expression(targets)
-				affinity = predicted_map[mirna][targets][19]
-				tup = (targets, m, affinity)
-				# target_genes_lis.append(targets)
-				# target_gene_expression_lis.append(m)
-				if "miRNA Transcript Count" in mirna_host_gene_map_with_transcript_count[mirna].keys():
-					mirna_host_target_gene_expression[mirna]["miRNA Transcript Count"] = mirna_host_gene_map_with_transcript_count[mirna]["miRNA Transcript Count"]
-				else:
-					# Not known
-					mirna_host_target_gene_expression[mirna]["miRNA Transcript Count"] = None
+			if not predicted_map[mirna][targets] == []:
+				'''
+				Extract del_g and evaluate keq using that.
+				del_G could only be evaluated for targets
+				whose affinity is known.
+				'''
+				del_g_binding = predicted_map[mirna][targets][19]
 				
-				if "miRNA Name" in mirna_host_gene_map_with_transcript_count[mirna].keys():
-					mirna_host_target_gene_expression[mirna]["miRNA Name"] = mirna_host_gene_map_with_transcript_count[mirna]["miRNA Name"]
-				else:
-					# Not known
-					mirna_host_target_gene_expression[mirna]["miRNA Name"] = None
-				# mirna_host_target_gene_expression[mirna]["Target Gene"] = 
-				mirna_host_target_gene_expression[mirna]["Target Gene with Transcript Count"].append(tup)
-				mirna_host_target_gene_expression[mirna]["Host Gene"] = ''
-				mirna_host_target_gene_expression[mirna]["Host Gene Transcript Count"] = 0
+				# Gibbs Free Energy equation at R = 0.008314 kJ/(mol.K) and T = 298 K
+				keq = float(math.exp(-1 * del_g_binding/(0.008314 * 298)))
+				
+				predicted_map[mirna][targets].append(keq)
+				# predicted_map[mirna][targets].append(0)	# Putting mmi = 0 by default for each mirna-target gene combination so that each list has same structure.
+				# print predicted_map[mirna][targets]
+
+				'''
+				Evaluate mmi concentration for those whose host gene
+				expression and target gene expression are known.
+				'''
 				if "Host Gene" in mirna_host_gene_map_with_transcript_count[mirna].keys():
 					# print mirna, targets
 					# print mirna_host_gene_map_with_transcript_count[mirna]["Host Gene"]
@@ -55,21 +46,47 @@ def find_k_equivalent():
 					m = find_target_gene_expression(targets)
 					mi = int(mirna_host_gene_map_with_transcript_count[mirna]["Host Gene Transcript Count"])
 					
-					# if m == None or mi == None or keq == None:
-					# 	pass
 					# Uses host gene transcript count for mirna conc, target gene transcript count for mRNA conc
 					mmi = keq * m * mi
-					# print m, mi, mmi
-					# raw_input('Enter')
-					mirna_host_target_gene_expression[mirna]["Host Gene"] = mirna_host_gene_map_with_transcript_count[mirna]["Host Gene"]
-					mirna_host_target_gene_expression[mirna]["Host Gene Transcript Count"] = mi
 
 					predicted_map[mirna][targets].append(mmi)
+
+			'''
+			Append target gene list containing tuples of format
+			(targets, transcript count, affinity) to the final
+			dictionary containing host genes (if known) and
+			target genes, both with transcript counts.
+			'''
+			if mirna in mirna_host_gene_map_with_transcript_count.keys():
+				m = find_target_gene_expression(targets)
+				if not predicted_map[mirna][targets] == []:
+					affinity = predicted_map[mirna][targets][19]
+				else:
+					affinity = None
+				tup = (targets, m, affinity)
+				
+				# if "miRNA Transcript Count" in mirna_host_gene_map_with_transcript_count[mirna].keys():
+				# 	mirna_host_target_gene_expression[mirna]["miRNA Transcript Count"] = mirna_host_gene_map_with_transcript_count[mirna]["miRNA Transcript Count"]
+				# else:
+				# 	# Not known
+				# 	mirna_host_target_gene_expression[mirna]["miRNA Transcript Count"] = None
+				
+				# if "miRNA Name" in mirna_host_gene_map_with_transcript_count[mirna].keys():
+				# 	mirna_host_target_gene_expression[mirna]["miRNA Name"] = mirna_host_gene_map_with_transcript_count[mirna]["miRNA Name"]
+				# else:
+				# 	# Not known
+				# 	mirna_host_target_gene_expression[mirna]["miRNA Name"] = None
+				
+				mirna_host_target_gene_expression[mirna]["Target Gene with Transcript Count"].append(tup)
+				# mirna_host_target_gene_expression[mirna]["Host Gene"] = ''
+				# mirna_host_target_gene_expression[mirna]["Host Gene Transcript Count"] = 0
+				
+
 	for mirna in mirna_host_gene_map_with_transcript_count.keys():
 		if "Host Gene" in mirna_host_gene_map_with_transcript_count[mirna].keys():
 			mirna_host_target_gene_expression[mirna]["Host Gene"] = mirna_host_gene_map_with_transcript_count[mirna]["Host Gene"]
 			mirna_host_target_gene_expression[mirna]["Host Gene Transcript Count"] = mirna_host_gene_map_with_transcript_count[mirna]["Host Gene Transcript Count"]
-	# jsonify(predicted_map, 'predicted_with_keq_mmi_exp.py', 'predicted_map_with_keq_mmi_exp')
+	jsonify(predicted_map, 'predicted_with_keq_mmi_exp.py', 'predicted_map_with_keq_mmi_exp')
 	# jsonify(mirna_host_target_gene_expression, 'mirna_host_target_gene_expression.json')
 	jsonify(mirna_host_target_gene_expression, 'mirna_host_target_gene_expression.py', 'mirna_host_target_gene_expression')
 
@@ -102,4 +119,6 @@ def jsonify(dictionary, filename, text='None'):
 
 
 if __name__ == '__main__':
-	find_k_equivalent()
+	with open('./prediction_Store.json', 'r') as infile:
+		predicted_map = json.loads(infile.read())
+		find_k_equivalent(predicted_map)
