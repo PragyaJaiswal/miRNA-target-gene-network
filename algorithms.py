@@ -13,7 +13,7 @@ class competition(object):
 	def __init__(self):
 		pass
 
-	def find_k_equivalent(self):
+	def ranking_parameter(self):
 		for mirna in miRNA_meta_data.keys():
 			if 'Target Gene with Transcript Count' in miRNA_meta_data[mirna].keys():
 				for each_target in miRNA_meta_data[mirna]['Target Gene with Transcript Count']:
@@ -25,6 +25,29 @@ class competition(object):
 						mmi = keq * m * mi
 						print mmi
 
+class dissociate(object):
+	"""docstring for dissociate"""
+	def __init__(self):
+		super(dissociate, self).__init__()
+		pass
+
+	def ranking_parameter_gene_rrna(self):
+		pass
+
+	def ranking_parameter_gene_mirna(self):
+		pass
+
+	def degrade():
+		pass	
+
+class bind(object):
+	"""docstring for bind"""
+	def __init__(self):
+		super(bind, self).__init__()
+		pass
+
+	def ranking_parameter():
+		pass
 
 if __name__ == '__main__':
 	x = competition()
