@@ -1,3 +1,10 @@
+'''
+# Not using anymore.
+
+This is the raw data for the hosts of miRNAs
+obtained from a inmirna.org
+'''
+
 hsa-host2miRNA = {
     "hsa-let-7a-1": [
         "ENSG00000269946"

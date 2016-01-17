@@ -1,3 +1,11 @@
+'''
+# This data not used.
+Incorporates the expression levels obtained by
+the data provided in a published research article.
+
+Resulted in expression levels for only 18 miRNAs
+out of our data of 596 miRNAs.
+'''
 mirna_host_gene_map_with_expression_levels = {
     "hsa-let-7f-2-3p": {
         "Gene": "HUWE1",

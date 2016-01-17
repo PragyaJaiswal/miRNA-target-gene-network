@@ -1,3 +1,4 @@
+# Data is used. Not directly though.
 mirna_target_gene_affinity = {
     "ebv-miR-BART16": [],
     "ebv-miR-BART3-3p": [],

@@ -1,6 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+'''
+Script to extract affinity of each reaction
+and save as a list withiin dictionary.
+
+Outputs mirna_target_gene_affinity and
+target_gene_mirna_affinity.
+'''
+
+
 import os, sys
 import json, csv, re
 import math

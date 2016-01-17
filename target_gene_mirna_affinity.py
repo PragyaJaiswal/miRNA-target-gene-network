@@ -1,3 +1,4 @@
+# Data is used but not directly.
 target_gene_mirna_affinity = {
     "A2M": [],
     "A4GALT": [],

@@ -1,3 +1,20 @@
+'''
+#: This data not used. Discarded as test.
+
+596 miRNAs from miRBase.
+hsa-host2miRNA.py/hsa-host2miRNA.txt gives the host
+list obtained from inmirna.org.
+Finding host of the 596 miRNAs in this host list
+results in only 158 out of 596 results which are
+miRNAs whose host genes are known.
+This data shows the mentioned results.
+
+Result and data discarded for poor performance.
+
+Host gene mapping now obtained from Ensembl gene
+coordinates.
+'''
+
 mirna_host_gene_map = {
     "ebv-miR-BART16": [],
     "ebv-miR-BART3-3p": [],
