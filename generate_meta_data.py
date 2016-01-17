@@ -6,9 +6,9 @@ import json, csv, re
 import math
 from Bio import SeqIO
 
-from predicted import predicted_map
+from miRNA_Sequences import sequence_lookup
 from mirna_host_target_gene_expression import mirna_host_target_gene_expression
-
+from map_reverse import miRNA_reverse as map_reverse
 # from miRNA_meta_data import miRNA_meta_data
 
 accession_map = {}
@@ -18,12 +18,15 @@ all_target_genes = {}
 '''
 For miRNA meta data.
 '''
-def append_data():
+def append_data(predicted_map):
 	for mirna in mirna_host_target_gene_expression:
-		for target in predicted_map[mirna].keys():
-			seq = predicted_map[mirna][target][3]
+		if mirna in sequence_lookup.keys():
+			seq = sequence_lookup[mirna]
 			mirna_host_target_gene_expression[mirna]["miRNA Sequence"] = seq
-
+		else:
+			mirna_host_target_gene_expression[mirna]["miRNA Sequence"] = None
+		
+		for target in predicted_map[mirna].keys():
 			string = ''
 			lis = mirna.split('-')
 			for x in range(0,len(lis)):
@@ -45,31 +48,54 @@ def append_data():
 				mirna_host_target_gene_expression[mirna]["mature miRNA entry"] = mature_mirna_link
 			else:
 				mirna_host_target_gene_expression[mirna]["mature miRNA entry"] = None
-	jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data_1.py', 'miRNA_meta_data')
-	jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data_1.json')
+	jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data_596.py', 'miRNA_meta_data')
+	jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data_596.json')
+	only_intronic(mirna_host_target_gene_expression)
 	return mirna_host_target_gene_expression
+
+
+def only_intronic(mirna_host_target_gene_expression):
+	miRNA_meta_data_new = {}
+	with open('./intronic_mirna_data/hsa-mat-miRNA.fasta') as data_file:
+		data = SeqIO.parse(data_file, 'fasta')
+		lis = []
+		for mirna in data:
+			lis.append(mirna.name.split('|')[0])
+		# print 'Total number of intronic miRNAs:\n' + str(len(lis))
+		
+		# count = 0
+		for mirna in mirna_host_target_gene_expression.keys():
+			if mirna in lis:
+				# count+=1
+				miRNA_meta_data_new[mirna] = {}
+				for key, value in mirna_host_target_gene_expression[mirna].iteritems():
+					miRNA_meta_data_new[mirna][key] = value
+		print len(miRNA_meta_data_new.keys())
+		jsonify(miRNA_meta_data_new, 'miRNA_meta_data_intronic.json', 'miRNA_meta_data')
+		jsonify(miRNA_meta_data_new, 'miRNA_meta_data_intronic.py', 'miRNA_meta_data')
+
 
 '''
 For gene meta data.
 '''
-def reverse_map(miRNA_meta_data):
-	reverse = {}
-	for mirna in miRNA_meta_data.keys():
-		if 'Target Gene with Transcript Count' in miRNA_meta_data[mirna].keys():
-			for target in miRNA_meta_data[mirna]['Target Gene with Transcript Count']:
-				# print target[0]
-				reverse[target[0]] = []
+# def reverse_map(miRNA_meta_data):
+# 	reverse = {}
+# 	for mirna in miRNA_meta_data.keys():
+# 		if 'Target Gene with Transcript Count' in miRNA_meta_data[mirna].keys():
+# 			for target in miRNA_meta_data[mirna]['Target Gene with Transcript Count']:
+# 				# print target[0]
+# 				reverse[target[0]] = []
 
-	for mirna in miRNA_meta_data.keys():
-		if 'Target Gene with Transcript Count' in miRNA_meta_data[mirna].keys():
-			for target in miRNA_meta_data[mirna]['Target Gene with Transcript Count']:
-				reverse[target[0]].append(mirna)
-	jsonify(reverse, 'map_reverse.py', 'miRNA_reverse')
-	jsonify(reverse, 'map_reverse.json')
-	return reverse
+# 	for mirna in miRNA_meta_data.keys():
+# 		if 'Target Gene with Transcript Count' in miRNA_meta_data[mirna].keys():
+# 			for target in miRNA_meta_data[mirna]['Target Gene with Transcript Count']:
+# 				reverse[target[0]].append(mirna)
+# 	jsonify(reverse, 'map_reverse.py', 'miRNA_reverse')
+# 	jsonify(reverse, 'map_reverse.json')
+# 	return reverse
 
 
-def extend_reverse_map_for_genes(miRNA_meta_data, gene_data, map_reverse):
+def extend_reverse_map_for_genes(miRNA_meta_data, gene_data):
 	gene_data_new = {}
 	for mirna in miRNA_meta_data.keys():
 		if 'Host Gene' in miRNA_meta_data[mirna].keys() and not miRNA_meta_data[mirna]['Host Gene'] == '':
@@ -98,8 +124,8 @@ def extend_reverse_map_for_genes(miRNA_meta_data, gene_data, map_reverse):
 					if gene in gene_data.keys():
 						for key, value in gene_data[gene].iteritems():
 							gene_data_new[gene][key] = value
-	jsonify(gene_data_new, 'gene_meta_data.py', 'gene_meta_data')
-	jsonify(gene_data_new, 'gene_meta_data.json')
+	jsonify(gene_data_new, 'gene_meta_data_new.py', 'gene_meta_data')
+	jsonify(gene_data_new, 'gene_meta_data_new.json')
 
 '''
 def include_gene_transcript_count_to_gene_metadata():
@@ -143,9 +169,13 @@ if __name__ == '__main__':
 			if len(lis) > 2:
 				if 'hsa' in lis[2]:
 					family_accession_map[lis[2]] = lis[1]
-	miRNA_meta_data = append_data()
-	# include_gene_transcript_count_to_gene_metadata()
-	# map_reverse = reverse_map(miRNA_meta_data)
+
+	with open('./prediction_Store.json', 'r') as infile:
+		predicted_map = json.loads(infile.read())
+		miRNA_meta_data = append_data(predicted_map)
+	
+		# include_gene_transcript_count_to_gene_metadata()
+
 	# with open('./gene_ID_Store.json', 'r') as infile:
 	# 	gene_data = json.loads(infile.read())
-	# 	extend_reverse_map_for_genes(miRNA_meta_data, gene_data, map_reverse)
+	# 	extend_reverse_map_for_genes(miRNA_meta_data, gene_data)
