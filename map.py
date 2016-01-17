@@ -1,6 +1,19 @@
 '''
-Script to map between the mapping obtained from inmirna.org 
-and the list of mirna obtained from mirBase.
+# Script not used anymore.
+
+Script to map between the host-gene mapping obtained 
+from inmirna.org and the list of mirna obtained from
+mirBase.
+596 miRNAs from miRBase.
+hsa-host2miRNA.py/hsa-host2miRNA.txt gives the host
+list obtained from inmirna.org.
+Finding host of the 596 miRNAs in this host list
+results in only 158 out of 596 results which are
+miRNAs whose host genes are known.
+Result and data discarded for poor performance.
+
+Host gene mapping now obtained from Ensembl gene
+coordinates.
 '''
 
 import requests
