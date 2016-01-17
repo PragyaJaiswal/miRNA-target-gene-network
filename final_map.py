@@ -1,8 +1,4 @@
-'''
-Script to map between the mapping obtained from inmirna.org 
-and the list of mirna obtained from mirBase.
-'''
-
+# Outputs - mirna_host_gene_map_with_transcript_count.py
 import re, json, csv, itertools
 import os, sys
 
@@ -11,7 +7,9 @@ sys.path.insert(0, './data_used_for_mapping/')
 from mirna_map_dict import mirna_map_dict
 from gene_coordinates_from_ensembl import gene_coordinates_from_ensembl as gene_dict
 
-
+'''
+Form gene coordinates data from esembl.
+'''
 def main():
 	global mirna_data, gene_data
 	gene_dict = {}
@@ -52,6 +50,9 @@ def main():
 		jsonify(gene_dict, '.\data_used_for_mapping\gene_coordinates_from_ensembl.py', 'gene_coordinates_from_ensembl')
 
 
+'''
+Find host for miRNAs.
+'''
 def compare_coordinates():
 	final_dict = {}
 	with open('./data_used_for_mapping/chr_coordinates_of_mirna.csv', 'r') as mirna_file:
@@ -74,7 +75,7 @@ def compare_coordinates():
 							final_dict[line[3]]['miRNA Name'] = gene_dict[chro][each]['gene_name']
 						else:
 							final_dict[line[3]]['Host Gene'] = gene_dict[chro][each]['gene_name']
-							final_dict[line[3]]['Gene Transcript Count'] = gene_dict[chro][each]['transcript_count']
+							final_dict[line[3]]['Host Gene Transcript Count'] = gene_dict[chro][each]['transcript_count']
 							print 'Gene : ' + str(gene_dict[chro][each]['gene_name'])
 							print 'Normal: ' + str(gene_dict[chro][each]['gene_name'])
 							print 'In dict: ' + final_dict[line[3]]['Host Gene']
@@ -83,6 +84,11 @@ def compare_coordinates():
 						# raw_input('Enter')
 				# jsonify(final_dict, 'mirna_host_gene_map_with_transcript_count.py', 'mirna_host_gene_map_with_transcript_count')
 		# print final_dict
+		for mirna in mirna_map_dict.keys():
+			if mirna in final_dict:
+				pass
+			else:
+				final_dict[mirna] = {}
 		jsonify(final_dict, 'mirna_host_gene_map_with_transcript_count.py', 'mirna_host_gene_map_with_transcript_count')
 
 
