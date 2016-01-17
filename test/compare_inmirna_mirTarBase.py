@@ -1,3 +1,9 @@
+'''
+Script not used anymore.
+Routine incorporated in
+generate_meta_data.py
+'''
+
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -10,6 +16,12 @@ from miRNA_meta_data_new import miRNA_meta_data
 
 miRNA_meta_data_new = {}
 
+'''
+Script to map between the mapping obtained from inmirna.org 
+and the list of mirna obtained from mirBase.
+Results in 359 intronic miRNAs found in both the above, when
+1495 in inmirna data and 596 mirna in miRBase.
+'''
 def compare(data):
 	lis = []
 	for mirna in data:
