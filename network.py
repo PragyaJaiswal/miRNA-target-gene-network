@@ -1,7 +1,7 @@
 import os, sys, json
 
 '''
-.xls data from mirTarBase. 'http://mirtarbase.mbc.nctu.edu.tw/index.php'
+.xls data from mirTarBase. 'http://mirtarbase.mbc.nctu.edu.tw/index.php' v4.5
 Implemented for miRNA target genes in homo sapiens.
 596 miRNA and 12104 target genes.
 '''
@@ -27,19 +27,18 @@ Maps miRNA to their target genes.
 target_gene_map_dict : Contains target genes as names and the miRNAs that target them as values.
 Maps target genes to their miRNAs.
 '''
-
-def mapper(item, name, other_item):
+def mapper(item, name, other_item, another_item):
 	dictionary = {}
 	# abc = item.name()
 	for i, j in enumerate(item):
 		dictionary.setdefault(j, []).append(other_item[i])
+		dictionary.setdefault(j, []).append(another_item[i])
 	jsonify(dictionary, str(name) + '.json')
 	return dictionary
 
 '''
 Export dictionary to JSON for showing count in a presentable form.
 '''
-
 def jsonify(dict, location=None):
 	a = json.dumps(dict, sort_keys=True, indent=4, separators=(',', ': '))
 	filename = str(location.split('.')[0])
@@ -59,7 +58,8 @@ if __name__ == '__main__':
 	target_dict = {}
 	genes = open('./dat/hsa/target gene.txt', 'r').read().splitlines()
 	mirna = open('./dat/hsa/miRNA.txt', 'r').read().splitlines()
+	ensemblIDs = open('./dat/hsa/ensemblIDs.txt', 'r').read().splitlines()
 	# print('Genes original: ' + str(len(genes)))
 	# print('miRNA original: ' + str(len(mirna)))
-	mirna_dict = mapper(mirna, 'mirna_map_dict', genes)
-	target_dict = mapper(genes, 'target_gene_map_dict', mirna)
+	mirna_dict = mapper(mirna, 'mirna_map_dict', genes, ensemblIDs)
+	# target_dict = mapper(genes, 'target_gene_map_dict', mirna)
