@@ -23,12 +23,11 @@ class competition(object):
 						m = each_target[1]
 						mi = miRNA_meta_data[mirna]['Host Gene Transcript Count']
 						mmi = keq * m * mi
-						print mmi
+						# print mmi
 
 class dissociate(object):
 	"""docstring for dissociate"""
 	def __init__(self):
-		super(dissociate, self).__init__()
 		pass
 
 	def ranking_parameter_gene_rrna(self):
@@ -51,4 +50,4 @@ class bind(object):
 
 if __name__ == '__main__':
 	x = competition()
-	x.find_k_equivalent()
+	x.ranking_parameter()
