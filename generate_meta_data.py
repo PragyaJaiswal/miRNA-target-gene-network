@@ -9,7 +9,7 @@ from Bio import SeqIO
 from miRNA_Sequences import sequence_lookup
 from mirna_host_target_gene_expression import mirna_host_target_gene_expression
 from map_reverse import miRNA_reverse as map_reverse
-# from miRNA_meta_data import miRNA_meta_data
+from miRNA_meta_data_intronic_complete import miRNA_meta_data
 
 accession_map = {}
 family_accession_map = {}
@@ -100,30 +100,53 @@ def extend_reverse_map_for_genes(miRNA_meta_data, gene_data):
 	for mirna in miRNA_meta_data.keys():
 		if 'Host Gene' in miRNA_meta_data[mirna].keys() and not miRNA_meta_data[mirna]['Host Gene'] == '':
 			gene = miRNA_meta_data[mirna]['Host Gene']
-			gene_data_new[gene] = {}
-			gene_data_new[gene]['Host for'] = mirna
+			
+			if gene in gene_data_new.keys():
+				if 'Host for' in gene_data_new[gene].keys():
+					gene_data_new[gene]['Host for'].append(mirna)
+				else:
+					gene_data_new[gene]['Host for'] = []
+					gene_data_new[gene]['Host for'].append(mirna)
+			else:
+				gene_data_new[gene] = {}
+				if 'Host for' in gene_data_new[gene].keys():
+					gene_data_new[gene]['Host for'].append(mirna)
+				else:
+					gene_data_new[gene]['Host for'] = []
+					gene_data_new[gene]['Host for'].append(mirna)
+				
 			if gene in map_reverse.keys():
 				gene_data_new[gene]['Target for'] = map_reverse[gene]
 			else:
 				gene_data_new[gene]['Target for'] = ''
+
 			if gene in gene_data.keys():
 				for key, value in gene_data[gene].iteritems():
 					gene_data_new[gene][key] = value
+		
 		if 'Target Gene with Transcript Count' in miRNA_meta_data[mirna].keys():
 			for target in miRNA_meta_data[mirna]['Target Gene with Transcript Count']:
 				gene = target[0]
 				if gene in gene_data_new.keys():
-					pass
+					if 'Host for' in gene_data_new[gene].keys():
+						pass
+					else:
+						gene_data_new[gene]['Host for'] = []
 				else:
 					gene_data_new[gene] = {}
-					gene_data_new[gene]['Host for'] = ''
-					if gene in map_reverse.keys():
-						gene_data_new[gene]['Target for'] = map_reverse[gene]
+					if 'Host for' in gene_data_new[gene].keys():
+						pass
 					else:
-						gene_data_new[gene]['Target for'] = ''
-					if gene in gene_data.keys():
-						for key, value in gene_data[gene].iteritems():
-							gene_data_new[gene][key] = value
+						gene_data_new[gene]['Host for'] = []
+					
+				if gene in map_reverse.keys():
+					gene_data_new[gene]['Target for'] = map_reverse[gene]
+				else:
+					gene_data_new[gene]['Target for'] = ''
+
+				if gene in gene_data.keys():
+					for key, value in gene_data[gene].iteritems():
+						gene_data_new[gene][key] = value
 	jsonify(gene_data_new, 'gene_meta_data_new.py', 'gene_meta_data')
 	jsonify(gene_data_new, 'gene_meta_data_new.json')
 
@@ -170,12 +193,12 @@ if __name__ == '__main__':
 				if 'hsa' in lis[2]:
 					family_accession_map[lis[2]] = lis[1]
 
-	with open('./prediction_Store.json', 'r') as infile:
-		predicted_map = json.loads(infile.read())
-		miRNA_meta_data = append_data(predicted_map)
+	# with open('./prediction_Store.json', 'r') as infile:
+	# 	predicted_map = json.loads(infile.read())
+	# 	miRNA_meta_data = append_data(predicted_map)
 	
 		# include_gene_transcript_count_to_gene_metadata()
 
-	# with open('./gene_ID_Store.json', 'r') as infile:
-	# 	gene_data = json.loads(infile.read())
-	# 	extend_reverse_map_for_genes(miRNA_meta_data, gene_data)
+	with open('./gene_ID_Store.json', 'r') as infile:
+		gene_data = json.loads(infile.read())
+		extend_reverse_map_for_genes(miRNA_meta_data, gene_data)
