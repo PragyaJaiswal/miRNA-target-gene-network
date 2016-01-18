@@ -30730,11 +30730,6 @@ miRNA_meta_data = {
         "Name": "hsa-mir-15a",
         "Target Gene with Transcript Count": [
             [
-                "",
-                0,
-                None
-            ],
-            [
                 "ASXL2",
                 4,
                 None
@@ -32564,11 +32559,6 @@ miRNA_meta_data = {
         "Host Gene Transcript Count": 1,
         "Name": "hsa-mir-16-1",
         "Target Gene with Transcript Count": [
-            [
-                "",
-                0,
-                None
-            ],
             [
                 "UBE2Q1",
                 7,
@@ -78452,11 +78442,6 @@ miRNA_meta_data = {
         "Host Gene Transcript Count": 6,
         "Name": "hsa-mir-30a",
         "Target Gene with Transcript Count": [
-            [
-                "",
-                0,
-                None
-            ],
             [
                 "UBL3",
                 1,
