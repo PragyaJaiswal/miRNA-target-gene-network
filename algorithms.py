@@ -6,7 +6,7 @@ import json, csv, re
 import math
 
 from gene_meta_data import gene_meta_data
-from miRNA_meta_data import miRNA_meta_data
+from miRNA_meta_data_intronic_complete import miRNA_meta_data
 
 class competition(object):
 	"""docstring for competition"""
