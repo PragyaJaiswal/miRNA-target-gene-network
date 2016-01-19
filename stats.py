@@ -6,7 +6,7 @@ import json
 import math
 import operator
 
-from miRNA_meta_data_intronic_complete import miRNA_meta_data
+from miRNA_meta_data_intronic_complete_new import miRNA_meta_data
 from predicted_with_keq_mmi_exp import predicted_map_with_keq_mmi_exp
 from gene_meta_data_new import gene_meta_data
 
