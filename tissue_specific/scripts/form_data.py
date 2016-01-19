@@ -1,0 +1,107 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os, sys
+import json, csv, re
+
+sys.path.insert(0, '../data/')
+
+from normal_tissue import normal_tissue
+
+class restructure_data(object):
+	"""docstring for restructure_data"""
+	def __init__(self):
+		pass
+
+	def form_json(self, data):
+		headers = data.next()
+		next(data)
+		print headers
+		dictionary = {}
+		for line in data:
+			if line[2] in dictionary.keys():
+				if line[1] not in dictionary[line[2]].keys():
+					dictionary[line[2]][line[1]] = {}
+					if line[3] in dictionary[line[2]][line[1]].keys():
+						dictionary[line[2]][line[1]][line[3]]['ID'] = line[0]
+						dictionary[line[2]][line[1]][line[3]]['Cell Type'] = line[3]
+						dictionary[line[2]][line[1]][line[3]]['Level'] = line[4]
+						dictionary[line[2]][line[1]][line[3]]['Expression Type'] = line[5]
+						dictionary[line[2]][line[1]][line[3]]['Reliability'] = line[6]
+					else:
+						dictionary[line[2]][line[1]][line[3]] = {}
+						dictionary[line[2]][line[1]][line[3]]['ID'] = line[0]
+						dictionary[line[2]][line[1]][line[3]]['Cell Type'] = line[3]
+						dictionary[line[2]][line[1]][line[3]]['Level'] = line[4]
+						dictionary[line[2]][line[1]][line[3]]['Expression Type'] = line[5]
+						dictionary[line[2]][line[1]][line[3]]['Reliability'] = line[6]
+				else:
+					if line[3] in dictionary[line[2]][line[1]].keys():
+						dictionary[line[2]][line[1]][line[3]]['ID'] = line[0]
+						dictionary[line[2]][line[1]][line[3]]['Cell Type'] = line[3]
+						dictionary[line[2]][line[1]][line[3]]['Level'] = line[4]
+						dictionary[line[2]][line[1]][line[3]]['Expression Type'] = line[5]
+						dictionary[line[2]][line[1]][line[3]]['Reliability'] = line[6]
+					else:
+						dictionary[line[2]][line[1]][line[3]] = {}
+						dictionary[line[2]][line[1]][line[3]]['ID'] = line[0]
+						dictionary[line[2]][line[1]][line[3]]['Cell Type'] = line[3]
+						dictionary[line[2]][line[1]][line[3]]['Level'] = line[4]
+						dictionary[line[2]][line[1]][line[3]]['Expression Type'] = line[5]
+						dictionary[line[2]][line[1]][line[3]]['Reliability'] = line[6]
+			else:
+				dictionary[line[2]] = {}
+				if line[1] not in dictionary[line[2]].keys():
+					dictionary[line[2]][line[1]] = {}
+					if line[3] in dictionary[line[2]][line[1]].keys():
+						dictionary[line[2]][line[1]][line[3]]['ID'] = line[0]
+						dictionary[line[2]][line[1]][line[3]]['Cell Type'] = line[3]
+						dictionary[line[2]][line[1]][line[3]]['Level'] = line[4]
+						dictionary[line[2]][line[1]][line[3]]['Expression Type'] = line[5]
+						dictionary[line[2]][line[1]][line[3]]['Reliability'] = line[6]
+					else:
+						dictionary[line[2]][line[1]][line[3]] = {}
+						dictionary[line[2]][line[1]][line[3]]['ID'] = line[0]
+						dictionary[line[2]][line[1]][line[3]]['Cell Type'] = line[3]
+						dictionary[line[2]][line[1]][line[3]]['Level'] = line[4]
+						dictionary[line[2]][line[1]][line[3]]['Expression Type'] = line[5]
+						dictionary[line[2]][line[1]][line[3]]['Reliability'] = line[6]
+				else:
+					if line[3] in dictionary[line[2]][line[1]].keys():
+						dictionary[line[2]][line[1]][line[3]]['ID'] = line[0]
+						dictionary[line[2]][line[1]][line[3]]['Cell Type'] = line[3]
+						dictionary[line[2]][line[1]][line[3]]['Level'] = line[4]
+						dictionary[line[2]][line[1]][line[3]]['Expression Type'] = line[5]
+						dictionary[line[2]][line[1]][line[3]]['Reliability'] = line[6]
+					else:
+						dictionary[line[2]][line[1]][line[3]] = {}
+						dictionary[line[2]][line[1]][line[3]]['ID'] = line[0]
+						dictionary[line[2]][line[1]][line[3]]['Cell Type'] = line[3]
+						dictionary[line[2]][line[1]][line[3]]['Level'] = line[4]
+						dictionary[line[2]][line[1]][line[3]]['Expression Type'] = line[5]
+						dictionary[line[2]][line[1]][line[3]]['Reliability'] = line[6]
+
+			jsonify(dictionary, '../data/normal_tissue.py', 'normal_tissue')
+
+	def find_tissue(self):
+		print max(normal_tissue.iteritems(), key=operator.itemgetter(1))
+		print min(normal_tissue.iteritems(), key=operator.itemgetter(1))
+
+def jsonify(dictionary, filename, text='None'):
+	a = json.dumps(dictionary, sort_keys=True, indent=4, separators=(',', ': '))
+	with open(str(filename), 'w') as outfile:
+		if text == 'None':
+			outfile.write(a)
+		else:
+			outfile.write(text + ' = ')
+			outfile.write(a)
+		
+
+if __name__ == '__main__':
+	instance = restructure_data()
+
+	# with open('../data/normal_tissue.csv', 'r') as infile:
+	# 	normal_data_reader = csv.reader(infile)
+	# 	instance.form_json(normal_data_reader)
+
+	instance.find_tissue()
