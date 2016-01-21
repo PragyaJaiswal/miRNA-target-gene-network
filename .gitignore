@@ -63,3 +63,4 @@ target/
 /subgraph.gexf
 /IDmapper.py
 /graph.py
+/tissue_specific/data/
