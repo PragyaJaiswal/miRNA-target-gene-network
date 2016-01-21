@@ -78,7 +78,8 @@ def append_ids(dictionary):
 			# print miRNA_meta_data[mirna]
 			# raw_input('Enter')
 
-	jsonify(miRNA_meta_data, 'miRNA_meta_data_intronic_complete_new.py', 'miRNA_meta_data')
+	# jsonify(miRNA_meta_data, 'miRNA_meta_data_intronic_complete_new.py', 'miRNA_meta_data')
+	jsonify(miRNA_meta_data, 'miRNA_meta_data_intronic_complete_new.json')
 
 
 def id_dict(data):
