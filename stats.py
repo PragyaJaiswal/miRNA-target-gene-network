@@ -14,7 +14,24 @@ class stats(object):
 	"""docstring for stats"""
 	def __init__(self):
 		pass
-		
+	
+	def all_target_interactions(self):
+		targets = 0
+		for mirna in miRNA_meta_data.keys():
+			if 'Target Gene with Transcript Count' in miRNA_meta_data[mirna].keys():
+				targets+= len(miRNA_meta_data[mirna]['Target Gene with Transcript Count'])
+				# print targets
+				# raw_input('Enter')
+		print 'Total target interactions:\n' + str(targets)
+
+	def all_host_interactions(self):
+		hosts = 0
+		for mirna in miRNA_meta_data.keys():
+			if 'Host Gene' in miRNA_meta_data[mirna].keys():
+				hosts+=1
+
+		print 'Total host interactions:\n' + str(hosts)
+
 	def range_of_gene_trans_count_affinity(self):
 		target_transcript_count_dict = {}
 		target_affinity_dict = {}
@@ -57,7 +74,7 @@ class stats(object):
 
 		affinity_range = (mini_affinity, maxi_affinity)
 
-		print 'Range for transcript counts of genes:\n' + str(trans_range)
+		print '\nRange for transcript counts of genes:\n' + str(trans_range)
 		print 'Range for affinity values of genes:\n' + str(affinity_range)
 
 
@@ -75,7 +92,7 @@ class stats(object):
 		# print max(mmi_dict.values())
 
 		ranges = (min(mmi_dict.values()), max(mmi_dict.values()))
-		print 'Range for [m-mi] complex:\n' + str(ranges)
+		print '\nRange for [m-mi] complex:\n' + str(ranges)
 
 
 class mirna_stats(object):
@@ -165,6 +182,8 @@ class network(object):
 
 if __name__ == '__main__':
 	stats_instance = stats()
+	stats_instance.all_target_interactions()
+	stats_instance.all_host_interactions()
 	stats_instance.range_of_gene_trans_count_affinity()
 	mmi_cutoff_value = stats_instance.mmi_cutoff_value()
 
