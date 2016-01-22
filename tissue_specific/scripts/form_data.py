@@ -3,10 +3,11 @@
 
 import os, sys
 import json, csv, re
+import operator
 
 sys.path.insert(0, '../data/')
 
-from normal_tissue import normal_tissue
+from normal_tissue_test import normal_tissue
 
 class restructure_data(object):
 	"""docstring for restructure_data"""
@@ -81,11 +82,21 @@ class restructure_data(object):
 						dictionary[line[2]][line[1]][line[3]]['Expression Type'] = line[5]
 						dictionary[line[2]][line[1]][line[3]]['Reliability'] = line[6]
 
-			jsonify(dictionary, '../data/normal_tissue.py', 'normal_tissue')
+			# jsonify(dictionary, '../data/normal_tissue.py', 'normal_tissue')
+			jsonify(dictionary, '../data/normal_tissue.json')
 
 	def find_tissue(self):
-		print max(normal_tissue.iteritems(), key=operator.itemgetter(1))
-		print min(normal_tissue.iteritems(), key=operator.itemgetter(1))
+		print max(normal_tissue.iteritems(), key=operator.itemgetter(1))[0]
+		print min(normal_tissue.iteritems(), key=operator.itemgetter(1))[0]
+		for gland in normal_tissue.keys():
+			tup = (gland, len(normal_tissue[gland].keys()))
+			print tup
+			raw_input('Enter')
+			for gene in normal_tissue[gland].keys():
+				for cells in normal_tissue[gland][gene]:
+					pass
+
+
 
 def jsonify(dictionary, filename, text='None'):
 	a = json.dumps(dictionary, sort_keys=True, indent=4, separators=(',', ': '))
@@ -95,7 +106,7 @@ def jsonify(dictionary, filename, text='None'):
 		else:
 			outfile.write(text + ' = ')
 			outfile.write(a)
-		
+
 
 if __name__ == '__main__':
 	instance = restructure_data()
@@ -104,4 +115,7 @@ if __name__ == '__main__':
 	# 	normal_data_reader = csv.reader(infile)
 	# 	instance.form_json(normal_data_reader)
 
+	# with open('../data/normal_tissue_test.json', 'r') as infile:
+	# 	normal_tissue_test = json.loads(infile)
+	# 	instance.find_tissue(normal_tissue_test)
 	instance.find_tissue()
