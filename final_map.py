@@ -4,7 +4,7 @@ import os, sys
 
 sys.path.insert(0, './data_used_for_mapping/')
 
-from mirna_map_dict import mirna_map_dict
+from mirna_map_dict_new_release import mirna_map_dict
 from gene_coordinates_from_ensembl import gene_coordinates_from_ensembl as gene_dict
 
 '''
@@ -56,7 +56,7 @@ Find host for miRNAs.
 def compare_coordinates():
 	final_dict = {}
 	with open('./data_used_for_mapping/chr_coordinates_of_mirna.csv', 'r') as mirna_file:
-		mirna_data = csv.reader(mirna_file, dialect = 'excel', skipinitialspace = True)		
+		mirna_data = csv.reader(mirna_file, dialect = 'excel', skipinitialspace = True)
 		
 		for line in mirna_data:
 			if line[3] in mirna_map_dict.keys():
@@ -84,12 +84,40 @@ def compare_coordinates():
 						# raw_input('Enter')
 				# jsonify(final_dict, 'mirna_host_gene_map_with_transcript_count.py', 'mirna_host_gene_map_with_transcript_count')
 		# print final_dict
+		# for mirna in mirna_map_dict.keys():
+		# 	if mirna in final_dict:
+		# 		pass
+		# 	else:
+		# 		final_dict[mirna] = {}
+
+		
 		for mirna in mirna_map_dict.keys():
-			if mirna in final_dict:
-				pass
+			final_dict[mirna]['Target Gene with Transcript Count'] = []
+			for target in mirna_map_dict[mirna]:
+				m = find_target_gene_expression(target)
+				tup = (target, m)
+				final_dict[mirna]['Target Gene with Transcript Count'].append(tup)
+		jsonify(final_dict, 'mirna_host_target_gene_expression_new_release_test.py', 'mirna_host_gene_map_with_transcript_count')
+		
+
+		# jsonify(final_dict, 'mirna_host_gene_map_with_transcript_count_new_release.py', 'mirna_host_gene_map_with_transcript_count')
+
+
+def find_target_gene_expression(target_gene):
+	# print target_gene
+	with open('./data_used_for_mapping/gene_coordinates_from_ensembl.tsv', 'r') as gene_file:
+		gene_data = csv.reader(gene_file, dialect = 'excel-tab', skipinitialspace = True)
+		next(gene_data, None)
+		for each_line in gene_data:
+			if str(each_line[4]) == str(target_gene):
+				value = int(each_line[5])
+				gene_file.seek(0)
+				return value
 			else:
-				final_dict[mirna] = {}
-		jsonify(final_dict, 'mirna_host_gene_map_with_transcript_count.py', 'mirna_host_gene_map_with_transcript_count')
+				# Also returns 0 for the genes whose transcript count is not known to us
+				value = int(0)
+		gene_file.seek(0)
+		return value
 
 
 def jsonify(dictionary, filename, text='None'):
