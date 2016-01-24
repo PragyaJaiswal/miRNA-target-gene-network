@@ -8,8 +8,8 @@ from Bio import SeqIO
 
 from miRNA_Sequences import sequence_lookup
 from mirna_host_target_gene_expression import mirna_host_target_gene_expression
-from map_reverse import miRNA_reverse as map_reverse
-from miRNA_meta_data_intronic_complete import miRNA_meta_data
+# from map_reverse import miRNA_reverse as map_reverse
+# from miRNA_meta_data_intronic_complete import miRNA_meta_data
 
 accession_map = {}
 family_accession_map = {}
@@ -48,9 +48,12 @@ def append_data(predicted_map):
 				mirna_host_target_gene_expression[mirna]["mature miRNA entry"] = mature_mirna_link
 			else:
 				mirna_host_target_gene_expression[mirna]["mature miRNA entry"] = None
-	jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data_596.py', 'miRNA_meta_data')
-	jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data_596.json')
-	only_intronic(mirna_host_target_gene_expression)
+	# jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data_596.py', 'miRNA_meta_data')
+	# jsonify(mirna_host_target_gene_expression, 'miRNA_meta_data_596.json')
+	# only_intronic(mirna_host_target_gene_expression)
+	with open('./data_used_for_mapping/chr_coordinates_of_mirna.csv', 'r') as mirna_file:
+		mirna_data = csv.reader(mirna_file, dialect = 'excel', skipinitialspace = True)
+		check_intronic(mirna_host_target_gene_expression, mirna_data)
 	return mirna_host_target_gene_expression
 
 
@@ -71,9 +74,44 @@ def only_intronic(mirna_host_target_gene_expression):
 				for key, value in mirna_host_target_gene_expression[mirna].iteritems():
 					miRNA_meta_data_new[mirna][key] = value
 		print len(miRNA_meta_data_new.keys())
-		jsonify(miRNA_meta_data_new, 'miRNA_meta_data_intronic.json', 'miRNA_meta_data')
+		jsonify(miRNA_meta_data_new, 'miRNA_meta_data_intronic.json')
 		jsonify(miRNA_meta_data_new, 'miRNA_meta_data_intronic.py', 'miRNA_meta_data')
 
+
+def check_intronic(mirna_host_target_gene_expression, mirna_data):
+	final_intronic_dict = {}
+	with open('./intronic_mirna_data/introns.tsv') as infile:
+		intron_reader = csv.reader(infile, dialect = 'excel-tab', skipinitialspace = True)
+		for line in mirna_data:
+			if line[3] in mirna_host_target_gene_expression.keys():
+				chro = line[0]
+				start = int(line[1])
+				end = int(line[2])
+				mirna = line[3]
+				for each_line in intron_reader:
+					if str(each_line[0].split('chr')[1]) == str(chro):
+						if int(each_line[1]) <= start and end <= int(each_line[2]):
+							# print mirna
+							final_intronic_dict[mirna] = {}
+							for key, value in mirna_host_target_gene_expression[mirna].iteritems():
+								final_intronic_dict[mirna][key] = value
+						else:
+							pass
+				infile.seek(0)
+			jsonify(final_intronic_dict, 'miRNA_meta_data_intronic_checked.json')
+			jsonify(final_intronic_dict, 'miRNA_meta_data_intronic_checked.py', 'miRNA_meta_data')
+
+
+def cross_validate():
+	with open('./miRNA_meta_data_intronic_checked.json', 'r') as infile:
+		checked = json.loads(infile.read())
+	with open('./miRNA_meta_data_intronic.json', 'r') as infile:
+		inmirna = json.loads(infile.read())
+	for mirna in checked:
+		if mirna in inmirna.keys():
+			pass
+		else:
+			print mirna
 
 '''
 For gene meta data.
@@ -196,9 +234,9 @@ if __name__ == '__main__':
 	# with open('./prediction_Store.json', 'r') as infile:
 	# 	predicted_map = json.loads(infile.read())
 	# 	miRNA_meta_data = append_data(predicted_map)
-	
+	cross_validate()
 		# include_gene_transcript_count_to_gene_metadata()
 
-	with open('./gene_ID_Store.json', 'r') as infile:
-		gene_data = json.loads(infile.read())
-		extend_reverse_map_for_genes(miRNA_meta_data, gene_data)
+	# with open('./gene_ID_Store.json', 'r') as infile:
+	# 	gene_data = json.loads(infile.read())
+	# 	extend_reverse_map_for_genes(miRNA_meta_data, gene_data)
