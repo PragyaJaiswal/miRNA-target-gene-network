@@ -6,7 +6,7 @@ import os, sys
 import json, csv, re
 import math
 
-from mirna_host_gene_map_with_transcript_count import mirna_host_gene_map_with_transcript_count
+from mirna_host_gene_map_with_transcript_count_new_release import mirna_host_gene_map_with_transcript_count
 
 def find_k_equivalent(predicted_map):
 	mirna_host_target_gene_expression = {}
