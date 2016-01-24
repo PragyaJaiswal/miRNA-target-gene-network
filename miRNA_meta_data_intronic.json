@@ -1,5 +1,5 @@
 // Does not contain data from miRBase.
-miRNA_meta_data = {
+{
     "hsa-let-7a-3p": {
         "Host Gene": "RP11-2B6.3",
         "Host Gene Transcript Count": 1,
